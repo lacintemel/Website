@@ -34,7 +34,7 @@
         <meta name="twitter:title" content="Arso Grup® | 444 8 407 | Anasayfa">
         <meta name="twitter:image" content="https://byarso.com/images/anasayfa-covers.jpg">	
 	    <meta name="facebook-domain-verification" content="swzcvyhixavfdz6e7dmlz8sa7yt9sm">
-    <link rel="icon" type="image/png" href="images/svg/logo-ani.svg">
+    <link rel="icon" type="image/png" href="images/svg/sobu_logo.svg">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slider2.css">
@@ -81,7 +81,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header>
         <div class="header-main header-scroll">
             <a href="index.html" class="logo">
-                <img class="logo-icon" src="images/svg/logo-ani.svg" alt="">
+                <img class="logo-icon" src="images/svg/sobu_logo.svg" alt="">
                 <img class="logo-text" src="images/svg/arso-group.svg" alt="">
             </a>
             <div class="header-right">
@@ -290,13 +290,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="slider-container proje-detay-slider">
             <div class="slider-control left inactive"></div>
             <div class="slider-control right"></div>
-            <table class="slider-pagi"><tr class="slider-pagi__elem slider-pagi__elem-0 active"></tr><tr class="slider-pagi__elem slider-pagi__elem-1"></tr><tr class="slider-pagi__elem slider-pagi__elem-2"></tr></table>
+            <table class="slider-pagi"></table>
             <div class="slider" style="transform: translate3d(0%, 0px, 0px);">
                 
                 <div class="slide slide-0 active">
                     <div class="slide__bg" style="transform: translate3d(0%, 0px, 0px);">
-					<video class="proje-banner-video pc" muted="" autoplay="" playsinline="" loop="">
-                        <source src="video/beyond.webm" type="video/webm">
+				<video class="proje-banner-video pc" muted playsinline loop controls poster="images/slider-beyond.webp">
+                        <source src="video/mutfak1.mp4" type="video/mp4">
                         <source src="video/beyond.mp4" type="video/mp4">
                     </video>
 					<video class="proje-banner-video mobile" muted="" autoplay="" playsinline="" loop="">
@@ -312,7 +312,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
                 <div class="slide slide-1">
                     <div class="slide__bg" style="transform: translate3d(0%, 0px, 0px);">
-					<video class="proje-banner-video pc" src="video/allure.mp4" muted="" autoplay="" playsinline="" loop=""></video>
+					<video class="proje-banner-video pc" src="video/mutfak.mp4" muted="" autoplay="" playsinline="" loop=""></video>
 					<video class="proje-banner-video mobile" src="video/allure-mobile.mp4" muted="" autoplay="" playsinline="" loop=""></video>
 					</div>
                     <h3>Allure</h3>
@@ -323,7 +323,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="slide slide-2">
                     <div class="slide__bg" style="transform: translate3d(0%, 0px, 0px);">
-					<video class="proje-banner-video pc" src="video/labella-pc.mp4" muted="" autoplay="" playsinline="" loop=""></video>
+					<video class="proje-banner-video pc" src="video/salon.mp4" muted="" autoplay="" playsinline="" loop=""></video>
 					<video class="proje-banner-video mobile" src="video/labella-mobile.mp4" muted="" autoplay="" playsinline="" loop=""></video>
 					</div>
                     <h3>LaBella</h3>
@@ -503,7 +503,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <footer>
         <div class="footer-main">
             <div class="row">
-                <div class="col-1"><img class="footer-logo" src="images/svg/logo-ani.svg" alt=""></div>
+                <div class="col-1"><img class="footer-logo" src="images/svg/sobu_logo.svg" alt=""></div>
                 <div class="col-11">
                     <div class="row">
                         <div class="col-md-6">
@@ -798,6 +798,19 @@ function closeLanguage() {
                 $(".slider-pagi__elem-" + curSlide).addClass("active");
                 $slider.css("transform", "translate3d(" + -curSlide * 100 + "%,0,0)");
                 $slideBGs.css("transform", "translate3d(" + curSlide * 50 + "%,0,0)");
+
+                // Pause all banner videos and reset playback
+                document.querySelectorAll('.proje-banner-video').forEach(function(v){
+                    try { v.pause(); v.currentTime = 0; } catch(e){}
+                });
+
+                // Play the video inside the active slide (prefer PC, then mobile)
+                var activeSlide = document.querySelector('.slide-' + curSlide);
+                if (activeSlide) {
+                    var video = activeSlide.querySelector('.proje-banner-video.pc, .proje-banner-video.mobile');
+                    if (video && video.play) { video.muted = true; video.play().catch(function(){}); }
+                }
+
                 diff = 0;
                 autoSlide();
             }

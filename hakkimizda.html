@@ -429,16 +429,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </footer>
     <script>
-    function changeLanguage(lang) {
-        const baseUrl = window.location.href.split('/')[0]; // Ana URL'yi al
-        const path = lang === 'tr' ? '' : `/${lang}`; // Türkçe için path boş, diğer diller için path ekle
-        window.location.href = `${baseUrl}${path}`;
-    }
-    
-    function closeLanguage() {
-        document.querySelector('.lang-menu-wrap').style.display = 'none';
-    }
-    </script>
+function changeLanguage(lang) {
+    const baseUrl = window.location.href.split('/')[0]; // Ana URL'yi al
+    const path = lang === 'tr' ? '' : `/${lang}`; // Türkçe için path boş, diğer diller için path ekle
+    window.location.href = `${baseUrl}${path}`;
+}
+
+function closeLanguage() {
+    document.querySelector('.lang-menu-wrap').style.display = 'none';
+}
+</script>
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>

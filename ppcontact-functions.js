@@ -102,7 +102,7 @@ function CreateLead(token, kvkkIsChecked, namesurname, email, phonenumber, remin
 
                     // Mesajı ilgili formun içine ekle
                     activeForm.prepend(
-                        '<span id="response-alert" class="alert alert-success response-alert" style="display:block;width:100%;">Mailiniz başarıyla gönderilmiştir.</span>'
+                        '<span id="response-alert" class="alert alert-success response-alert" style="display:block;width:100%">Mailiniz başarıyla gönderilmiştir.</span>'
                     );
                 }
 			}
