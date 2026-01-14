@@ -67,7 +67,7 @@ a {
 }
 
 .bg-green {
-    background-color: #204F4E;
+    background-color: #F0EEE9;
 }
 .bg-l-green {
     background-color: #4F7A76;
@@ -90,7 +90,7 @@ h1 {
     font-size: 120px;
 }
 
-
+                    
 h2 {
     font-size: 44px;
 }
@@ -498,7 +498,7 @@ h6 {
     z-index: 7;
     border-radius: 16px;
     backdrop-filter: blur(24px);
-    background: rgba(33, 51, 50, 0.8);
+    background: rgba(114, 19, 34, 1);
     padding: 8px;
     display: flex;
     flex-direction: column;
@@ -713,7 +713,7 @@ input:checked+.check-slider:before {
 }
 
 .home-special-sec {
-    background-image: url(../images/svg/arso-icon-big.svg);
+    background-image: url(../images/svg/logo_Back3.png   );
     background-repeat: no-repeat;
     background-size: auto 80%;
     background-position: center;
@@ -778,7 +778,7 @@ input:checked+.check-slider:before {
 .ruslan-pading img{height: 100%;object-fit: cover;}
 .footer-main{
     padding: 160px;
-    background-color: #173837;
+    background-color: #0D3143;
 }
 .footer-nav{
     display: flex;
