@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arso Grup® | 444 8 407 | Blog</title>
+    <meta name="description" content="Arso Grup'un gayrimenkul, inşaat ve mimarlık dünyasından güncel haberler ve uzman görüşleri." />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />	
+
+    <meta property="og:title" content="Arso Grup® | 444 8 407 | Blog" />
+    <meta property="og:description" content="Arso Grup'un gayrimenkul, inşaat ve mimarlık dünyasından güncel haberler ve uzman görüşleri." />
+    <meta property="og:url" content="https://byarso.com/blog.html" />
+    <meta property="og:site_name" content="Arso Grup® | 444 8 407 | Blog" />
+    <meta property="og:image" content="https://byarso.com/images/blog-covers.jpg" />
+    <meta name="twitter:card" content="Arso Grup® | 444 8 407 | Blog" />
+    <meta name="twitter:title" content="Arso Grup® | 444 8 407 | Blog" />
+    <meta name="twitter:image" content="https://byarso.com/images/blog-covers.jpg" />	
+    <meta name="facebook-domain-verification" content="swzcvyhixavfdz6e7dmlz8sa7yt9sm" />
+    
+    <link rel="icon" type="image/png" href="images/svg/logo-ani.svg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider2.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .blog-hero {
+            background: #173837;
+            padding: 120px 0 80px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .blog-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('images/blog-hero-pattern.svg') repeat;
+            opacity: 0.1;
+        }
+        
+        .blog-hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .blog-hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+        }
+        
+        .blog-categories {
+            padding: 60px 0;
+            background: #f8f9fa;
+        }
+        
+        .category-filter {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+        
+        .category-btn {
+            padding: 12px 25px;
+            border: 2px solid #2c5530;
+            background: white;
+            color: #2c5530;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .category-btn:hover,
+        .category-btn.active {
+            background: #2c5530;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .blog-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .blog-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+        
+        .blog-card-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .blog-card-content {
+            padding: 30px;
+        }
+        
+        .blog-card-category {
+            color: #d4af37;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .blog-card-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #2c5530;
+            margin: 15px 0;
+            line-height: 1.4;
+        }
+        
+        .blog-card-excerpt {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .blog-card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        .blog-card-date {
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        .blog-card-link {
+            color: #2c5530;
+            font-weight: 600;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .blog-card-link:hover {
+            color: #d4af37;
+            text-decoration: none;
+        }
+        
+        .featured-post {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            margin-bottom: 40px;
+        }
+        
+        .featured-post .blog-card-image {
+            height: 400px;
+        }
+        
+        .featured-post .blog-card-content {
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .featured-post .blog-card-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        
+        .newsletter-section {
+            background: #4d7271;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .newsletter-form {
+            max-width: 500px;
+            margin: 30px auto 0;
+            display: flex;
+            gap: 15px;
+        }
+        
+        .newsletter-input {
+            flex: 1;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+        }
+        
+        .newsletter-btn {
+            padding: 15px 30px;
+            background: #e8c895;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .newsletter-btn:hover {
+            background: #b8941f;
+        }
+        
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 60px;
+        }
+        
+        .pagination a {
+            padding: 12px 18px;
+            border: 1px solid #ddd;
+            color: #2c5530;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .pagination a:hover,
+        .pagination a.active {
+            background: #173837;
+            color: white;
+            border-color: #2c5530;
+        }
+        
+        @media (max-width: 768px) {
+            .blog-hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .featured-post {
+                grid-template-columns: 1fr;
+            }
+            
+            .featured-post .blog-card-content {
+                padding: 30px;
+            }
+            
+            .newsletter-form {
+                flex-direction: column;
+            }
+            
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-main">
+            <a href="index.html" class="logo">
+                <img class="logo-icon" src="images/svg/logo-ani.svg" alt="">
+                <img class="logo-text" src="images/svg/arso-group.svg" alt="">
+            </a>
+            <div class="header-right">
+                <ul class="header-nav">
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="projeler.html">Projelerimiz</a></li>
+                    <li><a href="medya.html">Medya</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                    <li class="lang-sel"><a>Tr <img src="images/svg/globe.svg" alt=""></a></li>
+                    <li class="line"></li>
+                    <li class="burger-menu-icon"><img src="images/svg/burger-icon.svg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        <div class="me-nav">            
+            <div class="menu-wrap">
+                <img class="menu-logo" src="images/svg/arso-icon-2.svg" alt="">
+                <div class="menu-bar">
+                    <div class="close"><img src="images/svg/close.svg" alt=""></div>
+                </div>
+                <ul class="menu-nav">
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="projeler.html">Projeler</a></li>
+                    <li class="menu-proje-list">
+                        
+                        <a href="beyond-all.html">Beyond All</a>
+                        <a href="coolest.html">Coolest</a>
+                        
+                        <a href="allure.html">Allure</a>
+                        <a href="labella.html">LaBella</a>
+                        <a href="eternia.html">Eternia</a>
+                    </li>
+                    <li><a href="medya.html">Medya</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+                <div class="menu-bar bottom-bar">
+                    <a href="tel:4448407">444 8 407</a>
+                    <a href="mailto:info@byarso.com">info@byarso.com</a>
+                    <a href="https://wa.me/+905333297707">Whatsapp</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <div class="contact-bar">
+        <div class="form-box">
+            <div class="contact-form ilet-form">
+                <div class="row form-row">
+                    <div class="col-md-6 form-left">
+                        <img src="images/svg/sun.svg" alt=""><br><br>
+                        <h5 class="kalnia color-l-gold">İletişim Formu</h5>
+                        <p class="my-3"><b>Lütfen, bilgi almak istediğiniz projeyi ve iletişim bilgilerinizi yandaki formu doldurarak bize gönderin.</b></p>
+                        <p>İlgili proje yöneticimiz belirlediğiniz iletişim yöntemi doğrultusunda sizinle en kısa sürede iletişime geçecek.</p>
+                    </div>
+                    <div class="col-md-6 px-0">
+                        <form class="ara-form ilet-form inner-form" id="iletisimForm">
+							<div class="mx-0 row">
+								<div class="col-6">
+									 <input type="hidden" name="form-source" value="iletisim-formu">
+									<input type="text" class="firstname" name="firstname" placeholder="İsim*" required>
+								</div>
+								<div class="col-6">
+									<input type="text" class="lastname" name="lastname" placeholder="Soyisim*" required>
+								</div>
+								<div class="col-6">
+									<input type="email" class="email" name="email" placeholder="E-posta*" required>
+								</div>
+								<div class="col-6">
+									<input type="tel" class="telephone" name="telephone" placeholder="Telefon" required>
+								</div>
+								<div class="col-12">
+									<input type="text" class="project" name="project" placeholder="Proje Adı*" required>
+								</div>
+								<div class="col-12">
+									<input type="text" class="message" name="message" placeholder="Notunuz*" required>
+								</div>
+								<div class="col-12">
+									<div class="check-row">
+										<label class="switch">
+											<input type="checkbox" name="kvkk-check" value="kvkk-onayliyor" checked>
+											<span class="check-slider round"></span>
+										</label>		
+										<p class="text-white">KVKK metnini okudum, onaylıyorum.</p>
+										<button class="sendForm" id="iletisimSendForm" type="button">Gönder</button>
+									</div>
+								</div>
+							</div>
+						</form>
+                    </div>
+                </div>
+            </div>
+			<div class="contact-form randevu-form">
+                <div class="row form-row">
+                    <div class="col-md-6 form-left">
+                        <img src="images/svg/sun.svg" alt=""><br><br>
+                        <h5 class="kalnia color-l-gold">Sizin için buradayız</h5>
+                        <p class="my-3"><b>Firmamıza dair herhangi bir sorunuz, talebiniz veya geri bildiriminiz mi var?</b></p>
+                        <p>Lütfen iletişim formunu doldurun ve bize gönderin. En kısa sürede size geri dönüş yapmak için sabırsızlanıyoruz.</p>
+                    </div>
+                    <div class="col-md-6 px-0">
+					<form class="randevu-form inner-form" id="randevuForm">
+						<div class="mx-0 row">
+							<div class="col-6">
+								<input type="hidden" name="form-source" value="randevu-formu">
+								<input type="text" class="firstname" name="firstname" placeholder="İsim*" required>
+							</div>
+							<div class="col-6">
+								<input type="text" class="lastname" name="lastname" placeholder="Soyisim*" required>
+							</div>
+							<div class="col-6">
+								<input type="email" class="email" name="email" placeholder="E-posta*" required>
+							</div>
+							<div class="col-6">
+								<input type="tel" class="telephone" name="telephone" placeholder="Telefon" required>
+							</div>
+							<div class="col-6">
+								<input type="text" class="project" name="project" placeholder="Proje Adı*" required>
+							</div>
+							<div class="col-6">
+								<select class="randevu" name="randevu" required>
+									<option value="" disabled selected>Randevu Saati*</option>
+									<option value="09:00-10:00">09:00 - 10:00</option>
+									<option value="10:00-11:00">10:00 - 11:00</option>
+									<option value="11:00-12:00">11:00 - 12:00</option>
+									<option value="12:00-13:00">12:00 - 13:00</option>
+									<option value="13:00-14:00">13:00 - 14:00</option>
+									<option value="14:00-15:00">14:00 - 15:00</option>
+									<option value="15:00-16:00">15:00 - 16:00</option>
+									<option value="16:00-17:00">16:00 - 17:00</option>
+								</select>
+							</div>
+							<div class="col-12">
+								<label for="randevu-tarihi">Randevu Tarihi*</label>
+								<input type="date" class="randevu-tarihi" name="randevu-tarihi" placeholder="Randevu Tarihi*" required>
+							</div>
+							<div class="col-12">
+								<div class="check-row">
+									<label class="switch">
+										<input type="checkbox" name="kvkk-check" value="kvkk-onayliyor" checked>
+										<span class="check-slider round"></span>
+									</label>		
+									<p class="text-white">KVKK metnini okudum, onaylıyorum.</p>
+									<button class="sendForm" id="randevuSendForm" type="button">Gönder</button>
+								</div>
+							</div>
+						</div>
+					</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-btn-bar">
+            <div class="contact-btn">
+                <a href="tel:4448407" target="_blank"><img src="images/svg/phone-call-01.svg" alt=""> <span> 444 8 407</span></a>
+            </div>
+            <div class="line"></div>
+            <div class="contact-btn ilet-btn">
+                İletişim Formu <img class="chev" src="images/svg/chevron-up.svg" alt="">
+            </div>
+            <div class="line"></div>
+            <div class="contact-btn randevu-btn">
+                Online Görüşme<img class="chev" src="images/svg/chevron-up.svg" alt="">
+            </div>
+            <div class="line"></div>
+            <div class="contact-btn">
+            <a href="https://wa.me/+905333297707" target="_blank"><span>Whatsapp </span><img src="images/svg/whatsapp.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <section class="blog-hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="kalnia">Blog</h1>
+                    <p>Gayrimenkul dünyasından güncel haberler, uzman görüşleri ve Arso Grup'un projelerine dair detaylı bilgiler.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-categories">
+        <div class="container">
+
+            <div class="blog-grid">
+                <!-- Featured Post -->
+                <article class="blog-card featured-post">
+                    <img src="images/blog/8/blog_genel_sayfası.png" alt="Beyond All Projesi" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Sektörel Haberler</span>
+                        <h2 class="blog-card-title kalnia">Antalya'nın Yeni Çekim Merkezi: Altıntaş'ta Ticari Gayrimenkul Fırsatları</h2>
+                        <p class="blog-card-excerpt">Antalya, Türkiye'nin en hızlı gelişen şehirlerinden biri olarak hem yaşam hem de yatırım açısından büyük bir potansiyel sunuyor. Özellikle Altıntaş bölgesi, ticari gayrimenkul yatırımları için dikkat çeken fırsatlar barındırıyor.</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">12 Aralık 2025</span>
+                            <a href="blog_altintas_gayrimenkul.html" class="blog-card-link">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Regular Posts -->
+                
+                <article class="blog-card" data-category="mimari">
+                    <img src="images/blog/7/blog_genel_sayfası_kucuk.png" alt="Modern Mimari" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Finans Dünyası</span>
+                        <h3 class="blog-card-title">Şehir Merkezinde mi, Doğaya Yakın mı? Konut Tercihleri Üzerine Yeni Trendler</h3>
+                        <p class="blog-card-excerpt">Günümüzde konut tercihleri, geçmişe kıyasla çok daha bilinçli ve yaşam tarzına uygun şekilde şekilleniyor. Artık yalnızca bir barınma alanı değil, aynı zamanda huzur, konfor ve yatırım değeri sunan yaşam alanları ön planda.</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">14 Kasım 2025</span>
+                            <a href="blog_sehir_doga.html" class="blog-card-link">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card" data-category="finans">
+                    <img src="images/blog/6/blog_genel_sayfası_kucuk.png" alt="Gayrimenkul Trendleri" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Finans Dünyası</span>
+                        <h3 class="blog-card-title">Konut Kredisi Faiz Oranlarının Yatırım Kararlarına Etkisi</h3>
+                        <p class="blog-card-excerpt">Faiz oranları gayrimenkulde talebi, fiyatları ve geri dönüş sürelerini doğrudan etkiler; Antalya ve Altıntaş özelinde bu etki daha görünür.</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">5 Ekim 2025</span>
+                            <a href="blog_kredi.html" class="blog-card-link">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                 <article class="blog-card" data-category="sektorel">
+                    <img src="images/blog/5/blog_genel_sayfası_kucuk.png" alt="Gayrimenkul Trendleri" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Sektörel Haberler</span>
+                        <h3 class="blog-card-title">Antalya Havalimanı Genişleme Projesi ve Altıntaş Gayrimenkul Piyasasına Yansıması</h3>
+                        <p class="blog-card-excerpt">Antalya Havalimanı’ndaki genişleme, turizmle birlikte gayrimenkul piyasasını da ivmelendiriyor; bu dönüşümün en güçlü yansıması....</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">4 Eylül 2025</span>
+                            <a href="blog_antalya_havalimani.html" class="blog-card-link">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+                
+               <article class="blog-card" data-category="sektorel">
+                    <img src="images/blog/4/blog_genel_sayfası_kucuk.png" alt="Gayrimenkul Trendleri" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Sektörel Bilgilendirme</span>
+                        <h3 class="blog-card-title">Güvenilir İnşaat Firması Seçerken Nelere Dikkat Etmelisiniz? </h3>
+                        <p class="blog-card-excerpt">Kaliteli bir inşaat firması nasıl anlaşılır? Ev alınacak firmanın yasal yükümlülüklerini yerine getirip getirmediği kontrol edilmelidir....</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">25 Temmuz 2025</span>
+                            <a href="blog_arso_insaat.html" class="blog-card-link">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card" data-category="sektorel">
+                    <img src="images/blog/3/blog_genel_sayfası_kucuk.png" alt="Gayrimenkul Trendleri" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">ARSO</span>
+                        <h3 class="blog-card-title">Antalya İnşaat Projelerinde Güvenin Adı: Arso ile Geleceğinizi İnşa Edin </h3>
+                        <p class="blog-card-excerpt">Antalya, coğrafi konumu, doğal güzellikleri, turizm potansiyeli ve hızla gelişen ekonomisiyle Türkiye'nin en...</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">14 Ağustos 2025</span>
+                            <a href="blog_arso_guven.html" class="blog-card-link">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card" data-category="sektorel">
+                    <img src="images/blog/2/blog_genel_sayfası_kucuk.png" alt="Gayrimenkul Trendleri" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Sektörel Haberler</span>
+                        <h3 class="blog-card-title">Altıntaş Konut Projeleri Neden Yatırımcıların Yeni Gözdesi?</h3>
+                        <p class="blog-card-excerpt">Altıntaş, Antalya'da yerli ve yabancı yatırımcılar arasında hızla popülerlik kazanan...</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">25 Temmuz 2025</span>
+                            <a href="blog_altintas.html" class="blog-card-link">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+
+                
+            </div>
+            
+            <div class="pagination">
+                <a href="blog.html" class="active">1</a>
+                <a href="blog_1.html">2</a>
+                <a href="blog_1.html">→</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="container">
+            <h2 class="kalnia color-l-gold">Blog Güncellemelerini Kaçırmayın</h2>
+            <p>Gayrimenkul dünyasından son haberler ve Arso Grup'un projelerine dair güncellemeler doğrudan e-posta kutunuza gelsin.</p>
+            <form class="newsletter-form" id="blogNewsletterForm">
+                <input type="email" class="newsletter-input" placeholder="E-posta adresinizi girin" required>
+                <button type="submit" class="newsletter-btn">Abone Ol</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-main">
+            <div class="row">
+                <div class="col-1"><img class="footer-logo" src="images/svg/logo-ani.svg" alt=""></div>
+                <div class="col-11">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h2 class="text-white kalnia">Kendine özgü, <br>
+                                        huzur dolu.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex flex-column align-items-end text-end">
+                            <h5 class="color-gold kalnia">E-Bülten abonesi olun.</h5>
+                            <form class="ebulten" id="ebultenForm">
+                                <input type="hidden" name="form-source" value="ebulten-formu">
+                                <input type="email" class="email" name="email" placeholder="E-Posta adresiniz" required>
+                                <input type="hidden" class="proje-hakkinda" name="proje-hakkinda" value="E-Bülten abonesi olmak isteyen" required>
+                                <button class="sendForm" id="ebultenSendForm" type="button"><img src="images/svg/arrow-right.svg" alt=""></button>
+                            </form>
+                        </div>
+                        <div class="col-md-12 d-flex flex-lg-row flex-column justify-content-between align-items-center">
+                            <ul class="footer-nav">
+                                <li><a href="index.html">Anasayfa</a></li>
+                                <li><a href="projeler.html">Projeler</a></li>
+                                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                                <li><a href="medya.html">Medya</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="iletisim.html">İletişim</a></li>
+                            </ul>
+                            <div class="footer-social mt-lg-0 mt-4">
+                                <a href="https://www.facebook.com/arsoinsaat" target="_blank"><img src="images/svg/facebook.svg" alt=""></a>
+                                <a href="https://www.instagram.com/arsoinsaat/" target="_blank"><img src="images/svg/insta.svg" alt=""></a>
+                                <a href="https://www.youtube.com/@arsoinsaat" target="_blank"><img src="images/svg/youtube.svg" alt=""></a>
+                                <a href="https://www.linkedin.com/company/grouparso/mycompany/" target="_blank"><img src="images/svg/linkedin.svg" alt=""></a>
+                                <a href="https://t.me/arsoinsaat" target="_blank"><img src="images/svg/telegram.svg" alt=""></a>
+                                <a href="https://wa.me/+905333297707"><img src="images/svg/whatsapp-w.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <ul>
+                <li>2024 © Arso</li>
+                <li><a href="kvkk.html">K.V.K.K</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+            </ul>
+            <a href="https://soavian.com/"><img src="images/svg/soavian.svg" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('ebultenForm');
+        const button = document.getElementById('ebultenSendForm');
+        const emailInput = form.querySelector('input[name="email"]');
+    
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+    
+            const email = emailInput.value.trim();
+            if (!email) {
+                alert("Lütfen geçerli bir e-posta adresi giriniz.");
+                return;
+            }
+    
+            // Gönder butonunu devre dışı bırak (spam koruması)
+            button.disabled = true;
+    
+            fetch('https://admin.byarso.com/api/v1/subscribe', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    email: email
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                button.disabled = false;
+    
+                if (data.success) {
+                    alert("✅ " + data.message);
+                    emailInput.value = "";
+                } else {
+                    alert("⚠️ " + (data.message || "Bir hata oluştu."));
+                }
+            })
+            .catch(error => {
+                button.disabled = false;
+                alert("🚫 Sunucuya bağlanırken bir hata oluştu.");
+                console.error(error);
+            });
+        });
+    });
+    </script>
+<body>
+
+   
