@@ -49,16 +49,82 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMCVWLG"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+<style>
+    .proje-card {
+        position: relative;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    .proje-card:hover {
+        text-decoration: none;
+    }
+
+    .proje-services {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 12px 0 10px 0;
+        padding: 0;
+    }
+
+    .service-tag {
+        display: inline-block;
+        padding: 5px 12px;
+        background: linear-gradient(135deg, #446E80 0%, #3a5a6e 100%);
+        color: white;
+        font-size: 0.75rem;
+        font-weight: 600;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        white-space: nowrap;
+        box-shadow: 0 2px 8px rgba(68, 110, 128, 0.2);
+        transition: all 0.3s ease;
+    }
+
+    .service-tag:hover {
+        background: linear-gradient(135deg, #3a5a6e 0%, #2d4a57 100%);
+        box-shadow: 0 4px 12px rgba(68, 110, 128, 0.3);
+        transform: translateY(-2px);
+    }
+
+    .status-badge {
+        display: inline-block;
+        padding: 6px 14px;
+        background: linear-gradient(135deg, #d4af37 0%, #c89e2e 100%);
+        color: #0D3143;
+        font-size: 0.8rem;
+        font-weight: 700;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+        box-shadow: 0 2px 8px rgba(212, 175, 55, 0.2);
+    }
+
+    @media (max-width: 768px) {
+        .service-tag {
+            font-size: 0.7rem;
+            padding: 4px 10px;
+        }
+
+        .proje-services {
+            gap: 6px;
+        }
+    }
+</style>
 </head>
 
 <body>
 
 
     <header>
-        <div class="header-main header2">
+        <div class="header-main header-scroll">
             <a href="index.html" class="logo">
-                <img class="logo-icon" src="images/svg/logo-ani.svg" alt="">
-                <img class="logo-text" src="images/svg/arso-group.svg" alt="">
+                <img class="logo-icon" src="images/gold_logo.png" alt="">
+                <img class="logo-text" src="images/svg/sobu_text_last.svg" alt="">
             </a>
             <div class="header-right">
                 <ul class="header-nav">
@@ -66,19 +132,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li><a href="projeler.html">Projelerimiz</a></li>
                     <!--<li><a href="sosyal.html">Sosyal Fayda</a></li> -->
                     <li><a href="medya.html">Medya</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="blog.html">Blog</a></li> 
                     <li><a href="iletisim.html">İletişim</a></li>
                     <li class="lang-sel"><a>Tr <img src="images/svg/globe.svg" alt=""></a></li>
-                    <li>
-                        <div class="line"></div>
-                    </li>
-                    <li class="burger-menu-icon"><img src="images/svg/burger-icon.svg" alt=""></li>
+                    <li class="line"></li>
+                    <li class="burger-menu-icon burger-scroll"><img src="images/svg/burger-icon.svg" alt=""></li>
                 </ul>
             </div>
         </div>
         <div class="me-nav">            
             <div class="menu-wrap">
-                <img class="menu-logo" src="images/svg/arso-icon-2.svg" alt="">
+                <img class="menu-logo" src="images/svg/sobu_logo.svg" alt="">
                 <div class="menu-bar">
                     <div class="close"><img src="images/svg/close.svg" alt=""></div>
                 </div>
@@ -101,9 +165,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li><a href="iletisim.html">İletişim</a></li>
                     </ul>
                 <div class="menu-bar bottom-bar">
-                    <a href="tel:4448407">444 8 407</a>
-                    <a href="mailto:info@byarso.com">info@byarso.com</a>
-                    <a href="https://wa.me/+905333297707">Whatsapp</a>
+                    <a href="tel:2284509">228 4 509</a>
+                    <a href="mailto:global@ugursobutay.com">global@ugursobutay.com</a>
+                    <a href="https://wa.me/+905325889088">Whatsapp</a>
                 </div>
             </div>
         </div>
@@ -116,11 +180,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <button class="lang-btn active" onclick="changeLanguage('tr')">
                         <b>Türkçe</b><br>Turkish
                     </button>
-                    <button class="lang-btn" onclick="changeLanguage('en/project.html')">
-                        <b>English</b><br>English
-                    </button>
+                    <button class="lang-btn" onclick="window.location.href='https://bySobutay.com/en';">
+    <b>English</b><br>English
+</button>
                     
-                    <button class="lang-btn" onclick="changeLanguage('ru/project.html')">
+                    <button class="lang-btn" onclick="changeLanguage('ru')">
                         <b>Русский</b><br>Russian
                     </button>
                 </div>
@@ -241,7 +305,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="contact-btn-bar">
             <div class="contact-btn">
-                <a href="tel:4448407" target="_blank"><img src="images/svg/phone-call-01.svg" alt=""> <span> 444 8 407</span></a>
+                <a href="tel:2284509" target="_blank"><img src="images/svg/phone-call-01.svg" alt=""> <span>228 4 509</span></a>
             </div>
             <div class="line"></div>
             <div class="contact-btn ilet-btn">
@@ -253,7 +317,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="line"></div>
             <div class="contact-btn">
-            <a href="https://wa.me/+905333297707" target="_blank"><span>Whatsapp </span><img src="images/svg/whatsapp.svg" alt=""></a>
+            <a href="https://wa.me/+905325889088" target="_blank"><span>Whatsapp </span><img src="images/svg/whatsapp.svg" alt=""></a>
             </div>
         </div>
     </div>
@@ -278,138 +342,149 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="team-wrap proje-wrap py-lg-5">
             <div class="row">
 
-                <!-- Tamamlanan Projeler -->
-                 <div class="col-md-4 filterDiv tamam">
+                <div class="col-md-4 filterDiv tamam biten">
                     <a href="#" class="proje-card">
-                        <img class="proje-card-img" src="images/allstar-cover2.jpg" alt="">
-                        <p class="fw-norm m-0"></p>
-                        <h4 class="fw-norm kalnia mb-3">Çok Yakında</h4>
+                        <img class="proje-card-img" src="images/2.webp" alt="Liberty Hotel">
+                        <div class="proje-services">
+                            <span class="service-tag">Tamamlandı</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">Liberty Hotel Kuşadası</h4>
                         <img src="images/svg/marker.svg" alt="">
-                        <p class="fw-norm m-0">Antalya</p>
+                        <p class="fw-norm m-0">Kuşadası</p>
                     </a>
-                </div> 
+                </div>
 
-                <div class="col-md-4 filterDiv tamam">
-                    <a href="eternia.html" class="proje-card">
-                        <img class="proje-card-img" src="images/eternia-cover.jpg" alt="">
-                        <h4 class="fw-norm kalnia mb-3">Eternia</h4>
+                <div class="col-md-4 filterDiv tamam devam">
+                    <a href="#" class="proje-card">
+                        <img class="proje-card-img" src="images/3.webp" alt="XO Cape">
+                        <div class="proje-services">
+                            <span class="service-tag">Tamamlandı</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">XO Cape Antalya Hotel</h4>
                         <img src="images/svg/marker.svg" alt="">
-                        <p class="fw-norm m-0">Antalya</p>
+                        <p class="fw-norm m-0">Fethiye</p>
                     </a>
                 </div>
                 
-                 <div class="col-md-4 filterDiv tamam">
-                    <a href="coolest.html" class="proje-card">
-                        <img class="proje-card-img" src="images/coolest-cover.jpg" alt="">
-                        <h4 class="fw-norm kalnia mb-3">Coolest</h4>
+                <div class="col-md-4 filterDiv tamam biten">
+                    <a href="#" class="proje-card">
+                        <img class="proje-card-img" src="images/4.jpeg" alt="Opel Showroom">
+                        <div class="proje-services">
+                            <span class="service-tag">Tamamlandı</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">Hesapçıoğlu Opel Showroom</h4>
                         <img src="images/svg/marker.svg" alt="">
                         <p class="fw-norm m-0">Antalya</p>
                     </a>
                 </div>
                
-                
-                <div class="col-md-4 filterDiv tamam">
-                    <a href="beyond-all.html" class="proje-card">
-                        <img class="proje-card-img" src="images/beyond-cover.jpg" alt="">
-                        <p class="fw-norm m-0">Tamamlandı</p>
-                        <h4 class="fw-norm kalnia mb-3">Beyond All</h4>
+                <div class="col-md-4 filterDiv tamam biten">
+                    <a href="#" class="proje-card">
+                        <img class="proje-card-img" src="images/5.jpeg" alt="Altıntar Ofis">
+                        <div class="proje-services">
+                            <span class="service-tag">Tamamlandı</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">Altıntar Tarım Yönetim Ofisi</h4>
                         <img src="images/svg/marker.svg" alt="">
                         <p class="fw-norm m-0">Antalya</p>
                     </a>
                 </div>
             
-                				
-                <div class="col-md-4 filterDiv tamam">
-                    <a href="labella.html" class="proje-card">
-                        <img class="proje-card-img" src="images/labella-cover.jpg" alt="">
-                        <p class="fw-norm m-0">Tamamlandı</p>
-                        <h4 class="fw-norm kalnia mb-3">LaBella</h4>
+                <div class="col-md-4 filterDiv tamam biten">
+                    <a href="#" class="proje-card">
+                        <img class="proje-card-img" src="images/6.jpeg" alt="Gültepe Spor">
+                        <div class="proje-services">
+                            <span class="service-tag">Tamamlandı</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">Gültepe Spor Kompleksi</h4>
                         <img src="images/svg/marker.svg" alt="">
-                        <p class="fw-norm m-0">Antalya</p>
+                        <p class="fw-norm m-0">İzmir</p>
                     </a>
                 </div>
-                <div class="col-md-4 filterDiv tamam">
-                    <a href="allure.html" class="proje-card">
-                        <img class="proje-card-img" src="images/allure-cover.jpg" alt="">
-                        <p class="fw-norm m-0">Tamamlandı</p>
-                        <h4 class="fw-norm kalnia mb-3">Allure</h4>
+
+                <div class="col-md-4 filterDiv tamam biten">
+                    <a href="#" class="proje-card">
+                        <img class="proje-card-img" src="images/7.jpg" alt="Çamlıca Yapı">
+                        <div class="proje-services">
+                             <span class="service-tag">Tamamlandı</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">Çamlıca Yapı Market Ofisi</h4>
                         <img src="images/svg/marker.svg" alt="">
                         <p class="fw-norm m-0">Antalya</p>
                     </a>
                 </div>
               
-
-                <!-- biten Eden Projeler -->
-
-
-                 <div class="col-md-4 filterDiv biten">
-                    <a href="labella.html" class="proje-card">
-                        <img class="proje-card-img" src="images/labella-cover.jpg" alt="">
-                        <p class="fw-norm m-0">Tamamlandı</p>
-                        <h4 class="fw-norm kalnia mb-3">LaBella</h4>
+                <div class="col-md-4 filterDiv tamam biten">
+                    <a href="#" class="proje-card">
+                        <img class="proje-card-img" src="images/8.php.png" alt="Kare Otomotiv">
+                        <div class="proje-services">
+                             <span class="service-tag">Tamamlandı</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">Kare Otomotiv VW Ofisi</h4>
                         <img src="images/svg/marker.svg" alt="">
                         <p class="fw-norm m-0">Antalya</p>
                     </a>
                 </div>
-                <div class="col-md-4 filterDiv biten">
-                    <a href="allure.html" class="proje-card">
-                        <img class="proje-card-img" src="images/allure-cover.jpg" alt="">
-                        <p class="fw-norm m-0">Tamamlandı</p>
-                        <h4 class="fw-norm kalnia mb-3">Allure</h4>
+
+                <div class="col-md-4 filterDiv tamam biten">
+                    <a href="#" class="proje-card">
+                        <img class="proje-card-img" src="images/9.jpg" alt="Musliks">
+                        <div class="proje-services">
+                             <span class="service-tag">Tamamlandı</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">Musliks Showroom Binası</h4>
                         <img src="images/svg/marker.svg" alt="">
                         <p class="fw-norm m-0">Antalya</p>
                     </a>
                 </div>
-                <div class="col-md-4 filterDiv biten">
-                    <a href="beyond-all.html" class="proje-card">
-                        <img class="proje-card-img" src="images/beyond-cover.jpg" alt="">
-                        <p class="fw-norm m-0">Tamamlandı</p>
-                        <h4 class="fw-norm kalnia mb-3">Beyond All</h4>
+
+                <div class="col-md-4 filterDiv tamam biten">
+                    <a href="#" class="proje-card">
+                        <img class="proje-card-img" src="images/10.png" alt="AOSB Kreş">
+                        <div class="proje-services">
+                             <span class="service-tag">Tamamlandı</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">Antalya Organize Sanayi Kreş</h4>
                         <img src="images/svg/marker.svg" alt="">
                         <p class="fw-norm m-0">Antalya</p>
                     </a>
                 </div>
                
-                
-                <!-- devam Projeler -->
-                 <div class="col-md-4 filterDiv devam">
-                    <a href="eternia.html" class="proje-card">
-                        <img class="proje-card-img" src="images/eternia-cover.jpg" alt="">
-                        <h4 class="fw-norm kalnia mb-3">Eternia</h4>
+                <div class="col-md-4 filterDiv tamam devam">
+                    <a href="#" class="proje-card">
+                        <img class="proje-card-img" src="images/11.jpg" alt="Otomol">
+                        <div class="proje-services">
+                            <span class="service-tag" style="background: linear-gradient(135deg, #d4af37 0%, #c89e2e 100%);">Devam Ediyor</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">Otomol Ofis Projesi</h4>
                         <img src="images/svg/marker.svg" alt="">
-                        <p class="fw-norm m-0">Antalya</p>
+                        <p class="fw-norm m-0">Fethiye</p>
                     </a>
                 </div>
         
-                 <div class="col-md-4 filterDiv devam">
-                    <a href="coolest.html" class="proje-card">
-                        <img class="proje-card-img" src="images/coolest-cover.jpg" alt="">
-                        <h4 class="fw-norm kalnia mb-3">Coolest</h4>
+                <div class="col-md-4 filterDiv tamam devam">
+                    <a href="#" class="proje-card">
+                        <img class="proje-card-img" src="images/12.jpg" alt="Sun Hotel">
+                        <div class="proje-services">
+                            <span class="service-tag" style="background: linear-gradient(135deg, #d4af37 0%, #c89e2e 100%);">Devam Ediyor</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">Sun Hotel Alanya</h4>
                         <img src="images/svg/marker.svg" alt="">
-                        <p class="fw-norm m-0">Antalya</p>
+                        <p class="fw-norm m-0">Alanya</p>
                     </a>
                 </div>
-               
-                <!--
-                <div class="col-md-4 filterDiv devam">
-                    <a href="beyond-all.html" class="proje-card">
-                        <img class="proje-card-img" src="images/beyond-cover.jpg" alt="">
-                        <h4 class="fw-norm kalnia mb-3">Beyond All</h4>
+
+                <div class="col-md-4 filterDiv tamam biten">
+                    <a href="#" class="proje-card">
+                        <img class="proje-card-img" src="images/1.jpg.avif" alt="JW Maltepe">
+                        <div class="proje-services">
+                             <span class="service-tag">Tamamlandı</span>
+                        </div>
+                        <h4 class="fw-norm kalnia mb-3">JW Maltepe Konferans Salonu</h4>
                         <img src="images/svg/marker.svg" alt="">
-                        <p class="fw-norm m-0">Antalya</p>
+                        <p class="fw-norm m-0">İstanbul</p>
                     </a>
                 </div>
-                -->
-                
-                <!--<div class="col-md-4 filterDiv devam">
-                    <a href="allstar.html" class="proje-card">
-                        <img class="proje-card-img" src="images/allstar-cover.jpg" alt="">
-                        <p class="fw-norm m-0">2025</p>
-                        <h4 class="fw-norm kalnia mb-3">Allstar</h4>
-                        <img src="images/svg/marker.svg" alt="">
-                        <p class="fw-norm m-0">Antalya</p>
-                    </a>
-                </div>-->
 
             </div>
         </div>
@@ -455,7 +530,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <a href="https://www.instagram.com/arsoinsaat/" target="_blank"><img src="images/svg/insta.svg" alt=""></a>
                                 <a href="https://www.youtube.com/@arsoinsaat" target="_blank"><img src="images/svg/youtube.svg" alt=""></a>
                                 <a href="https://www.linkedin.com/company/grouparso/mycompany/" target="_blank"><img src="images/svg/linkedin.svg" alt=""></a><a href="https://t.me/arsoinsaat" target="_blank"><img src="images/svg/telegram.svg" alt=""></a>
-                                <a href="https://wa.me/+905333297707"><img src="images/svg/whatsapp-w.svg" alt=""></a>
+                                <a href="https://wa.me/+905325889088"><img src="images/svg/whatsapp-w.svg" alt=""></a>
                             </div>
                         </div>
                     </div>

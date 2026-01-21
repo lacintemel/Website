@@ -279,52 +279,76 @@
 
 <body>
     <header>
-        <div class="header-main">
+        <div class="header-main header-scroll">
             <a href="index.html" class="logo">
                 <img class="logo-icon" src="images/gold_logo.png" alt="">
-                <img class="logo-text" src="images/svg/sobu_text_cherry.svg" alt="">
+                <img class="logo-text" src="images/svg/sobu_text_last.svg" alt="">
             </a>
             <div class="header-right">
                 <ul class="header-nav">
                     <li><a href="hakkimizda.html">Hakkımızda</a></li>
                     <li><a href="projeler.html">Projelerimiz</a></li>
+                    <!--<li><a href="sosyal.html">Sosyal Fayda</a></li> -->
                     <li><a href="medya.html">Medya</a></li>
-                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="blog.html">Blog</a></li> 
                     <li><a href="iletisim.html">İletişim</a></li>
                     <li class="lang-sel"><a>Tr <img src="images/svg/globe.svg" alt=""></a></li>
                     <li class="line"></li>
-                    <li class="burger-menu-icon"><img src="images/svg/burger-icon.svg" alt=""></li>
+                    <li class="burger-menu-icon burger-scroll"><img src="images/svg/burger-icon.svg" alt=""></li>
                 </ul>
             </div>
         </div>
         <div class="me-nav">            
             <div class="menu-wrap">
-                <img class="menu-logo" src="images/svg/Sobutay-icon-2.svg" alt="">
+                <img class="menu-logo" src="images/svg/sobu_logo.svg" alt="">
                 <div class="menu-bar">
                     <div class="close"><img src="images/svg/close.svg" alt=""></div>
                 </div>
-                <ul class="menu-nav">
-                    <li><a href="index.html">Anasayfa</a></li>
-                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                    <li><a href="projeler.html">Projeler</a></li>
-                    <li class="menu-proje-list">
-                        
-                        <a href="beyond-all.html">Beyond All</a>
-                        <a href="coolest.html">Coolest</a>
-                        
-                        <a href="allure.html">Allure</a>
-                        <a href="labella.html">LaBella</a>
-                        <a href="eternia.html">Eternia</a>
-                    </li>
-                    <li><a href="medya.html">Medya</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="iletisim.html">İletişim</a></li>
-                </ul>
+                    <ul class="menu-nav">
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <!--<li><a href="sosyal.html">Sosyal Fayda</a></li> -->
+                        <li><a href="projeler.html">Projeler</a></li>
+                        <li class="menu-proje-list">
+                            
+                            <a href="beyond-all.html">Beyond All</a>
+                            <a href="coolest.html">Coolest</a>
+                            
+                            <a href="allure.html">Allure</a>
+                            <a href="labella.html">LaBella</a>
+                            <a href="eternia.html">Eternia</a>
+                        </li>
+                        <li><a href="medya.html">Medya</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
                 <div class="menu-bar bottom-bar">
-                    <a href="tel:4448407">444 8 407</a>
-                    <a href="mailto:info@bySobutay.com">info@bySobutay.com</a>
-                    <a href="https://wa.me/+905333297707">Whatsapp</a>
+                    <a href="tel:2284509">228 4 509</a>
+                    <a href="mailto:global@ugursobutay.com">global@ugursobutay.com</a>
+                    <a href="https://wa.me/+905325889088">Whatsapp</a>
                 </div>
+            </div>
+        </div>
+        <div class="lang-menu-wrap">
+            <div class="lang-menu-bg"></div>
+            <div class="lang-menu">
+                <div class="close"><img onclick="closeLanguage()" src="images/svg/close-2.svg" alt=""></div>
+                <h4 class="color-l-green kalnia">Dil Seçin</h4>
+                <div id="langBtnContainer">
+                    <button class="lang-btn active" onclick="changeLanguage('tr')">
+                        <b>Türkçe</b><br>Turkish
+                    </button>
+                    <button class="lang-btn" onclick="window.location.href='https://bySobutay.com/en';">
+    <b>English</b><br>English
+</button>
+                    
+                    <button class="lang-btn" onclick="changeLanguage('ru')">
+                        <b>Русский</b><br>Russian
+                    </button>
+                </div>
+                
+                
+                <button class="guncel-btn">Güncelle</button>
             </div>
         </div>
     </header>
@@ -451,7 +475,7 @@
             </div>
             <div class="line"></div>
             <div class="contact-btn">
-            <a href="https://wa.me/+905333297707" target="_blank"><span>Whatsapp </span><img src="images/svg/whatsapp.svg" alt=""></a>
+            <a href="https://wa.me/+905325889088" target="_blank"><span>Whatsapp </span><img src="images/svg/whatsapp.svg" alt=""></a>
             </div>
         </div>
     </div>
@@ -626,7 +650,7 @@
                                 <a href="https://www.youtube.com/@Sobutayinsaat" target="_blank"><img src="images/svg/youtube.svg" alt=""></a>
                                 <a href="https://www.linkedin.com/company/groupSobutay/mycompany/" target="_blank"><img src="images/svg/linkedin.svg" alt=""></a>
                                 <a href="https://t.me/Sobutayinsaat" target="_blank"><img src="images/svg/telegram.svg" alt=""></a>
-                                <a href="https://wa.me/+905333297707"><img src="images/svg/whatsapp-w.svg" alt=""></a>
+                                <a href="https://wa.me/+905325889088"><img src="images/svg/whatsapp-w.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
