@@ -26,6 +26,130 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .catalog-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+        }
+
+        .catalog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .catalog-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(13, 49, 67, 0.08);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            border: 1px solid rgba(68, 110, 128, 0.1);
+        }
+
+        .catalog-card:hover {
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: 0 20px 40px rgba(13, 49, 67, 0.15);
+            border-color: rgba(232, 200, 149, 0.3);
+        }
+
+        .catalog-image-wrapper {
+            position: relative;
+            width: 100%;
+            height: 220px;
+            background: linear-gradient(135deg, #f0f4f8 0%, #e8f1f7 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .catalog-image {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .catalog-card:hover .catalog-image {
+            transform: scale(1.05);
+        }
+
+        .catalog-content {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .catalog-name {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #0D3143;
+            margin-bottom: 15px;
+            font-family: 'Kalnia', serif;
+            letter-spacing: 0.5px;
+        }
+
+        .catalog-description {
+            font-size: 0.9rem;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 0;
+            flex-grow: 1;
+        }
+
+        .catalog-section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #0D3143;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .catalog-section-subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .catalog-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 20px;
+            }
+
+            .catalog-section {
+                padding: 50px 0;
+            }
+
+            .catalog-section-title {
+                font-size: 1.8rem;
+            }
+
+            .catalog-card {
+                box-shadow: 0 4px 12px rgba(13, 49, 67, 0.1);
+            }
+
+            .catalog-card:hover {
+                transform: translateY(-4px) scale(1);
+            }
+
+            .catalog-image-wrapper {
+                height: 180px;
+            }
+        }
+    </style>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-932KQY7P78"></script>
 <script>
@@ -263,69 +387,110 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section>
 
     
-    <section class="padding-x py-5">
-        <div class="team-wrap blog-wrap py-lg-5">
-            <div class="row">
+    <section class="catalog-section">
+        <div class="container">
+            <h2 class="catalog-section-title kalnia">Değerli Bayiliklerimiz</h2>
+            <p class="catalog-section-subtitle">Sobutay ailesi olarak, ülke genelinde ve uluslararası pazarlarda güçlü bir bayilik ağına sahip bulunmaktayız. Değerli iş ortaklarımız ve bayilerimizle birlikte çalışmakta onurlu bulunuyoruz.</p>
 
-                <!-- bayilikler -->
-                <div class="col-md-3 filterDiv kataloglar">
-					<a href="pdf/arso-katalog.pdf" target="_blank" class="team-card position-relative1">
-						<div class="overflow-hidden1">
-							<img src="images/katalog/arso.jpg" alt="" class="img-fluid1">
-							<button class="download-btn1 position-absolute1">PDF İndir <img src="images/svg/download.svg" alt="" style="width:20px;"></button>
-						</div>
-						<h4 class="color-green kalnia mt-3 fw-normal">Sobutay</h4>
-					</a>
-				</div>
-                <div class="col-md-3 filterDiv kataloglar">
-                    <a href="pdf/allure.pdf" target="_blank" class="team-card position-relative1">
-                        <div class="overflow-hidden1">
-                            <img src="images/katalog/allure.jpg" alt="">
-							<button class="download-btn1 position-absolute1">PDF İndir <img src="images/svg/download.svg" alt="" style="width:20px;"></button>
-                        </div>
-                        <h4 class="color-green kalnia mt-3 fw-normal">Allure</h4>
-                    </a>
-                </div> 
-                <div class="col-md-3 filterDiv kataloglar">
-                    <a href="pdf/labella.pdf" target="_blank" class="team-card position-relative1">
-                        <div class="overflow-hidden1">
-                            <img src="images/katalog/labella.jpg" alt="">
-							<button class="download-btn1 position-absolute1">PDF İndir <img src="images/svg/download.svg" alt="" style="width:20px;"></button>
-                        </div>
-                        <h4 class="color-green kalnia mt-3 fw-normal">La Bella</h4>
-                    </a>
-                </div> 
-                <div class="col-md-3 filterDiv kataloglar">
-                    <a href="pdf/beyondall.pdf" target="_blank" class="team-card position-relative1">
-                        <div class="overflow-hidden1">
-                            <img src="images/katalog/beyondall.jpg" alt="">
-							<button class="download-btn1 position-absolute1">PDF İndir <img src="images/svg/download.svg" alt="" style="width:20px;"></button>
-                        </div>
-                        <h4 class="color-green kalnia mt-3 fw-normal">Beyond All</h4>
-                    </a>
-                </div> 
-                <div class="col-md-3 filterDiv kataloglar">
-                    <a href="pdf/eternia.pdf" target="_blank" class="team-card position-relative1">
-                        <div class="overflow-hidden1">
-                            <img src="images/katalog/eternia.jpg" alt="">
-							<button class="download-btn1 position-absolute1">PDF İndir <img src="images/svg/download.svg" alt="" style="width:20px;"></button>
-                        </div>
-                        <h4 class="color-green kalnia mt-3 fw-normal">Eternia</h4>
-                    </a>
-                </div> 
-                <div class="col-md-3 filterDiv kataloglar">
-                    <a href="pdf/coolest.pdf" target="_blank" class="team-card position-relative1">
-                        <div class="overflow-hidden1">
-                            <img src="images/katalog/coolest.jpg" alt="">
-							<button class="download-btn1 position-absolute1">PDF İndir <img src="images/svg/download.svg" alt="" style="width:20px;"></button>
-                        </div>
-                        <h4 class="color-green kalnia mt-3 fw-normal">Coolest</h4>
-                    </a>
-                </div> 
-                
-            </div>
-        </div>
-    </section>
+            <div class="catalog-grid">
+                <!-- Sobutay -->
+                <div class="catalog-card">
+                    <div class="catalog-image-wrapper">
+                        <img src="images/katalog/Bostik-Logo.jpg" alt="Bostik Logo" class="catalog-image">
+                    </div>
+                    <div class="catalog-content">
+                        <h3 class="catalog-name">Bostik</h3>
+                        <p class="catalog-description">Yapı malzemeleri sektöründe lider konumdaki güvenilir ortağımız.</p>
+                    </div>
+                </div>
+
+                <!-- Gerflor -->
+                <div class="catalog-card">
+                    <div class="catalog-image-wrapper">
+                        <img src="images/katalog/Gerflor_(logo).svg.png" alt="Gerflor Logo" class="catalog-image">
+                    </div>
+                    <div class="catalog-content">
+                        <h3 class="catalog-name">Gerflor</h3>
+                        <p class="catalog-description">Döşeme ve kaplama çözümlerinde öncü ve kaliteli ürünler sunmaktadır.</p>
+                    </div>
+                </div>
+
+                <!-- Kaya Panel -->
+                <div class="catalog-card">
+                    <div class="catalog-image-wrapper">
+                        <img src="images/katalog/Kaya-Panel-Yeni-Logo.png" alt="Kaya Panel Logo" class="catalog-image">
+                    </div>
+                    <div class="catalog-content">
+                        <h3 class="catalog-name">Kaya Panel</h3>
+                        <p class="catalog-description">Panel ve aksesuarlarında yenilikçi ve güvenilir çözümler sağlamaktadır.</p>
+                    </div>
+                </div>
+
+                <!-- Tarkett -->
+                <div class="catalog-card">
+                    <div class="catalog-image-wrapper">
+                        <img src="images/katalog/Tarkett_logo.svg" alt="Tarkett Logo" class="catalog-image">
+                    </div>
+                    <div class="catalog-content">
+                        <h3 class="catalog-name">Tarkett</h3>
+                        <p class="catalog-description">Döşeme ve dekorasyon sektöründe global anlamda tanınmış markadır.</p>
+                    </div>
+                </div>
+
+                <!-- Aspen -->
+                <div class="catalog-card">
+                    <div class="catalog-image-wrapper">
+                        <img src="images/katalog/aspen.jpg" alt="Aspen Logo" class="catalog-image">
+                    </div>
+                    <div class="catalog-content">
+                        <h3 class="catalog-name">Aspen</h3>
+                        <p class="catalog-description">Kaliteli yapı ürünleri ve malzemelerin sağlayıcısıdır.</p>
+                    </div>
+                </div>
+
+                <!-- Dendro -->
+                <div class="catalog-card">
+                    <div class="catalog-image-wrapper">
+                        <img src="images/katalog/dendro-logo.png" alt="Dendro Logo" class="catalog-image">
+                    </div>
+                    <div class="catalog-content">
+                        <h3 class="catalog-name">Dendro</h3>
+                        <p class="catalog-description">Ahşap ve dekoratif ürünlerde uzmanlaşmış güvenilir tedarikçi.</p>
+                    </div>
+                </div>
+
+                <!-- Splash -->
+                <div class="catalog-card">
+                    <div class="catalog-image-wrapper">
+                        <img src="images/katalog/splash_logo.png" alt="Splash Logo" class="catalog-image">
+                    </div>
+                    <div class="catalog-content">
+                        <h3 class="catalog-name">Splash</h3>
+                        <p class="catalog-description">Banyo ve döşeme çözümlerinde yüksek kaliteli ürünler sunmaktadır.</p>
+                    </div>
+                </div>
+
+                <!-- Verox -->
+                <div class="catalog-card">
+                    <div class="catalog-image-wrapper">
+                        <img src="images/katalog/verox-floor-logo-png_seeklogo-410778.png" alt="Verox Logo" class="catalog-image">
+                    </div>
+                    <div class="catalog-content">
+                        <h3 class="catalog-name">Verox</h3>
+                        <p class="catalog-description">Döşeme malzemeleri alanında yenilikçi ve kaliteli ürünler üretir.</p>
+                    </div>
+                </div>
+
+                <!-- 9. Bayilik -->
+                <div class="catalog-card">
+                    <div class="catalog-image-wrapper">
+                        <img src="images/katalog/images.png" alt="Bayilik Logo" class="catalog-image">
+                    </div>
+                    <div class="catalog-content">
+                        <h3 class="catalog-name">Bayilik</h3>
+                        <p class="catalog-description">Kaliteli ürün ve hizmetlerinin sağlayıcısı olarak Sobutay ailesi içinde yer almaktadır.</p>
+                    </div>
+                </div>
     
     
 
