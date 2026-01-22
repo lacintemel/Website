@@ -48,7 +48,6 @@
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             display: flex;
             flex-direction: column;
-            height: 100%;
             border: 1px solid rgba(68, 110, 128, 0.1);
         }
 
@@ -67,6 +66,7 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
+            flex-shrink: 0;
         }
 
         .catalog-image {
@@ -82,17 +82,18 @@
 
         .catalog-content {
             padding: 25px;
-            flex-grow: 1;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            gap: 12px;
+            min-height: 140px;
+            justify-content: flex-start;
         }
 
         .catalog-name {
             font-size: 1.3rem;
             font-weight: 700;
             color: #0D3143;
-            margin-bottom: 15px;
+            margin: 0;
             font-family: 'Kalnia', serif;
             letter-spacing: 0.5px;
         }
@@ -101,8 +102,7 @@
             font-size: 0.9rem;
             color: #666;
             line-height: 1.6;
-            margin-bottom: 0;
-            flex-grow: 1;
+            margin: 0;
         }
 
         .catalog-section-title {
@@ -146,6 +146,63 @@
 
             .catalog-image-wrapper {
                 height: 180px;
+            }
+        }
+    </style>
+
+    <style>
+        .alt-banner {
+            background: linear-gradient(rgba(13, 49, 67, 0.65), rgba(13, 49, 67, 0.65)), url('images/bayilikler.jpg') center/cover no-repeat;
+            padding: 150px 0;
+            color: white;
+            position: relative;
+            display: flex;
+            align-items: center;
+            min-height: 500px;
+        }
+
+        .alt-banner .container {
+            max-width: 800px;
+        }
+
+        .alt-banner h1 {
+            color: #e8c895;
+            font-size: 4.5rem;
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 1;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            line-height: 1.2;
+        }
+
+        .alt-banner h5 {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 1.25rem;
+            line-height: 1.9;
+            max-width: 650px;
+            position: relative;
+            z-index: 1;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .alt-banner {
+                padding: 100px 0;
+                min-height: 350px;
+            }
+
+            .alt-banner h1 {
+                font-size: 2.5rem;
+                margin-bottom: 20px;
+            }
+
+            .alt-banner h5 {
+                font-size: 1rem;
+                line-height: 1.7;
             }
         }
     </style>
@@ -208,15 +265,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li><a href="hakkimizda.html">Hakkımızda</a></li>
                         <!--<li><a href="sosyal.html">Sosyal Fayda</a></li> -->
                         <li><a href="projeler.html">Projeler</a></li>
-                        <li class="menu-proje-list">
-                            
-                            <a href="beyond-all.html">Beyond All</a>
-                            <a href="coolest.html">Coolest</a>
-                            
-                            <a href="allure.html">Allure</a>
-                            <a href="labella.html">LaBella</a>
-                            <a href="eternia.html">Eternia</a>
-                        </li>
                         <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
                         <li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li>
                         <li><a href="iletisim.html">İletişim</a></li>
@@ -491,8 +539,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p class="catalog-description">Kaliteli ürün ve hizmetlerinin sağlayıcısı olarak Sobutay ailesi içinde yer almaktadır.</p>
                     </div>
                 </div>
-    
-    
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="footer-main">
