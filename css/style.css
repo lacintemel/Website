@@ -830,7 +830,7 @@ input:checked+.check-slider:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/hakk-banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: center;
 }
