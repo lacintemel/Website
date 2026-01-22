@@ -261,9 +261,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
 
-    <div class="ilet-map-box">
-        <a href="https://maps.app.goo.gl/8WnZMouKR12xBjC69" target="_blank"><img src="images/svg/pin.svg" alt=""></a>
+   <div class="ilet-map-box" style="position: relative; width: 100%; height: 450px;">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3191.686950275865!2d30.62725457644265!3d36.87378776352932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c391d471d53369%3A0x6c6e756855502c2e!2sG%C3%BCrsu%2C%20Atat%C3%BCrk%20Blv.%20No%3A158%2C%2007070%20Konyaalt%C4%B1%2FAntalya!5e0!3m2!1str!2str!4v1706130000000!5m2!1str!2str" 
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -100%); pointer-events: none;">
+        <img src="images/svg/pin.svg" alt="" style="height: 50px;">
     </div>
+</div>
     
     
 
@@ -339,231 +350,68 @@ function closeLanguage() {
     <script src="js/main.js"></script>
     <script src="js/slick.min.js"></script>
     
-    
     <script>
+// E-Bülten Formu - Harici API'ye gönder
 document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('ebultenForm');
-    const button = document.getElementById('ebultenSendForm');
-    const emailInput = form.querySelector('input[name="email"]');
+    const ebultenForm = document.getElementById('ebultenForm');
+    if (ebultenForm) {
+        const button = ebultenForm.querySelector('#ebultenSendForm');
+        const emailInput = ebultenForm.querySelector('input[name="email"]');
 
-    button.addEventListener('click', function(e) {
-        e.preventDefault();
-
-        const email = emailInput.value.trim();
-        if (!email) {
-            alert("Lütfen geçerli bir e-posta adresi giriniz.");
-            return;
-        }
-
-        // Gönder butonunu devre dışı bırak (spam koruması)
-        button.disabled = true;
-
-        fetch('https://admin.byArso.com/api/v1/subscribe', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            },
-            body: JSON.stringify({
-                email: email
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const email = emailInput.value.trim();
+            if (!email) {
+                alert("Lütfen geçerli bir e-posta adresi giriniz.");
+                return;
+            }
+            button.disabled = true;
+            fetch('https://admin.byArso.com/api/v1/subscribe', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({ email: email })
             })
-        })
-        .then(response => response.json())
-        .then(data => {
-            button.disabled = false;
-
-            if (data.success) {
-                alert("✅ " + data.message);
-                emailInput.value = "";
-            } else {
-                alert("⚠️ " + (data.message || "Bir hata oluştu."));
-            }
-        })
-        .catch(error => {
-            button.disabled = false;
-            alert("🚫 Sunucuya bağlanırken bir hata oluştu.");
-            console.error(error);
-        });
-    });
-});
-</script>
-
-
-     <script>
-    $(document).ready(function() {
-    // İletişim Formu Gönderme İşlemi
-    $('#iletisimSendForm').on('click', function() {
-        $('.response-alert').remove();
-
-        var firstname = $('#iletisimForm .firstname').val();
-        if (!firstname) {
-            $('#iletisimForm .firstname').css('border-color', 'red');
-            return false;
-        }
-
-        var telephone = $('#iletisimForm .telephone').val();
-        if (!telephone) {
-            $('#iletisimForm .telephone').css('border-color', 'red');
-            return false;
-        }
-
-        var email = $('#iletisimForm .email').val();
-        if (!email) {
-            $('#iletisimForm .email').css('border-color', 'red');
-            return false;
-        }
-
-        var project = $('#iletisimForm .project').val();
-        if (!project) {
-            $('#iletisimForm .project').css('border-color', 'red');
-            return false;
-        }
-
-        var message = $('#iletisimForm .message').val();
-        if (!message) {
-            $('#iletisimForm .message').css('border-color', 'red');
-            return false;
-        }
-
-        $.ajax({
-            type: "POST",
-            url: 'mail/sendmail.php',
-            data: $('#iletisimForm').serialize(),
-            dataType: 'json',
-            success: function(response) {
-                if (response.return) {
-                    $('#iletisimForm').prepend('<span id="response-alert" class="alert alert-success response-alert" style="display: block;width: 100%">Mailiniz başarıyla gönderilmiştir.</span>');
-
-                    // GTM için event tetikle
-                    window.dataLayer = window.dataLayer || [];
-                    window.dataLayer.push({
-                        event: 'gtm.formSubmit',
-                        formID: 'iletisimForm',
-                        formTipi: 'iletisim'
-                    });
-
-                    setTimeout(function() {
-                        $('.response-alert').remove();
-                        $('#iletisimForm')[0].reset();
-                    }, 4000);
+            .then(response => response.json())
+            .then(data => {
+                button.disabled = false;
+                if (data.success) {
+                    alert("✅ " + data.message);
+                    emailInput.value = "";
+                } else {
+                    alert("⚠️ " + (data.message || "Bir hata oluştu."));
                 }
-            }
+            })
+            .catch(error => {
+                button.disabled = false;
+                alert("🚫 Sunucuya bağlanırken bir hata oluştu.");
+                console.error(error);
+            });
         });
-    });
-
-    // Randevu Formu Gönderme İşlemi
-    $('#randevuSendForm').on('click', function() {
-        $('.response-alert').remove();
-
-        var firstname = $('#randevuForm .firstname').val();
-        if (!firstname) {
-            $('#randevuForm .firstname').css('border-color', 'red');
-            return false;
-        }
-
-        var telephone = $('#randevuForm .telephone').val();
-        if (!telephone) {
-            $('#randevuForm .telephone').css('border-color', 'red');
-            return false;
-        }
-
-        var email = $('#randevuForm .email').val();
-        if (!email) {
-            $('#randevuForm .email').css('border-color', 'red');
-            return false;
-        }
-
-        var randevu = $('#randevuForm .randevu').val();
-        if (!randevu) {
-            $('#randevuForm .randevu').css('border-color', 'red');
-            return false;
-        }
-
-        var randevuTarihi = $('#randevuForm .randevu-tarihi').val();
-        if (!randevuTarihi) {
-            $('#randevuForm .randevu-tarihi').css('border-color', 'red');
-            return false;
-        }
-
-        $.ajax({
-            type: "POST",
-            url: 'mail/sendmail.php',
-            data: $('#randevuForm').serialize(),
-            dataType: 'json',
-            success: function(response) {
-                if (response.return) {
-                    $('#randevuForm').prepend('<span id="response-alert" class="alert alert-success response-alert" style="display: block;width: 100%">Mailiniz başarıyla gönderilmiştir.</span>');
-
-                    // GTM için event tetikle
-                    window.dataLayer = window.dataLayer || [];
-                    window.dataLayer.push({
-                        event: 'gtm.formSubmit',
-                        formID: 'randevuForm',
-                        formTipi: 'randevu'
-                    });
-
-                    setTimeout(function() {
-                        $('.response-alert').remove();
-                        $('#randevuForm')[0].reset();
-                    }, 4000);
-                }
-            }
-        });
-    });
-
-    // E-Bülten Formu Gönderme İşlemi
-    $('#ebultenSendForm').on('click', function() {
-        $('.response-alert').remove();
-
-        var email = $('#ebultenForm .email').val();
-        if (!email) {
-            $('#ebultenForm .email').css('border-color', 'red');
-            return false;
-        }
-
-        $.ajax({
-            type: "POST",
-            url: 'mail/sendmail.php',
-            data: $('#ebultenForm').serialize(),
-            dataType: 'json',
-            success: function(response) {
-                if (response.return) {
-                    $('#ebultenForm').prepend('<span id="response-alert" class="alert alert-success response-alert" style="display: block;width: 100%">Mailiniz başarıyla gönderilmiştir.</span>');
-
-                    // GTM için event tetikle
-                    window.dataLayer = window.dataLayer || [];
-                    window.dataLayer.push({
-                        event: 'gtm.formSubmit',
-                        formID: 'ebultenForm',
-                        formTipi: 'ebulten'
-                    });
-
-                    setTimeout(function() {
-                        $('.response-alert').remove();
-                        $('#ebultenForm')[0].reset();
-                    }, 4000);
-                }
-            }
-        });
-    });
+    }
 });
 </script>
 
 <script>
-document.querySelector('.randevu-tarihi').addEventListener('focus', function() {
-    var today = new Date().toISOString().split('T')[0];
-    this.setAttribute('min', today);
-});
+// Randevu tarihi validasyonu
+if (document.querySelector('.randevu-tarihi')) {
+    document.querySelector('.randevu-tarihi').addEventListener('focus', function() {
+        var today = new Date().toISOString().split('T')[0];
+        this.setAttribute('min', today);
+    });
 
-document.querySelector('.randevu-tarihi').addEventListener('input', function() {
-    var inputDate = new Date(this.value);
-    if (inputDate.getDay() === 0) {
-        var nextDay = new Date(inputDate);
-        nextDay.setDate(inputDate.getDate() + 1);
-        this.value = nextDay.toISOString().split('T')[0];
-        alert("Pazar günleri randevu alınamaz. Tarih otomatik olarak bir sonraki güne ayarlandı.");
-    }
-});
+    document.querySelector('.randevu-tarihi').addEventListener('input', function() {
+        var inputDate = new Date(this.value);
+        if (inputDate.getDay() === 0) {
+            var nextDay = new Date(inputDate);
+            nextDay.setDate(inputDate.getDate() + 1);
+            this.value = nextDay.toISOString().split('T')[0];
+            alert("Pazar günleri randevu alınamaz. Tarih otomatik olarak bir sonraki güne ayarlandı.");
+        }
+    });
+}
 </script>
 </body>
 
