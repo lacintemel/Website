@@ -3,18 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sobutay Grup® | 444 8 407 | Blog</title>
-    <meta name="description" content="Sobutay Grup'un gayrimenkul, inşaat ve mimarlık dünyasından güncel haberler ve uzman görüşleri." />
+    <title>Çözüm Ortaklarımız | Sobutay</title>
+    <meta name="description" content="Çözüm Ortaklarımız - Sobutay ailesi olarak çalıştığımız ünlü mimarlar ve iş ortaklarımız." />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />	
 
-    <meta property="og:title" content="Sobutay Grup® | 444 8 407 | Blog" />
-    <meta property="og:description" content="Sobutay Grup'un gayrimenkul, inşaat ve mimarlık dünyasından güncel haberler ve uzman görüşleri." />
-    <meta property="og:url" content="https://bySobutay.com/blog.html" />
-    <meta property="og:site_name" content="Sobutay Grup® | 444 8 407 | Blog" />
-    <meta property="og:image" content="https://bySobutay.com/images/blog-covers.jpg" />
-    <meta name="twitter:card" content="Sobutay Grup® | 444 8 407 | Blog" />
-    <meta name="twitter:title" content="Sobutay Grup® | 444 8 407 | Blog" />
-    <meta name="twitter:image" content="https://bySobutay.com/images/blog-covers.jpg" />	
+    <meta property="og:title" content="Çözüm Ortaklarımız | Sobutay" />
+    <meta property="og:description" content="Çözüm Ortaklarımız - Sobutay ailesi olarak çalıştığımız ünlü mimarlar ve iş ortaklarımız." />
+    <meta property="og:url" content="https://bySobutay.com/cozum_ortaklari.html" />
+    <meta property="og:site_name" content="Çözüm Ortaklarımız | Sobutay" />
+    <meta property="og:image" content="https://bySobutay.com/images/anasayfa-cover.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Çözüm Ortaklarımız | Sobutay" />
+    <meta name="twitter:image" content="https://bySobutay.com/images/anasayfa-cover.jpg" />	
     <meta name="facebook-domain-verification" content="swzcvyhixavfdz6e7dmlz8sa7yt9sm" />
     
     <link rel="icon" type="image/png" href="images/svg/logo-ani.svg" />
@@ -28,7 +28,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <style>
-        .blog-hero {
+        .partners-hero {
             background: #0D3143;
             padding: 120px 0 80px;
             color: white;
@@ -36,7 +36,7 @@
             overflow: hidden;
         }
         
-        .blog-hero::before {
+        .partners-hero::before {
             content: '';
             position: absolute;
             top: 0;
@@ -47,57 +47,35 @@
             opacity: 0.1;
         }
         
-        .blog-hero h1 {
+        .partners-hero h1 {
             font-size: 3.5rem;
             font-weight: 700;
             margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
         }
         
-        .blog-hero p {
+        .partners-hero p {
             font-size: 1.2rem;
             opacity: 0.9;
             max-width: 600px;
+            position: relative;
+            z-index: 1;
         }
         
-        .blog-categories {
-            padding: 60px 0;
+        .partners-section {
+            padding: 80px 0;
             background: #f8f9fa;
         }
         
-        .category-filter {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            justify-content: center;
-            margin-bottom: 50px;
-        }
-        
-        .category-btn {
-            padding: 12px 25px;
-            border: 2px solid 446E80;
-            background: white;
-            color: 446E80;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
-        
-        .category-btn:hover,
-        .category-btn.active {
-            background: 446E80;
-            color: white;
-            text-decoration: none;
-        }
-        
-        .blog-grid {
+        .partners-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 40px;
             margin-top: 40px;
         }
         
-        .blog-card {
+        .partner-card {
             background: white;
             border-radius: 15px;
             overflow: hidden;
@@ -105,44 +83,36 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         
-        .blog-card:hover {
+        .partner-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 20px 50px rgba(0,0,0,0.15);
         }
         
-        .blog-card-image {
+        .partner-card-image {
             width: 100%;
             height: 250px;
             object-fit: cover;
         }
         
-        .blog-card-content {
+        .partner-card-content {
             padding: 30px;
         }
         
-        .blog-card-category {
-            color: #d4af37;
-            font-size: 0.9rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
-        .blog-card-title {
+        .partner-card-title {
             font-size: 1.4rem;
             font-weight: 700;
-            color: 446E80;
+            color: #446E80;
             margin: 15px 0;
             line-height: 1.4;
         }
         
-        .blog-card-excerpt {
+        .partner-card-excerpt {
             color: #666;
             line-height: 1.6;
             margin-bottom: 20px;
         }
         
-        .blog-card-meta {
+        .partner-card-meta {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -150,47 +120,11 @@
             border-top: 1px solid #eee;
         }
         
-        .blog-card-date {
+        .partner-card-experience {
             color: #999;
             font-size: 0.9rem;
-        }
-        
-        .blog-card-link {
-            color: 446E80;
             font-weight: 600;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        
-        .blog-card-link:hover {
-            color: #d4af37;
-            text-decoration: none;
-        }
-        
-        .featured-post {
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0;
-            margin-bottom: 40px;
-        }
-        
-        .featured-post .blog-card-image {
-            height: 400px;
-        }
-        
-        .featured-post .blog-card-content {
-            padding: 50px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        
-        .featured-post .blog-card-title {
-            font-size: 2rem;
-            margin-bottom: 20px;
+            color: #446E80;
         }
         
         .newsletter-section {
@@ -198,6 +132,16 @@
             color: white;
             padding: 80px 0;
             text-align: center;
+        }
+        
+        .newsletter-section h2 {
+            margin-bottom: 20px;
+        }
+        
+        .newsletter-section p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
         }
         
         .newsletter-form {
@@ -230,47 +174,20 @@
             background: #b8941f;
         }
         
-        .pagination {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 60px;
-        }
-        
-        .pagination a {
-            padding: 12px 18px;
-            border: 1px solid #ddd;
-            color: 446E80;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-        }
-        
-        .pagination a:hover,
-        .pagination a.active {
-            background: #0D3143;
-            color: white;
-            border-color: 446E80;
-        }
-        
         @media (max-width: 768px) {
-            .blog-hero h1 {
+            .partners-hero h1 {
                 font-size: 2.5rem;
             }
             
-            .featured-post {
-                grid-template-columns: 1fr;
-            }
-            
-            .featured-post .blog-card-content {
-                padding: 30px;
+            .partners-hero p {
+                font-size: 1rem;
             }
             
             .newsletter-form {
                 flex-direction: column;
             }
             
-            .blog-grid {
+            .partners-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -289,8 +206,8 @@
                     <li><a href="hakkimizda.html">Hakkımızda</a></li>
                     <li><a href="projeler.html">Projelerimiz</a></li>
                     <!--<li><a href="sosyal.html">Sosyal Fayda</a></li> -->
-                    <li><a href="medya.html">Medya</a></li>
-                    <li><a href="blog.html">Blog</a></li> 
+                    <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
+                    <li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li> 
                     <li><a href="iletisim.html">İletişim</a></li>
                     <li class="lang-sel"><a>Tr <img src="images/svg/globe.svg" alt=""></a></li>
                     <li class="line"></li>
@@ -310,16 +227,21 @@
                         <!--<li><a href="sosyal.html">Sosyal Fayda</a></li> -->
                         <li><a href="projeler.html">Projeler</a></li>
                         <li class="menu-proje-list">
-                            
-                            <a href="beyond-all.html">Beyond All</a>
-                            <a href="coolest.html">Coolest</a>
-                            
-                            <a href="allure.html">Allure</a>
-                            <a href="labella.html">LaBella</a>
-                            <a href="eternia.html">Eternia</a>
+                            <a href="liberty_hotel.html">Liberty Hotel</a>
+                            <a href="xo_cape_antalya.html">XO Cape</a>
+                            <a href="hesapcoglu_opel.html">Hesapoğlu Opel</a>
+                            <a href="altintar_tarim.html">Altıntar Tarım</a>
+                            <a href="gultepe_spor.html">Gültepe Spor</a>
+                            <a href="camlica_yapi.html">Çamlıca Yapı</a>
+                            <a href="kare_otomotiv.html">Kare Otomotiv</a>
+                            <a href="musliks_showroom.html">Musliks Showroom</a>
+                            <a href="aosb_kres.html">AOSB Kreş</a>
+                            <a href="otomol_ofis.html">Otomol Ofis</a>
+                            <a href="sun_hotel.html">Sun Hotel</a>
+                            <a href="jw_maltepe.html">JW Maltepe</a>
                         </li>
-                        <li><a href="medya.html">Medya</a></li>
-                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
+                        <li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li>
                         <li><a href="iletisim.html">İletişim</a></li>
                     </ul>
                 <div class="menu-bar bottom-bar">
@@ -480,134 +402,102 @@
         </div>
     </div>
 
-    <section class="blog-hero">
+    <section class="partners-hero">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="kalnia">Blog</h1>
-                    <p>Gayrimenkul dünyasından güncel haberler, uzman görüşleri ve Sobutay Grup'un projelerine dair detaylı bilgiler.</p>
+                    <h1 class="kalnia">Çözüm Ortaklarımız</h1>
+                    <p>Sobutay ailesi olarak, ülkemizin önde gelen mimarları ve iş ortaklarlarıyla birlikte çalışmaktan gurur duyuyoruz. Kaliteli projelerin başında, deneyimli ve vizyoner isimler bulunmaktadır.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="blog-categories">
+    <section class="partners-section">
         <div class="container">
-
-            <div class="blog-grid">
-                <!-- Featured Post -->
-                <article class="blog-card featured-post">
-                    <img src="images/blog/8/blog_genel_sayfası.png" alt="Beyond All Projesi" class="blog-card-image">
-                    <div class="blog-card-content">
-                        <span class="blog-card-category">Sektörel Haberler</span>
-                        <h2 class="blog-card-title kalnia">Antalya'nın Yeni Çekim Merkezi: Altıntaş'ta Ticari Gayrimenkul Fırsatları</h2>
-                        <p class="blog-card-excerpt">Antalya, Türkiye'nin en hızlı gelişen şehirlerinden biri olarak hem yaşam hem de yatırım açısından büyük bir potansiyel sunuyor. Özellikle Altıntaş bölgesi, ticari gayrimenkul yatırımları için dikkat çeken fırsatlar barındırıyor.</p>
-                        <div class="blog-card-meta">
-                            <span class="blog-card-date">12 Aralık 2025</span>
-                            <a href="blog_altintas_gayrimenkul.html" class="blog-card-link">Devamını Oku →</a>
+            <div class="partners-grid">
+                <!-- Partner 1 -->
+                <article class="partner-card">
+                    <img src="images/partners/partner1.jpg" alt="Çözüm Ortağı 1" class="partner-card-image">
+                    <div class="partner-card-content">
+                        <h3 class="partner-card-title kalnia">Ünlü Mimar / İş Ortağı 1</h3>
+                        <p class="partner-card-excerpt">Uzun yılların tecrübesi ve başarılı projeleriyle bizimle çalışan değerli ortağımız. Mimarı olduğu projelerde yaratıcılık ve işlevselliği mükemmel şekilde birleştirmektedir.</p>
+                        <div class="partner-card-meta">
+                            <span class="partner-card-experience">Deneyim: 20+ yıl</span>
                         </div>
                     </div>
                 </article>
 
-                <!-- Regular Posts -->
-                
-                <article class="blog-card" data-category="mimari">
-                    <img src="images/blog/7/blog_genel_sayfası_kucuk.png" alt="Modern Mimari" class="blog-card-image">
-                    <div class="blog-card-content">
-                        <span class="blog-card-category">Finans Dünyası</span>
-                        <h3 class="blog-card-title">Şehir Merkezinde mi, Doğaya Yakın mı? Konut Tercihleri Üzerine Yeni Trendler</h3>
-                        <p class="blog-card-excerpt">Günümüzde konut tercihleri, geçmişe kıyasla çok daha bilinçli ve yaşam tarzına uygun şekilde şekilleniyor. Artık yalnızca bir barınma alanı değil, aynı zamanda huzur, konfor ve yatırım değeri sunan yaşam alanları ön planda.</p>
-                        <div class="blog-card-meta">
-                            <span class="blog-card-date">14 Kasım 2025</span>
-                            <a href="blog_sehir_doga.html" class="blog-card-link">Devamını Oku →</a>
-                        </div>
-                    </div>
-                </article>
-                
-                <article class="blog-card" data-category="finans">
-                    <img src="images/blog/6/blog_genel_sayfası_kucuk.png" alt="Gayrimenkul Trendleri" class="blog-card-image">
-                    <div class="blog-card-content">
-                        <span class="blog-card-category">Finans Dünyası</span>
-                        <h3 class="blog-card-title">Konut Kredisi Faiz Oranlarının Yatırım Kararlarına Etkisi</h3>
-                        <p class="blog-card-excerpt">Faiz oranları gayrimenkulde talebi, fiyatları ve geri dönüş sürelerini doğrudan etkiler; Antalya ve Altıntaş özelinde bu etki daha görünür.</p>
-                        <div class="blog-card-meta">
-                            <span class="blog-card-date">5 Ekim 2025</span>
-                            <a href="blog_kredi.html" class="blog-card-link">Devamını Oku →</a>
-                        </div>
-                    </div>
-                </article>
-                
-                 <article class="blog-card" data-category="sektorel">
-                    <img src="images/blog/5/blog_genel_sayfası_kucuk.png" alt="Gayrimenkul Trendleri" class="blog-card-image">
-                    <div class="blog-card-content">
-                        <span class="blog-card-category">Sektörel Haberler</span>
-                        <h3 class="blog-card-title">Antalya Havalimanı Genişleme Projesi ve Altıntaş Gayrimenkul Piyasasına Yansıması</h3>
-                        <p class="blog-card-excerpt">Antalya Havalimanı’ndaki genişleme, turizmle birlikte gayrimenkul piyasasını da ivmelendiriyor; bu dönüşümün en güçlü yansıması....</p>
-                        <div class="blog-card-meta">
-                            <span class="blog-card-date">4 Eylül 2025</span>
-                            <a href="blog_antalya_havalimani.html" class="blog-card-link">Devamını Oku →</a>
-                        </div>
-                    </div>
-                </article>
-                
-               <article class="blog-card" data-category="sektorel">
-                    <img src="images/blog/4/blog_genel_sayfası_kucuk.png" alt="Gayrimenkul Trendleri" class="blog-card-image">
-                    <div class="blog-card-content">
-                        <span class="blog-card-category">Sektörel Bilgilendirme</span>
-                        <h3 class="blog-card-title">Güvenilir İnşaat Firması Seçerken Nelere Dikkat Etmelisiniz? </h3>
-                        <p class="blog-card-excerpt">Kaliteli bir inşaat firması nasıl anlaşılır? Ev alınacak firmanın yasal yükümlülüklerini yerine getirip getirmediği kontrol edilmelidir....</p>
-                        <div class="blog-card-meta">
-                            <span class="blog-card-date">25 Temmuz 2025</span>
-                            <a href="blog_Sobutay_insaat.html" class="blog-card-link">Devamını Oku →</a>
-                        </div>
-                    </div>
-                </article>
-                
-                <article class="blog-card" data-category="sektorel">
-                    <img src="images/blog/3/blog_genel_sayfası_kucuk.png" alt="Gayrimenkul Trendleri" class="blog-card-image">
-                    <div class="blog-card-content">
-                        <span class="blog-card-category">Sobutay</span>
-                        <h3 class="blog-card-title">Antalya İnşaat Projelerinde Güvenin Adı: Sobutay ile Geleceğinizi İnşa Edin </h3>
-                        <p class="blog-card-excerpt">Antalya, coğrafi konumu, doğal güzellikleri, turizm potansiyeli ve hızla gelişen ekonomisiyle Türkiye'nin en...</p>
-                        <div class="blog-card-meta">
-                            <span class="blog-card-date">14 Ağustos 2025</span>
-                            <a href="blog_Sobutay_guven.html" class="blog-card-link">Devamını Oku →</a>
-                        </div>
-                    </div>
-                </article>
-                
-                <article class="blog-card" data-category="sektorel">
-                    <img src="images/blog/2/blog_genel_sayfası_kucuk.png" alt="Gayrimenkul Trendleri" class="blog-card-image">
-                    <div class="blog-card-content">
-                        <span class="blog-card-category">Sektörel Haberler</span>
-                        <h3 class="blog-card-title">Altıntaş Konut Projeleri Neden Yatırımcıların Yeni Gözdesi?</h3>
-                        <p class="blog-card-excerpt">Altıntaş, Antalya'da yerli ve yabancı yatırımcılar arasında hızla popülerlik kazanan...</p>
-                        <div class="blog-card-meta">
-                            <span class="blog-card-date">25 Temmuz 2025</span>
-                            <a href="blog_altintas.html" class="blog-card-link">Devamını Oku →</a>
+                <!-- Partner 2 -->
+                <article class="partner-card">
+                    <img src="images/partners/partner2.jpg" alt="Çözüm Ortağı 2" class="partner-card-image">
+                    <div class="partner-card-content">
+                        <h3 class="partner-card-title kalnia">Çözüm Ortağı 2</h3>
+                        <p class="partner-card-excerpt">Sobutay projelerinde önemli katkıları bulunan ve sektörde tanınmış profesyonelimiz. Yenilikçi tasarım anlayışı ve detaylı çalışması ile yapılan projelere değer katmaktadır.</p>
+                        <div class="partner-card-meta">
+                            <span class="partner-card-experience">Deneyim: 15+ yıl</span>
                         </div>
                     </div>
                 </article>
 
-                
+                <!-- Partner 3 -->
+                <article class="partner-card">
+                    <img src="images/partners/partner3.jpg" alt="Çözüm Ortağı 3" class="partner-card-image">
+                    <div class="partner-card-content">
+                        <h3 class="partner-card-title kalnia">Çözüm Ortağı 3</h3>
+                        <p class="partner-card-excerpt">Uygulamada mükemmelliğe yönelik yaklaşımı ve kalite güvence konusundaki titizliği ile bilinmektedir. Birçok başarılı proje tamamlamış, deneyimli ve güvenilir ortağımız.</p>
+                        <div class="partner-card-meta">
+                            <span class="partner-card-experience">Deneyim: 18+ yıl</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Partner 4 -->
+                <article class="partner-card">
+                    <img src="images/partners/partner4.jpg" alt="Çözüm Ortağı 4" class="partner-card-image">
+                    <div class="partner-card-content">
+                        <h3 class="partner-card-title kalnia">Çözüm Ortağı 4</h3>
+                        <p class="partner-card-excerpt">Sosyal sorumluluk bilinci yüksek, Sobutay'ın değerlerine uyumlu çalışan ortağımız. İnsan odaklı tasarım felsefesi ile projelere yeni bir boyut katmaktadır.</p>
+                        <div class="partner-card-meta">
+                            <span class="partner-card-experience">Deneyim: 12+ yıl</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Partner 5 -->
+                <article class="partner-card">
+                    <img src="images/partners/partner5.jpg" alt="Çözüm Ortağı 5" class="partner-card-image">
+                    <div class="partner-card-content">
+                        <h3 class="partner-card-title kalnia">Çözüm Ortağı 5</h3>
+                        <p class="partner-card-excerpt">Teknoloji ve tasarımın buluşmasında uzman, modern mimarlığın en iyi örneklerini sunmaktadır. Sobutay ile işbirliği yapmaktan mutluluk duyan değerli ortağımız.</p>
+                        <div class="partner-card-meta">
+                            <span class="partner-card-experience">Deneyim: 16+ yıl</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Partner 6 -->
+                <article class="partner-card">
+                    <img src="images/partners/partner6.jpg" alt="Çözüm Ortağı 6" class="partner-card-image">
+                    <div class="partner-card-content">
+                        <h3 class="partner-card-title kalnia">Çözüm Ortağı 6</h3>
+                        <p class="partner-card-excerpt">Kurumsal kimlik ve marka değeri konusunda derinlemesine bilgisi olan uzmanlığıyla projelerin kimliğini oluşturmaya katkı sağlamaktadır. Sobutay ailesi içindeki önemli isimlerden birisi.</p>
+                        <div class="partner-card-meta">
+                            <span class="partner-card-experience">Deneyim: 22+ yıl</span>
+                        </div>
+                    </div>
+                </article>
             </div>
-            
-            <div class="pagination">
-                <a href="blog.html" class="active">1</a>
-                <a href="blog_1.html">2</a>
-                <a href="blog_1.html">→</a>
-            </div>
-            
         </div>
     </section>
 
     <section class="newsletter-section">
         <div class="container">
-            <h2 class="kalnia color-l-gold">Blog Güncellemelerini Kaçırmayın</h2>
-            <p>Gayrimenkul dünyasından son haberler ve Sobutay Grup'un projelerine dair güncellemeler doğrudan e-posta kutunuza gelsin.</p>
+            <h2 class="kalnia color-l-gold">İş Ortaklığı İçin İletişime Geçin</h2>
+            <p>Sobutay ile iş birliği yapmak ve projelerinizde bir parçası olmak için bize ulaşın.</p>
             <form class="newsletter-form" id="blogNewsletterForm">
                 <input type="email" class="newsletter-input" placeholder="E-posta adresinizi girin" required>
-                <button type="submit" class="newsletter-btn">Abone Ol</button>
+                <button type="submit" class="newsletter-btn">Gönder</button>
             </form>
         </div>
     </section>
@@ -640,8 +530,8 @@
                                 <li><a href="index.html">Anasayfa</a></li>
                                 <li><a href="projeler.html">Projeler</a></li>
                                 <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                                <li><a href="medya.html">Medya</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
+                                <li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li>
                                 <li><a href="iletisim.html">İletişim</a></li>
                             </ul>
                             <div class="footer-social mt-lg-0 mt-4">
