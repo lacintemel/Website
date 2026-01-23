@@ -271,9 +271,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         loading="lazy" 
         referrerpolicy="no-referrer-when-downgrade">
     </iframe>
-    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -100%); pointer-events: none;">
-        <img src="images/svg/pin.svg" alt="" style="height: 50px;">
-    </div>
+    
 </div>
     
     
@@ -281,7 +279,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <footer>
         <div class="footer-main">
             <div class="row">
-                <div class="col-1"><img class="footer-logo" src="images/svg/logo-ani.svg" alt=""></div>
+                <div class="col-1"><img class="footer-logo" src="images/gold_logo.png" alt=""></div>
                 <div class="col-11">
                     <div class="row">
                         <div class="col-md-6">
@@ -292,15 +290,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 d-flex flex-column align-items-end text-end">
-                            <h5 class="color-gold kalnia">E-Bülten abonesi olun.</h5>
-                            <form class="ebulten" id="ebultenForm">
-									<input type="hidden" name="form-source" value="ebulten-formu">
-									<input type="email" class="email" name="email" placeholder="E-Posta adresiniz" required>
-									<input type="hidden" class="proje-hakkinda" name="proje-hakkinda" value="E-Bülten abonesi olmak isteyen" required>
-									<button class="sendForm" id="ebultenSendForm" type="button"><img src="images/svg/arrow-right.svg" alt=""></button>
-								</form>
-                        </div>
+                        
                         <div class="col-md-12 d-flex flex-lg-row flex-column justify-content-between align-items-center">
                             <ul class="footer-nav">
                                 <li><a href="index.html">Anasayfa</a></li>
@@ -329,7 +319,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li><a href="kvkk.html">K.V.K.K</a></li>
                 <li><a href="">Terms & Conditions</a></li>
             </ul>
-            <a href="https://soavian.com/"><img src="images/svg/soavian.svg" alt=""></a>
         </div>
     </footer>
 
@@ -349,50 +338,6 @@ function closeLanguage() {
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/slick.min.js"></script>
-    
-    <script>
-// E-Bülten Formu - Harici API'ye gönder
-document.addEventListener('DOMContentLoaded', function() {
-    const ebultenForm = document.getElementById('ebultenForm');
-    if (ebultenForm) {
-        const button = ebultenForm.querySelector('#ebultenSendForm');
-        const emailInput = ebultenForm.querySelector('input[name="email"]');
-
-        button.addEventListener('click', function(e) {
-            e.preventDefault();
-            const email = emailInput.value.trim();
-            if (!email) {
-                alert("Lütfen geçerli bir e-posta adresi giriniz.");
-                return;
-            }
-            button.disabled = true;
-            fetch('https://admin.byArso.com/api/v1/subscribe', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: JSON.stringify({ email: email })
-            })
-            .then(response => response.json())
-            .then(data => {
-                button.disabled = false;
-                if (data.success) {
-                    alert("✅ " + data.message);
-                    emailInput.value = "";
-                } else {
-                    alert("⚠️ " + (data.message || "Bir hata oluştu."));
-                }
-            })
-            .catch(error => {
-                button.disabled = false;
-                alert("🚫 Sunucuya bağlanırken bir hata oluştu.");
-                console.error(error);
-            });
-        });
-    }
-});
-</script>
 
 <script>
 // Randevu tarihi validasyonu

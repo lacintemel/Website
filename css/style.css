@@ -878,7 +878,7 @@ input:checked+.check-slider:before {
   }
   .panel p{margin-bottom: 0;}
 .alt-banner{
-    background-image: url(../images/alt-banner.jpg);
+    background-image: url(../images/bg1.jpg.webp);
     background-size: cover;
     background-position: center;
     height: 670px;
@@ -916,7 +916,7 @@ input:checked+.check-slider:before {
     border-bottom: 1px solid rgb(32, 79, 78);
 }
 
-.ilet-map-box{
+/* .ilet-map-box{
     background-image: url(../images/map.png);
     background-size: cover;
     background-position: center;
@@ -925,7 +925,7 @@ input:checked+.check-slider:before {
     justify-content: center;
     align-items: center;
 }
-
+*/
 .filterDiv {
     display: none;
   }
@@ -1617,4 +1617,173 @@ position: sticky;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+/* =========================================
+   YENİ SLIDER TASARIMI (GÜNCELLENMİŞ - BOŞLUKSUZ)
+   ========================================= */
+
+#fp-slider-wrapper {
+    width: 100%;
+    margin: 0; /* Üst ve alt boşlukları sıfırladık */
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Font Tanımları */
+#fp-slider-wrapper .kalnia { font-family: "Kalnia", serif; }
+#fp-slider-wrapper .urbanist { font-family: "Urbanist", sans-serif; }
+
+/* --- MASAÜSTÜ DÜZENİ --- */
+.fp-desktop-container {
+    position: relative;
+    height: 600px; /* Slider yüksekliği */
+    overflow: hidden;
+    background: #000;
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .fp-desktop-container { display: block; }
+    .fp-mobile-container { display: none; }
+}
+
+.fp-bg-images {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fp-bg-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    z-index: 1;
+}
+
+.fp-bg-images img.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+/* Alt Kutular */
+.fp-items-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    z-index: 10;
+    background: rgba(13, 49, 67, 0.85); /* Sobutay Lacivert */
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(232, 200, 149, 0.3);
+}
+
+.fp-item {
+    flex: 1;
+    padding: 40px 30px; /* Kutuların iç yüksekliğini biraz artırdım */
+    color: #fff;
+    text-decoration: none !important;
+    border-right: 1px solid rgba(255,255,255,0.1);
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fp-item:hover, .fp-item.active {
+    background: rgba(232, 200, 149, 0.15);
+}
+
+.fp-item.active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #E8C895;
+}
+
+.fp-content h4 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.2;
+}
+.fp-content h4 small {
+    display: block;
+    font-size: 12px;
+    color: #E8C895;
+    margin-bottom: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+}
+.fp-content p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.8;
+    color: #ddd;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* --- MOBİL DÜZENİ --- */
+.fp-mobile-container {
+    padding: 30px 20px; /* Mobilde üstten biraz boşluk kalsın ki yapışmasın */
+}
+
+.fp-mobile-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding-bottom: 20px;
+    scrollbar-width: none;
+}
+.fp-mobile-scroll::-webkit-scrollbar { display: none; }
+
+.fp-mobile-card {
+    min-width: 85%;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    display: block;
+}
+
+.fp-mobile-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.fp-mobile-info {
+    padding: 20px;
+    border-bottom: 4px solid #0D3143;
+}
+.fp-mobile-info h4 {
+    margin: 0 0 8px 0;
+    font-size: 22px;
+    color: #0D3143;
+}
+.fp-mobile-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #545454;
 }

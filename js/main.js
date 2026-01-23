@@ -149,3 +149,34 @@ $(document).ready(function () {
         $('#vid1')[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
     };
 });
+/* =========================================
+   YENİ SLIDER JS KODU (EN ALTA EKLE)
+   ========================================= */
+document.addEventListener('DOMContentLoaded', function() {
+    // Elemanları seç
+    var fpItems = document.querySelectorAll('.fp-item');
+    var fpImages = document.querySelectorAll('.fp-bg-images img');
+
+    if (fpItems.length > 0) {
+        fpItems.forEach(function(item) {
+            // Fare kutunun üzerine geldiğinde
+            item.addEventListener('mouseenter', function() {
+                
+                // 1. Tüm 'active' sınıflarını temizle
+                fpItems.forEach(function(el) { el.classList.remove('active'); });
+                fpImages.forEach(function(img) { img.classList.remove('active'); });
+
+                // 2. Üzerine gelinen kutuyu aktif yap
+                this.classList.add('active');
+
+                // 3. İlgili resmi bul ve aktif yap
+                var dataId = this.getAttribute('data-id');
+                var targetImg = document.querySelector('.fp-bg-images img[data-id="' + dataId + '"]');
+                
+                if (targetImg) {
+                    targetImg.classList.add('active');
+                }
+            });
+        });
+    }
+});
