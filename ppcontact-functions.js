@@ -121,7 +121,7 @@ function SendWhatsAppNotification(formData) {
 	}
 	
 	let encodedMessage = encodeURIComponent(message);
-	let whatsappUrl = "https://wa.me/" + ownerWhatsApp + "?text=" + encodedMessage;
+	let whatsappUrl = "https://wa.me/+905367179731" + ownerWhatsApp + "?text=" + encodedMessage;
 	
 	window.open(whatsappUrl, '_blank');
 }
