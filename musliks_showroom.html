@@ -76,17 +76,43 @@
             text-align: justify;
         }
 
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .project-gallery .col-tall {
+            grid-row: span 2;
+        }
+
         .project-gallery img {
             width: 100%;
-            height: auto;
+            height: 100%;
             display: block;
-            margin-bottom: 20px;
+            object-fit: cover;
             border-radius: 4px;
+        }
+
+        @media (max-width: 1024px) {
+            .project-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .project-gallery .col-tall {
+                grid-row: span 2;
+            }
         }
 
         @media (max-width: 768px) {
             .project-title-text { font-size: 1.5rem; }
             .project-title-number { font-size: 1.5rem; }
+            .project-gallery {
+                grid-template-columns: 1fr;
+            }
+            .project-gallery .col-tall {
+                grid-row: span 1;
+            }
         }
     </style>
 </head>
@@ -152,20 +178,25 @@
                 <div class="col-md-9">
                     <h5 class="desc-title">TANIM</h5>
                     <p class="desc-text">
-                        Musliks Showroom Yönetim Binası Antalya'da bulunan bir ticari gösterim ve satış alanıdır. 
-                        Proje kapsamında profesyonel asma tavan sistemi imalatı ve modern iç tasarım uygulamaları tarafımızca gerçekleştirilmiştir. 
-                        Gösterim alanının etkin bir şekilde kullanılması ve göz alıcı tasarım birlikte sağlanmıştır.
+                 MULTİKS yönetim ofis projesi yenilemesinde iç dekorasyon
+yenileme projesi MİMAR ORÇUN ÇELİK bey tarafında tasarlanan
+yönetim ofis projesinde 4210 m2 Baffle Asma Tavan imalatı yapılmıştır.
+2023 yılında faaliyete geçen Multiks yönetim ofisinde 4 adet toplantı salonu
+ve 1 adet 4400m2 showroom tarafımızca tasarlanmıştır.
                     </p>
                 </div>
             </div>
 
             <div class="row project-gallery">
-                <div class="col-md-6">
-                    <img src="images/9.jpg" alt="Musliks Showroom" class="img-fluid">
+                <div>
+                    <img src="images/muslitks/photo.jpg" alt="Musliks Showroom" class="img-fluid">
                 </div>
 
-                <div class="col-md-6">
-                    <img src="images/musliks-interior.jpg" alt="Musliks İç Mekan" class="img-fluid">
+                <div class="col-tall">
+                    <img src="images/muslitks/img_7687.jpg" alt="Musliks İç Mekan" class="img-fluid">
+                </div>
+                <div class="col-tall">
+                    <img src="images/muslitks/img_2700.jpg" alt="Musliks Showroom" class="img-fluid">
                 </div>
             </div>
 
