@@ -76,17 +76,43 @@
             text-align: justify;
         }
 
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .project-gallery .col-tall {
+            grid-row: span 2;
+        }
+
         .project-gallery img {
             width: 100%;
-            height: auto;
+            height: 100%;
             display: block;
-            margin-bottom: 20px;
+            object-fit: cover;
             border-radius: 4px;
+        }
+
+        @media (max-width: 1024px) {
+            .project-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .project-gallery .col-tall {
+                grid-row: span 2;
+            }
         }
 
         @media (max-width: 768px) {
             .project-title-text { font-size: 1.5rem; }
             .project-title-number { font-size: 1.5rem; }
+            .project-gallery {
+                grid-template-columns: 1fr;
+            }
+            .project-gallery .col-tall {
+                grid-row: span 1;
+            }
         }
     </style>
 </head>
@@ -152,20 +178,43 @@
                 <div class="col-md-9">
                     <h5 class="desc-title">TANIM</h5>
                     <p class="desc-text">
-                        Gültepe Spor Kompleksi İzmir'de yer alan çok amaçlı bir spor tesisidir. Proje kapsamında zemin döşeme imalatı, 
-                        profesyonel kalitede hali saha uygulaması ve asma tavan sistemi tarafımızca tamamlanmıştır. 
-                        Tüm işlemler spor aktiviteleri için uygun, dayanıklı ve konforlu bir ortam sağlamak amacıyla gerçekleştirilmiştir.
+                      KONAK BELEDİYESİ tarafından inşa edilen ‘’ GÜLTEPE SPOR
+KOMPLEKSİ ‘’ projesinde kullanıma uygun alanlar inşa ettik. Projemizin
+çok amaçlı spor kompleksi tasarımında elde edilen Suni Çim Halı
+Saha, Voleybol, Basketbol için uluslararası düzeyde turnuvalara
+ev sahipliği yapılacak şekilde tasarlanması ve uygulanması.
+tarafımızca teslim edilmiştir. 2021 yılında faaliyete geçen çok
+amaçlı spor kompleksinde uygulanan bu ürünlerin gerçek
+kullanıma uygun yapılıp teslimini gerçekleştirmiş bulunmaktayız.
                     </p>
                 </div>
             </div>
 
             <div class="row project-gallery">
-                <div class="col-md-6">
-                    <img src="images/6.jpeg" alt="Gültepe Spor Kompleksi" class="img-fluid">
+                <div>
+                    <img src="images/gultepe/img_2974.jpg" alt="Gültepe Spor Kompleksi" class="img-fluid">
                 </div>
 
-                <div class="col-md-6">
-                    <img src="images/gultepe-sports.jpg" alt="Spor Sahası" class="img-fluid">
+                <div>
+                    <img src="images/gultepe/img_2981.jpg" alt="Gültepe Spor Kompleksi" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/gultepe/img_2985.jpg" alt="Spor Sahası" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/gultepe/img_2986.jpg" alt="Gültepe Spor Kompleksi" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/gultepe/img_2994.jpg" alt="Spor Sahası" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/gultepe/img_6352.jpg" alt="Gültepe Spor Kompleksi" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/gultepe/photo_2021_04_15_21_41_25_3.jpg" alt="Spor Sahası" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/gultepe/photo_2021_07_03_14_53_32.jpg" alt="Gültepe Spor Kompleksi" class="img-fluid">
                 </div>
             </div>
 
