@@ -76,17 +76,43 @@
             text-align: justify;
         }
 
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .project-gallery .col-tall {
+            grid-row: span 2;
+        }
+
         .project-gallery img {
             width: 100%;
-            height: auto;
+            height: 100%;
             display: block;
-            margin-bottom: 20px;
+            object-fit: cover;
             border-radius: 4px;
+        }
+
+        @media (max-width: 1024px) {
+            .project-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .project-gallery .col-tall {
+                grid-row: span 2;
+            }
         }
 
         @media (max-width: 768px) {
             .project-title-text { font-size: 1.5rem; }
             .project-title-number { font-size: 1.5rem; }
+            .project-gallery {
+                grid-template-columns: 1fr;
+            }
+            .project-gallery .col-tall {
+                grid-row: span 1;
+            }
         }
     </style>
 </head>
@@ -152,20 +178,70 @@
                 <div class="col-md-9">
                     <h5 class="desc-title">TANIM</h5>
                     <p class="desc-text">
-                        XO Cape Antalya Hotel projesi Fethiye'de yer almakta olup, özel tasarım metal konstrüksiyonlar ve hotel amenities ile modern bir konsept sunmaktadır. 
-                        Proje kapsamında hotel ana girişinde bulunan markiz imalatı ve pool bar alanında kullanılan çelik konstrüksiyonlar tarafımızca tamamlanmıştır. 
-                        Her iki yapı da dayanıklılık ve estetik tasarımın birleşimini yansıtmaktadır.
+                        ÖZYER GRUP HOTEL inden biri olan XO CARPE ARNA ÖZYER GRUP un en yeni
+hotellerinden biri olup 2025 yılında faaliyete girmiştir. Hotel giriş saçağının
+komple ağır çelikten imal edilip farklı biri tasarıma sahip olan Mimar YEŞİM
+KOZANLI imzalı olup İnşaat Mühendisi ENGİN ERDOĞAN tarafından ortalama
+65 Ton çelik statik projesi çizilen bu eserin tarafımızca yapılması bizlere ayrı gurur veriyor.
                     </p>
                 </div>
             </div>
 
             <div class="row project-gallery">
-                <div class="col-md-6">
-                    <img src="images/3.webp" alt="XO Cape Hotel Giriş" class="img-fluid">
+                <div>
+                    <img src="images/xocarpe/yka_xo-cape-arnna_web_80.jpg" alt="XO Cape Otel" class="img-fluid">
                 </div>
 
-                <div class="col-md-6">
-                    <img src="images/xo-cape-detail.jpg" alt="XO Cape Pool Bar" class="img-fluid">
+                <div class="col-tall">
+                    <img src="images/xocarpe/bu_fotoda_da_iskeleyi_kesebiliriz_2.jpg" alt="XO Cape İskelesi" class="img-fluid">
+                </div>
+
+                <div>
+                    <img src="images/xocarpe/statik_proje_4.jpg" alt="Statik Proje" class="img-fluid">
+                </div>
+
+                <div class="col-tall">
+                    <img src="images/xocarpe/bu_fotoda_iskele_olan_kismi_kesebiliriz.jpg" alt="XO Cape Yan Görünüm" class="img-fluid">
+                </div>
+
+                <div>
+                    <img src="images/xocarpe/statik_proje_1.jpg" alt="Statik Proje" class="img-fluid">
+                </div>
+
+                <div>
+                    <img src="images/xocarpe/statik_proje_3.jpg" alt="Statik Proje" class="img-fluid">
+                </div>
+
+                <div class="col-tall">
+                    <img src="images/xocarpe/usta_calisirken_3.jpg" alt="İmalat Aşaması" class="img-fluid">
+                </div>
+
+                <div>
+                    <img src="images/xocarpe/statk_proje_2.jpg" alt="Statik Proje" class="img-fluid">
+                </div>
+
+                <div class="col-tall">
+                    <img src="images/xocarpe/ustalar_calisirken.jpg" alt="Ustalar Çalışirken" class="img-fluid">
+                </div>
+
+                <div>
+                    <img src="images/xocarpe/imalat_asamasi_goto_2.jpg" alt="Taşıyıcı Sistem" class="img-fluid">
+                </div>
+
+                <div class="col-tall">
+                    <img src="images/xocarpe/img_0335.jpg" alt="XO Cape İç Mekan" class="img-fluid">
+                </div>
+
+                <div>
+                    <img src="images/xocarpe/imalat_asamasi_surerken.jpg" alt="XO Cape Detay" class="img-fluid">
+                </div>
+
+                <div class="col-tall">
+                    <img src="images/xocarpe/yka_xo-cape-arnna_web_81.jpg" alt="XO Cape Proje" class="img-fluid">
+                </div>
+
+                <div>
+                    <img src="images/xocarpe/ustalar_calisirken_2.jpg" alt="İmalat Süreci" class="img-fluid">
                 </div>
             </div>
 
