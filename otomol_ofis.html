@@ -76,17 +76,43 @@
             text-align: justify;
         }
 
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .project-gallery .col-tall {
+            grid-row: span 2;
+        }
+
         .project-gallery img {
             width: 100%;
-            height: auto;
+            height: 100%;
             display: block;
-            margin-bottom: 20px;
+            object-fit: cover;
             border-radius: 4px;
+        }
+
+        @media (max-width: 1024px) {
+            .project-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .project-gallery .col-tall {
+                grid-row: span 2;
+            }
         }
 
         @media (max-width: 768px) {
             .project-title-text { font-size: 1.5rem; }
             .project-title-number { font-size: 1.5rem; }
+            .project-gallery {
+                grid-template-columns: 1fr;
+            }
+            .project-gallery .col-tall {
+                grid-row: span 1;
+            }
         }
     </style>
 </head>
@@ -152,20 +178,29 @@
                 <div class="col-md-9">
                     <h5 class="desc-title">TANIM</h5>
                     <p class="desc-text">
-                        Otomol Ofis Projesi Fethiye'de bulunan otomotiv sektöründe bir işletmenin ofis binasıdır. 
-                        Proje kapsamında profesyonel asma tavan sistemi ve kaliteli hali döşeme uygulaması yapılmıştır. 
-                        Çalışanların konforu ve iş verimliliğinin artırılması için tasarlanan bir mekan oluşturulmuştur.
+                        BAYKAN OTOMOBİL yönetim ofis projesi iç dekorasyon
+projesi 2017 tarihin de başlamış olduğumuz ve tasarımı bizlere ait olan bir projedir. Yönetim ofis projemizde çeşitli Asma Tavan
+sistemleri kullanışmış olup Green Building System Sertifikasına
+sahiptir. Projemizdeki kullanılan asma tavan çeşitlerinde geri dönüşümden elde edilmiş Trapez Sistem ve Petek Asma Tavan
+Sistemi kullanılmıştır. Ayrıca ofis zeminlerimizde 1.200 m2 Doğal
+ahşap lamine parke ve 2.500m2 nefes alabilen karo halı ile zeminlerimiz kaplanmıştır.
                     </p>
                 </div>
             </div>
 
             <div class="row project-gallery">
-                <div class="col-md-6">
-                    <img src="images/11.jpg" alt="Otomol Ofisi" class="img-fluid">
+                <div>
+                    <img src="images/baykan/50x50_beyaz_petek.jpg" alt="Otomol Ofisi" class="img-fluid">
                 </div>
 
-                <div class="col-md-6">
-                    <img src="images/otomol-office.jpg" alt="Otomol İç Mekan" class="img-fluid">
+                <div class="col-tall">
+                    <img src="images/baykan/60x120_hook_on.jpg" alt="Otomol İç Mekan" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/baykan/img_5396.jpg" alt="Otomol Ofisi" class="img-fluid">
+                </div>
+                <div class="col-tall">
+                    <img src="images/baykan/img_2828.jpg" alt="Otomol İç Mekan" class="img-fluid">
                 </div>
             </div>
 
