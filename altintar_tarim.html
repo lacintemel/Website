@@ -76,17 +76,43 @@
             text-align: justify;
         }
 
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .project-gallery .col-tall {
+            grid-row: span 2;
+        }
+
         .project-gallery img {
             width: 100%;
-            height: auto;
+            height: 100%;
             display: block;
-            margin-bottom: 20px;
+            object-fit: cover;
             border-radius: 4px;
+        }
+
+        @media (max-width: 1024px) {
+            .project-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .project-gallery .col-tall {
+                grid-row: span 2;
+            }
         }
 
         @media (max-width: 768px) {
             .project-title-text { font-size: 1.5rem; }
             .project-title-number { font-size: 1.5rem; }
+            .project-gallery {
+                grid-template-columns: 1fr;
+            }
+            .project-gallery .col-tall {
+                grid-row: span 1;
+            }
         }
     </style>
 </head>
@@ -152,20 +178,68 @@
                 <div class="col-md-9">
                     <h5 class="desc-title">TANIM</h5>
                     <p class="desc-text">
-                        Altıntar Tarım Yönetim Ofisi Antalya'da tarım işletmesi yönetim faaliyetlerinin gerçekleştirildiği bir ofis binasıdır. 
-                        Proje kapsamında modüler bölme duvar sistemi ile iş alanlarının efektif şekilde kullanılması sağlanmıştır. 
-                        Asma tavan ve modüler hali döşeme uygulamaları ile modern ve işlevsel bir çalışma ortamı oluşturulmuştur.
+                        ALTINTAR TARIM A.Ş yönetim ofis projesi yenilemesinde iç
+dekorasyon yenileme projesi KST MİMARLIK tasarımına
+sahip olduğu projede imalatları tarafımızca uygulanıp anahtar teslim
+olarak kullanıma sunulmuştur. 2022 yılında faaliyete geçen ALTINTAR TARIM
+yönetim ofisinde birbirinden farklı ofis tipleri ve kullanıma uygun toplantı
+salonları imal ettik. Kullanıma sunulan bu alanlarda Ahşap Baffle Asma Tavan,
+Alüminyum Baffle Asma Tavan, Karo Halı, Mesh Tipi Asma Tavan,
+ve Modüler Bölme Duvar ürünlerimizi kullandık. Her departmanın kendine has
+renkleri ve tasarımlarını hedefleyen bu projemizde Alüminyum ve Ahşap
+kullanımları daha ön planda kullandık.
                     </p>
                 </div>
             </div>
 
             <div class="row project-gallery">
-                <div class="col-md-6">
-                    <img src="images/5.jpeg" alt="Altıntar Ofis" class="img-fluid">
+                <div class="col-tall">
+                    <img src="images/altinar/pic.1.jpg" alt="Altıntar Ofis" class="img-fluid">
                 </div>
-
-                <div class="col-md-6">
-                    <img src="images/altintar-office.jpg" alt="Altıntar Ofis İç Mekan" class="img-fluid">
+                <div>
+                    <img src="images/altinar/pic.2.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/altinar/pic3.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/altinar/pic4.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/altinar/pic5.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/altinar/pic6.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/altinar/pic7.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div class="col-tall">
+                    <img src="images/altinar/pic8.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div class="col-tall">
+                    <img src="images/altinar/pic9.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/altinar/pic10.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/altinar/pic11.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/altinar/pic12.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/altinar/pic13.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/altinar/pic14.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div class="col-tall">
+                    <img src="images/altinar/pic15.jpg" alt="Altıntar Ofis" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/altinar/pic16.jpg" alt="Altıntar Ofis" class="img-fluid">
                 </div>
             </div>
 
