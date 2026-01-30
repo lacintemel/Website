@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" type="image/png" href="../images/gold_logo.png">
+    <meta charset="UTF-8">
+    <title>Наши проекты | Sobutay</title>
+    <meta name="description" content="Наши проекты | Sobutay" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <meta property="og:title" content="Наши проекты | Sobutay" />
+    <meta property="og:description" content="Наши проекты | Sobutay" />
+    <meta property="og:url" content="https://bySobutay.com/ru" />
+    <meta property="og:image" content="https://bySobutay.com/images/anasayfa-cover.jpg" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/slider2.css" />
+    <link rel="stylesheet" href="../css/slick.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        .proje-card {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            border-radius: 8px;
+            height: 450px;
+            margin-bottom: 30px;
+        }
+        .proje-card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+        .proje-card:hover .proje-card-img {
+            transform: scale(1.05);
+        }
+        .proje-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 30px 20px;
+            z-index: 1;
+            text-align: center;
+        }
+        .proje-overlay h4 {
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 1.6rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+        .location-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #e0e0e0;
+            font-family: 'Urbanist', sans-serif;
+            font-weight: 500;
+        }
+        .location-wrap img {
+            width: 22px;
+            margin-bottom: 5px;
+            filter: brightness(0) invert(1);
+        }
+        .location-wrap p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        .status-badge-overlay {
+            font-size: 0.8rem;
+            color: #ccc;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .proje-card:hover {
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .proje-card {
+                height: 350px;
+            }
+            .proje-overlay h4 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-main header-scroll">
+            <a href="index.html" class="logo">
+                <img class="logo-icon" src="../images/gold_logo.png" alt="">
+                <img class="logo-text" src="../images/svg/sobu_text_last.svg" alt="">
+            </a>
+            <div class="header-right">
+                <ul class="header-nav">
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="projects.html">Наши проекты</a></li>
+                    <li><a href="dealers.html">Наши дилеры</a></li>
+                    <li><a href="partners.html">Партнеры решений</a></li>
+                    <li><a href="contact.html">Контакт</a></li>
+                    <li class="lang-sel"><a>RU <img src="../images/svg/globe.svg" alt=""></a></li>
+                    <li class="line"></li>
+                    <li class="burger-menu-icon burger-scroll"><img src="../images/svg/burger-icon.svg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="alt-banner">
+        <div class="container">
+            <h1 class="kalnia color-green">Наши премиум-проекты</h1>
+            <h5 class="fw-normal">Откройте для себя наше портфолио инновационных и современных архитектурных проектов. Каждый проект представляет нашу приверженность превосходству в строительстве, стальных конструкциях и интерьерном дизайне.</h5>
+        </div>
+    </section>
+
+    <section class="padding-x padding-y">
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <a href="../projeler/xo_cape_antalya.html" class="proje-card">
+                    <img class="proje-card-img" src="../images/xocarpe/img_5186.jpg" alt="">
+                    <div class="proje-overlay">
+                        <p class="status-badge-overlay">Завершен</p>
+                        <h4 class="kalnia">XO Cape Antalya</h4>
+                        <div class="location-wrap">
+                            <img src="../images/svg/location.svg" alt="">
+                            <p>Люкс курорт</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-12">
+                <a href="../projeler/sun_hotel.html" class="proje-card">
+                    <img class="proje-card-img" src="../images/sunhotel/img_0076.jpg" alt="">
+                    <div class="proje-overlay">
+                        <p class="status-badge-overlay">Завершен</p>
+                        <h4 class="kalnia">Sun Hotel</h4>
+                        <div class="location-wrap">
+                            <img src="../images/svg/location.svg" alt="">
+                            <p>Комплекс отеля</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-12">
+                <a href="../projeler/liberty_hotel.html" class="proje-card">
+                    <img class="proje-card-img" src="../images/liberty/img_4495.jpg" alt="">
+                    <div class="proje-overlay">
+                        <p class="status-badge-overlay">Завершен</p>
+                        <h4 class="kalnia">Liberty Hotel</h4>
+                        <div class="location-wrap">
+                            <img src="../images/svg/location.svg" alt="">
+                            <p>Бутик-отель</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-12">
+                <a href="../projeler/hesapcoglu_opel.html" class="proje-card">
+                    <img class="proje-card-img" src="../images/hesapcioglu/img_5090.jpg" alt="">
+                    <div class="proje-overlay">
+                        <p class="status-badge-overlay">Завершен</p>
+                        <h4 class="kalnia">Hesapçıoğlu Opel</h4>
+                        <div class="location-wrap">
+                            <img src="../images/svg/location.svg" alt="">
+                            <p>Автосалон</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-12">
+                <a href="../projeler/kare_otomotiv.html" class="proje-card">
+                    <img class="proje-card-img" src="../images/kareoto/kare_1.jpg" alt="">
+                    <div class="proje-overlay">
+                        <p class="status-badge-overlay">Завершен</p>
+                        <h4 class="kalnia">Kare Automotive</h4>
+                        <div class="location-wrap">
+                            <img src="../images/svg/location.svg" alt="">
+                            <p>Офис и автосалон</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-12">
+                <a href="../projeler/gultepe_spor.html" class="proje-card">
+                    <img class="proje-card-img" src="../images/gultepe/img_2994.jpg" alt="">
+                    <div class="proje-overlay">
+                        <p class="status-badge-overlay">Завершен</p>
+                        <h4 class="kalnia">Gültepe Sports</h4>
+                        <div class="location-wrap">
+                            <img src="../images/svg/location.svg" alt="">
+                            <p>Спортивный комплекс</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-main">
+            <div class="row">
+                <div class="col-1"><img class="footer-logo" src="../images/gold_logo.png" alt=""></div>
+                <div class="col-11">
+                    <div class="row">
+                        <div class="col-md-12 d-flex flex-lg-row flex-column justify-content-between align-items-center">
+                            <ul class="footer-nav">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="projects.html">Проекты</a></li>
+                                <li><a href="about.html">О нас</a></li>
+                                <li><a href="dealers.html">Дилеры</a></li>
+                                <li><a href="contact.html">Контакт</a></li>
+                            </ul>
+                            <div class="footer-social mt-lg-0 mt-4">
+                                <a href="https://www.facebook.com/Sobutayinsaat" target="_blank"><img src="../images/svg/facebook.svg" alt=""></a>
+                                <a href="https://www.instagram.com/Sobutayinsaat/" target="_blank"><img src="../images/svg/insta.svg" alt=""></a>
+                                <a href="https://www.youtube.com/@Sobutayinsaat" target="_blank"><img src="../images/svg/youtube.svg" alt=""></a>
+                                <a href="https://www.linkedin.com/company/groupSobutay/mycompany/" target="_blank"><img src="../images/svg/linkedin.svg" alt=""></a>
+                                <a href="https://wa.me/+905325889088"><img src="../images/svg/whatsapp-w.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <ul>
+                <li>2024 © Sobutay</li>
+                <li><a href="">Политика конфиденциальности</a></li>
+                <li><a href="">Условия и положения</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
