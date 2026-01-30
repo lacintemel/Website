@@ -81,18 +81,44 @@
         }
 
         /* Galeri Düzeni */
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .project-gallery .col-tall {
+            grid-row: span 2;
+        }
+
         .project-gallery img {
             width: 100%;
-            height: auto;
+            height: 100%;
             display: block;
-            margin-bottom: 20px;
+            object-fit: cover;
             border-radius: 4px;
+        }
+
+        @media (max-width: 1024px) {
+            .project-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .project-gallery .col-tall {
+                grid-row: span 2;
+            }
         }
 
         /* Mobilde font ayarı */
         @media (max-width: 768px) {
             .project-title-text { font-size: 1.5rem; }
             .project-title-number { font-size: 1.5rem; }
+            .project-gallery {
+                grid-template-columns: 1fr;
+            }
+            .project-gallery .col-tall {
+                grid-row: span 1;
+            }
         }
     </style>
 </head>
@@ -161,25 +187,49 @@
                 <div class="col-md-9">
                     <h5 class="desc-title">TANIM</h5>
                     <p class="desc-text">
-                        ÖZYER GRUP HOTEL inden biri olan LİBERTY HOTEL iç mekan tasarımı ile değişime 2024 yılında başlamıştır. 
-                        Ana restoran ve çeşitli ülke lezzetlerini barındıran restoranların değişimi ile göz doldurup, 
-                        loby mahalindeki çeşitli peyzaj dekorasyonlarının ve mahallerinin yapıldığı, projeleri peyzaj mimarı 
-                        TÜLAY TOSUN imzalı imalatların çalışmaları ile muhteşem bir değişim tarafımızca yapılmış olup yine 
-                        2024 Ekim ayında sahil kısmına İnşaat Mühendisi ENGİN ERDOĞAN tarafından çelik statik projesi çizilen 
-                        sahne imalatı eklemesi tarafımızca yapılmıştır.
+                       ÖZYER GRUP HOTEL inden biri olan LİBERTY HOTEL iç mekan tasarımı
+ile değişime 2024 yılında başlamıştır. Ana restoran ve çeşitli ülke lezzetlerini
+barındıran restoranların değişimi ile göz doldurup, loby mahalindeki çeşitli
+peyzaj dekorasyonlarının ve mahallerinin yapıldığı, projeleri peyzaj mimarı
+TÜLAY TOSUN imzalı imalatların çalışmaları ile muhteşem bir değişim
+tarafımızca yapmış olup yine 2024 Ekim ayında sahil kısmına İnşaat
+Mühendisi ENGİN ERDOĞAN tarafından çelik statik projesi çizilen sahne
+imalatı eklemesi tarafımızca yapılmıştır.
                     </p>
                 </div>
             </div>
 
             <div class="row project-gallery">
-                <div class="col-md-6">
-                    <img src="images/liberty-wireframe.jpg" alt="Liberty Çelik Konstrüksiyon" class="img-fluid">
-                    
-                    <img src="images/liberty-lobby.jpg" alt="Liberty Lobby" class="img-fluid">
+                <div>
+                    <img src="images/liberty/img_3968.jpg" alt="Liberty Hotel" class="img-fluid">
                 </div>
 
-                <div class="col-md-6">
-                    <img src="images/liberty-bar.jpg" alt="Liberty Bar" class="img-fluid" style="height: 100%; object-fit: cover;">
+                <div>
+                    <img src="images/liberty/img_4552.jpg" alt="Liberty Hotel" class="img-fluid">
+                </div>
+                <div class="col-tall">
+                    <img src="images/liberty/img_4495.jpg" alt="Liberty Hotel" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/liberty/img_4773.jpg" alt="Liberty Hotel" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/liberty/kids_club.jpg" alt="Liberty Kids Club" class="img-fluid">
+                </div>
+                <div class="col-tall">
+                    <img src="images/liberty/img_4525.jpg" alt="Liberty Hotel" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/liberty/kids_club_2.jpg" alt="Liberty Kids Club" class="img-fluid">
+                </div>
+                <div class="col-tall">
+                    <img src="images/liberty/img_4562.jpg" alt="Liberty Hotel" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/liberty/projedeki_hali.jpg" alt="Liberty Hotel" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/liberty/photo.jpg" alt="Liberty Hotel" class="img-fluid">
                 </div>
             </div>
 
