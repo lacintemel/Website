@@ -1,0 +1,848 @@
+{
+  "tr": {
+    "siteName": "Sobutay ® | 228 4 509",
+    "common": {
+      "phone": "228 4 509",
+      "email": "global@ugursobutay.com",
+      "whatsapp": "+905325889088",
+      "instagram": "https://www.instagram.com/sobutayticaret/",
+      "linkedin": "https://www.linkedin.com/in/ugur-sobutay-417026115/",
+      "homeLink": "Anasayfa",
+      "aboutLink": "Hakkımızda",
+      "projectsLink": "Projelerimiz",
+      "dealersLink": "Bayiliklerimiz",
+      "partnersLink": "Çözüm Ortaklarımız",
+      "contactLink": "İletişim",
+      "projectsLinkShort": "Projeler"
+    },
+    "pages": {
+      "home": {
+        "title": "Anasayfa",
+        "url": "index.html",
+        "meta": {
+          "title": "Sobutay ® | 228 4 509 | Anasayfa",
+          "description": "Sizi hayranlık uyandıran projelerle buluşturuyoruz."
+        },
+        "nav": {
+          "about": "Hakkımızda",
+          "projects": "Projelerimiz",
+          "dealers": "Bayiliklerimiz",
+          "partners": "Çözüm Ortaklarımız",
+          "contact": "İletişim"
+        },
+        "mobileNav": {
+          "home": "Anasayfa",
+          "about": "Hakkımızda",
+          "projects": "Projeler",
+          "dealers": "Bayiliklerimiz",
+          "partners": "Çözüm Ortaklarımız",
+          "contact": "İletişim"
+        },
+        "lang": {
+          "selectLang": "Dil Seçin",
+          "turkish": "Türkçe",
+          "english": "English",
+          "russian": "Русский",
+          "update": "Güncelle"
+        },
+        "forms": {
+          "contact": {
+            "title": "İletişim Formu",
+            "subtitle": "Lütfen, bilgi almak istediğiniz projeyi ve iletişim bilgilerinizi yandaki formu doldurarak bize gönderin.",
+            "description": "İlgili proje yöneticimiz belirlediğiniz iletişim yöntemi doğrultusunda sizinle en kısa sürede iletişime geçecek.",
+            "firstName": "İsim*",
+            "lastName": "Soyisim*",
+            "email": "E-posta*",
+            "phone": "Telefon",
+            "project": "Proje Adı*",
+            "message": "Notunuz*",
+            "kvkk": "KVKK metnini okudum, onaylıyorum.",
+            "send": "Gönder"
+          },
+          "appointment": {
+            "title": "Sizin için buradayız",
+            "subtitle": "Firmamıza dair herhangi bir sorunuz, talebiniz veya geri bildiriminiz mi var?",
+            "description": "Lütfen iletişim formunu doldurun ve bize gönderin. En kısa sürede size geri dönüş yapmak için sabırsızlanıyoruz.",
+            "firstName": "İsim*",
+            "lastName": "Soyisim*",
+            "email": "E-posta*",
+            "phone": "Telefon",
+            "project": "Proje Adı*",
+            "appointmentTime": "Randevu Saati*",
+            "appointmentDate": "Randevu Tarihi*",
+            "kvkk": "KVKK metnini okudum, onaylıyorum.",
+            "send": "Gönder",
+            "times": [
+              "09:00 - 10:00",
+              "10:00 - 11:00",
+              "11:00 - 12:00",
+              "12:00 - 13:00",
+              "13:00 - 14:00",
+              "14:00 - 15:00",
+              "15:00 - 16:00",
+              "16:00 - 17:00"
+            ]
+          }
+        },
+        "contactBar": {
+          "phone": "228 4 509",
+          "contactForm": "İletişim Formu",
+          "onlineCall": "Online Görüşme",
+          "whatsapp": "Whatsapp"
+        },
+        "banner": {
+          "dreamsTrust": "Hayalleriniz",
+          "trustUs": "bize emanet.",
+          "description": "Sobutay, yenilikçi inşaat ve mimarlık projeleriyle tanınan köklü bir firmadır. Yılların deneyimi ve uzman ekibiyle birlikte, müşterilerine üstün kalite, yaratıcı tasarım ve mükemmeliyetçilik anlayışıyla hizmet vermektedir.<br><br>Sobutay olarak gayrimenkul alanındaki uzmanlığımızla hayata zenginlik katan projeleri hayata geçiriyoruz. Mimari tasarım, çelik imalat, asma tavan sistemleri ve iç dekorasyon alanlarında yetkinlik göstererek, projelerimizi en yüksek standartlarda tamamlıyoruz. Uluslararası çalışmalarımızdan edindiğimiz finansal kaynakların gücüyle sizi hayranlık uyandıran projelerle buluşturuyoruz. Çevreci yaklaşımımız ve sürdürülebilir tasarımlarımızla hayat standartlarınızı daha da yükseltmeye hazırız.",
+          "moreLink": "Daha Fazlası"
+        },
+        "slider": {
+          "slide1": {
+            "subtitle": "Sun Hotel",
+            "title1": "Asma Tavan",
+            "title2": "otel tasarımları",
+            "details": "Detaylar"
+          },
+          "slide2": {
+            "subtitle": "Xo Cape",
+            "title1": "Özel Tasarımlar",
+            "title2": "statik tasarımlar.",
+            "details": "Detaylar"
+          },
+          "slide3": {
+            "subtitle": "Liberty Hotel",
+            "title1": "İç Dekorasyon,",
+            "title2": "çelik imalat.",
+            "details": "Detaylar"
+          }
+        },
+        "projectsSection": {
+          "label": "Sobutay Projelerimizi Keşfedin",
+          "title1": "Tamamlanmış ve",
+          "title2": "devam eden projeler!",
+          "description": "<span class='bold'>Sobutay'nun</span> modern ve yenilikçi proje koleksiyonu sizi hayranlık uyandıracak. Mimari tasarım, çelik imalat ve iç dekorasyon alanlarında en yüksek kalite standartlarını sunuyoruz.",
+          "moreLink": "Daha Fazlası"
+        }
+      },
+      "about": {
+        "title": "Hakkımızda",
+        "url": "hakkimizda.html",
+        "meta": {
+          "title": "Hakkımızda | Sobutay",
+          "description": "Sobutay hakkında bilgi edinin. Uluslararası standartlar, sürdürülebilir uygulamalar."
+        },
+        "nav": {
+          "about": "Hakkımızda",
+          "projects": "Projelerimiz",
+          "dealers": "Bayiliklerimiz",
+          "partners": "Çözüm Ortaklarımız",
+          "contact": "İletişim"
+        },
+        "banner": {
+          "heading1": "Uluslararası standartlar,",
+          "heading2": "Sürdürülebilir uygulamalar",
+          "description": "Sobutay olarak gayrimenkul alanındaki uzmanlığımızla hayata zenginlik katan projeleri hayata geçiriyoruz.<br><br>Uluslararası çalışmalarımızdan edindiğimiz finansal kaynakların gücüyle sizi hayranlık uyandıran projelerle buluşturuyoruz. Çevreci yaklaşımımız ve sürdürülebilir tasarımlarımızla hayat standartlarınızı daha da yükseltmeye hazırız."
+        },
+        "services": {
+          "architecturalWonders": {
+            "title": "Mimari harikalar!",
+            "description": "İnşaat projelerimiz için çarpıcı ve işlevsel dış mekanlar tasarlıyoruz. Mimari estetikle işlevselliği birleştirerek, binalarınızı çevreye uyumlu ve göz alıcı bir şekilde şekillendiriyoruz."
+          },
+          "professionalApproach": {
+            "title": "Profesyonel yaklaşım.",
+            "description": "Profesyonel mühendislik ekibimizle birlikte projenizin her aşamasında size destek oluyoruz. İnşaat sürecindeki her detayı titizlikle yönetiyor, kaliteli malzemeler ve güvenilir işçilikle projenizi hayata geçiriyoruz."
+          },
+          "modernInteriors": {
+            "title": "Modern ve şık iç mekanlar.",
+            "description": "Yaşam alanlarınızı modern tasarımlarla donatıyor ve iç mekanları en verimli şekilde kullanmanızı sağlıyoruz. Her detayı özenle düşünerek, fonksiyonellik ve estetiği bir araya getiriyoruz."
+          },
+          "greenProjects": {
+            "title": "Çevre dostu, yeşil projeler.",
+            "description": "Doğayla uyumlu yaşam alanları ve yeşil peyzajlarla çevre dostu projeler geliştiriyoruz. Sürdürülebilir malzemeler ve enerji verimliliği odaklı tasarımlarımızla, doğal kaynakları korumayı ve daha sağlıklı bir yaşam alanı sunmayı hedefliyoruz."
+          }
+        },
+        "projectsSection": {
+          "heading": "Tüm Proje Türlerinde Uzmanlık!",
+          "description": "Liberty Hotel'den XO Cape'ye, Hesapçıoğlu Opel Showroom'dan Sun Hotel'e kadar, her projemiz en yüksek kalite standartlarında tamamlanmaktadır. Mimari tasarım, çelik imalat ve iç dekorasyon alanlarında sunduğumuz hizmetlerle sektörde öncü rol oynuyoruz.",
+          "link": "Projelerimiz"
+        },
+        "founder": {
+          "title": "Kurucumuz",
+          "name": "Ugur Sobutay",
+          "quote": "Sobutay, yenilikçilik ve mükemmeliyet anlayışıyla her projeyi gerekli noktalarıyla ele alıyoruz. İnşaat, mimarlık ve iç dekorasyon alanlarında sunduğumuz hizmetlerle müşterilerimizin hayallerini gerçeğe dönüştürüyoruz. Kalite, estetik ve işlevsellik bakımından en yüksek standartları sağlayan projeler yapıyoruz.",
+          "moreLink": "Daha Fazlası →"
+        },
+        "experience": {
+          "heading": "Deneyim ve Uzmanlık!",
+          "description": "Yıllar boyunca inşaat ve mimarlık sektöründe birikimini yapan Sobutay, her projesinde yenilikçi çözümler sunar. Özgün tasarımlar ve mükemmel uygulamalarıyla, sektörde kendisine güçlü bir konum kazanmıştır."
+        }
+      },
+      "projects": {
+        "title": "Projeler",
+        "url": "projeler.html",
+        "meta": {
+          "title": "Projelerimiz | Sobutay",
+          "description": "Sobutay'ın tüm projelerini inceleyiniz. Mimarlık, iç dekorasyon, çelik imalat."
+        },
+        "nav": {
+          "about": "Hakkımızda",
+          "projects": "Projelerimiz",
+          "dealers": "Bayiliklerimiz",
+          "partners": "Çözüm Ortaklarımız",
+          "contact": "İletişim"
+        }
+      },
+      "dealers": {
+        "title": "Bayiliklerimiz",
+        "url": "bayiliklerimiz.html",
+        "meta": {
+          "title": "Bayiliklerimiz | Sobutay",
+          "description": "Sobutay bayilerini tanıyın."
+        },
+        "nav": {
+          "about": "Hakkımızda",
+          "projects": "Projelerimiz",
+          "dealers": "Bayiliklerimiz",
+          "partners": "Çözüm Ortaklarımız",
+          "contact": "İletişim"
+        }
+      },
+      "partners": {
+        "title": "Çözüm Ortaklarımız",
+        "url": "cozum_ortaklari.html",
+        "meta": {
+          "title": "Çözüm Ortaklarımız | Sobutay",
+          "description": "Sobutay çözüm ortaklarını tanıyın."
+        },
+        "nav": {
+          "about": "Hakkımızda",
+          "projects": "Projelerimiz",
+          "dealers": "Bayiliklerimiz",
+          "partners": "Çözüm Ortaklarımız",
+          "contact": "İletişim"
+        }
+      },
+      "contact": {
+        "title": "İletişim",
+        "url": "iletisim.html",
+        "meta": {
+          "title": "İletişim | Sobutay",
+          "description": "Sobutay ile iletişime geçin."
+        },
+        "nav": {
+          "about": "Hakkımızda",
+          "projects": "Projelerimiz",
+          "dealers": "Bayiliklerimiz",
+          "partners": "Çözüm Ortaklarımız",
+          "contact": "İletişim"
+        }
+      }
+    }
+  },
+  "en": {
+    "siteName": "Sobutay ® | 228 4 509",
+    "common": {
+      "phone": "228 4 509",
+      "email": "info@bySobutay.com",
+      "whatsapp": "+905325889088",
+      "instagram": "https://www.instagram.com/sobutayticaret/",
+      "linkedin": "https://www.linkedin.com/in/ugur-sobutay-417026115/",
+      "homeLink": "Home",
+      "aboutLink": "About Us",
+      "projectsLink": "Projects",
+      "dealersLink": "Dealers",
+      "partnersLink": "Solution Partners",
+      "contactLink": "Contact",
+      "projectsLinkShort": "Projects"
+    },
+    "pages": {
+      "home": {
+        "title": "Home",
+        "url": "en/index.html",
+        "meta": {
+          "title": "Sobutay ® | 228 4 509 | Home",
+          "description": "Introducing you to breathtaking projects."
+        },
+        "nav": {
+          "about": "About Us",
+          "projects": "Projects",
+          "dealers": "Dealers",
+          "partners": "Solution Partners",
+          "contact": "Contact"
+        },
+        "mobileNav": {
+          "home": "Home",
+          "about": "About Us",
+          "projects": "Projects",
+          "dealers": "Dealers",
+          "partners": "Partners",
+          "contact": "Contact"
+        },
+        "lang": {
+          "selectLang": "Select Language",
+          "turkish": "Türkçe",
+          "english": "English",
+          "russian": "Русский",
+          "update": "Update"
+        },
+        "forms": {
+          "contact": {
+            "title": "Contact Form",
+            "subtitle": "Please fill in the form with the project you want information about and your contact details.",
+            "description": "Our project manager will contact you as soon as possible through your preferred contact method.",
+            "firstName": "First Name*",
+            "lastName": "Last Name*",
+            "email": "Email*",
+            "phone": "Phone",
+            "project": "Project Name*",
+            "message": "Your Message*",
+            "kvkk": "I have read and agree to the privacy policy.",
+            "send": "Send"
+          },
+          "appointment": {
+            "title": "We are here for you",
+            "subtitle": "Do you have any questions, requests or feedback about our company?",
+            "description": "Please fill out the contact form and send it to us. We look forward to getting back to you as soon as possible.",
+            "firstName": "First Name*",
+            "lastName": "Last Name*",
+            "email": "Email*",
+            "phone": "Phone",
+            "project": "Project Name*",
+            "appointmentTime": "Appointment Time*",
+            "appointmentDate": "Appointment Date*",
+            "kvkk": "I have read and agree to the privacy policy.",
+            "send": "Send",
+            "times": [
+              "09:00 - 10:00",
+              "10:00 - 11:00",
+              "11:00 - 12:00",
+              "12:00 - 13:00",
+              "13:00 - 14:00",
+              "14:00 - 15:00",
+              "15:00 - 16:00",
+              "16:00 - 17:00"
+            ]
+          }
+        },
+        "contactBar": {
+          "phone": "228 4 509",
+          "contactForm": "Contact Form",
+          "onlineCall": "Online Call",
+          "whatsapp": "Whatsapp"
+        },
+        "banner": {
+          "dreamsTrust": "Your dreams",
+          "trustUs": "trusted to us.",
+          "description": "Sobutay is a well-established company known for its innovative construction and architecture projects. With years of experience and an expert team, it serves its customers with superior quality, creative design and a perfectionist approach.<br><br>As Sobutay, we realize projects that add richness to life with our expertise in real estate. We complete our projects at the highest standards by demonstrating competence in architectural design, steel manufacturing, suspended ceiling systems and interior decoration. With the power of financial resources we have acquired from our international work, we bring you together with projects that inspire admiration. With our environmentally friendly approach and sustainable designs, we are ready to raise your living standards even further.",
+          "moreLink": "Learn More"
+        },
+        "slider": {
+          "slide1": {
+            "subtitle": "Sun Hotel",
+            "title1": "Suspended Ceiling",
+            "title2": "hotel designs",
+            "details": "Details"
+          },
+          "slide2": {
+            "subtitle": "Xo Cape",
+            "title1": "Custom Designs",
+            "title2": "static designs.",
+            "details": "Details"
+          },
+          "slide3": {
+            "subtitle": "Liberty Hotel",
+            "title1": "Interior Decoration,",
+            "title2": "steel manufacturing.",
+            "details": "Details"
+          }
+        },
+        "projectsSection": {
+          "label": "Discover Sobutay Projects",
+          "title": "Completed and<br>ongoing projects!",
+          "description": "<span class='bold'>Sobutay's</span> modern and innovative project collection will amaze you. We offer the highest quality standards in architectural design, steel manufacturing and interior decoration.",
+          "moreLink": "Learn More"
+        },
+        "featuredProjects": {
+          "liberty": {
+            "title": "Hotel Kusadasi",
+            "description": "Interior decoration and steel manufacturing design."
+          },
+          "xocape": {
+            "title": "Antalya Hotel",
+            "description": "Custom designs and static projects."
+          },
+          "camlica": {
+            "title": "Yapi Market",
+            "description": "Commercial space design and manufacturing."
+          },
+          "hesapcioglu": {
+            "title": "Opel Showroom",
+            "description": "Automotive sales area design."
+          },
+          "libertyMobile": {
+            "title": "Liberty Hotel",
+            "description": "Interior decoration, steel manufacturing."
+          },
+          "xocapeMobile": {
+            "title": "XO Cape",
+            "description": "Custom designs, static project."
+          },
+          "camlicaMobile": {
+            "title": "Camlica Yapi",
+            "description": "Market office design."
+          },
+          "hesapcogluMobile": {
+            "title": "Opel Showroom",
+            "description": "Automotive sales area."
+          }
+        },
+        "libertySection": {
+          "subtitle": "Liberty Hotel Kusadasi",
+          "title": "Design and Manufacturing<br>Excellence.",
+          "description": "This luxury hotel project in Kusadasi transforms the guest experience with interior design renovation, steel manufacturing and modern designs. Aesthetics and functionality are combined in the hotel's public areas, creating an unforgettable living space.",
+          "moreLink": "Learn More"
+        },
+        "services": {
+          "architecturalWonders": {
+            "title": "Architectural wonders!",
+            "description": "We design striking and functional outdoor spaces for your construction projects. By combining architectural aesthetics with functionality, we shape your buildings in an environmentally friendly and eye-catching way."
+          },
+          "professionalApproach": {
+            "title": "Professional approach.",
+            "description": "Together with our professional engineering team, we support you in every stage of your project. We carefully manage every detail in the construction process and realize your project with quality materials and reliable workmanship."
+          },
+          "modernInteriors": {
+            "title": "Modern and stylish interiors.",
+            "description": "We furnish your living spaces with modern designs and ensure that you use the interior spaces in the most efficient way. By carefully considering every detail, we bring together functionality and aesthetics."
+          },
+          "greenProjects": {
+            "title": "Environmentally friendly, green projects.",
+            "description": "We develop environmentally friendly projects with living spaces in harmony with nature and green landscapes. With our sustainable materials and energy efficiency-oriented designs, we aim to protect natural resources and offer a healthier living space."
+          }
+        },
+        "footer": {
+          "heading1": "Unique,<br>peaceful.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "Privacy Policy",
+          "terms": "Terms & Conditions"
+        }
+      },
+      "about": {
+        "title": "About Us",
+        "url": "en/about.html",
+        "meta": {
+          "title": "About Us | Sobutay",
+          "description": "Learn more about Sobutay. International standards, sustainable practices."
+        },
+        "nav": {
+          "about": "About Us",
+          "projects": "Projects",
+          "dealers": "Dealers",
+          "partners": "Solution Partners",
+          "contact": "Contact"
+        },
+        "banner": {
+          "heading1": "International standards,",
+          "heading2": "Sustainable practices",
+          "description": "As Sobutay, we bring projects to life that enrich the real estate professionals. Using the power of financial resources gained from our international work, we present you with amazing projects. With our environmentally conscious approach and sustainable design, we are ready to raise your living standards even higher."
+        },
+        "services": {
+          "architecturalWonders": {
+            "title": "Architectural wonders!",
+            "description": "We design striking and functional outdoor spaces for our construction projects. By combining architectural aesthetics with functionality, we shape your buildings in harmony with the environment and visually striking."
+          },
+          "professionalApproach": {
+            "title": "Professional approach.",
+            "description": "With our professional engineering team, we support you at every stage of your project. We carefully manage every detail of the construction process and bring your project to life with quality materials and reliable workmanship."
+          },
+          "modernInteriors": {
+            "title": "Modern and elegant interiors.",
+            "description": "We equip your living spaces with modern designs and enable you to use your interior spaces most efficiently. Carefully considering every detail, we bring together functionality and aesthetics."
+          },
+          "greenProjects": {
+            "title": "Environmentally friendly, green projects.",
+            "description": "We develop environmentally friendly projects with living spaces in harmony with nature and green landscapes. With our sustainable materials and energy-efficient design, we aim to preserve natural resources and provide a healthier living space."
+          }
+        },
+        "projectsSection": {
+          "heading": "Expertise in All Project Types!",
+          "description": "From Liberty Hotel to XO Cape, from Hesapçıoğlu Opel Showroom to Sun Hotel, each of our projects is completed to the highest quality standards. With our services in architectural design, steel fabrication and interior decoration, we play a leading role in the industry.",
+          "link": "Our Projects"
+        },
+        "founder": {
+          "title": "Our Founder",
+          "name": "Ugur Sobutay",
+          "quote": "Sobutay approaches each project with an innovative and excellence mindset. Through our services in construction, architecture and interior decoration, we transform our clients' dreams into reality. We build projects that meet the highest standards in terms of quality, aesthetics and functionality.",
+          "moreLink": "More →"
+        },
+        "experience": {
+          "heading": "Experience and Expertise!",
+          "description": "Sobutay, building experience over years in the construction and architecture sector, offers innovative solutions in each of its projects. With unique designs and perfect execution, it has earned a strong position in the industry."
+        }
+      },
+      "projects": {
+        "title": "Projects",
+        "url": "en/projects.html",
+        "meta": {
+          "title": "Our Projects | Sobutay",
+          "description": "Explore all of Sobutay's projects. Architecture, interior design, steel fabrication."
+        },
+        "nav": {
+          "about": "About Us",
+          "projects": "Projects",
+          "dealers": "Dealers",
+          "partners": "Solution Partners",
+          "contact": "Contact"
+        }
+      },
+      "dealers": {
+        "title": "Dealers",
+        "url": "en/dealers.html",
+        "meta": {
+          "title": "Our Dealers | Sobutay",
+          "description": "Meet our dealers."
+        },
+        "nav": {
+          "about": "About Us",
+          "projects": "Projects",
+          "dealers": "Dealers",
+          "partners": "Solution Partners",
+          "contact": "Contact"
+        }
+      },
+      "partners": {
+        "title": "Solution Partners",
+        "url": "en/partners.html",
+        "meta": {
+          "title": "Solution Partners | Sobutay",
+          "description": "Meet our solution partners."
+        },
+        "nav": {
+          "about": "About Us",
+          "projects": "Projects",
+          "dealers": "Dealers",
+          "partners": "Solution Partners",
+          "contact": "Contact"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "url": "en/contact.html",
+        "meta": {
+          "title": "Contact | Sobutay",
+          "description": "Get in touch with Sobutay."
+        },
+        "nav": {
+          "about": "About Us",
+          "projects": "Projects",
+          "dealers": "Dealers",
+          "partners": "Solution Partners",
+          "contact": "Contact"
+        }
+      }
+    }
+  },
+  "ru": {
+    "siteName": "Sobutay ® | 228 4 509",
+    "common": {
+      "phone": "228 4 509",
+      "email": "info@bySobutay.com",
+      "whatsapp": "+905325889088",
+      "instagram": "https://www.instagram.com/sobutayticaret/",
+      "linkedin": "https://www.linkedin.com/in/ugur-sobutay-417026115/",
+      "homeLink": "Главная",
+      "aboutLink": "О нас",
+      "projectsLink": "Проекты",
+      "dealersLink": "Дилеры",
+      "partnersLink": "Партнеры",
+      "contactLink": "Контакт",
+      "projectsLinkShort": "Проекты"
+    },
+    "pages": {
+      "home": {
+        "title": "Главная",
+        "url": "ru/index.html",
+        "meta": {
+          "title": "Sobutay ® | 228 4 509 | Главная",
+          "description": "Познакомьтесь с захватывающими проектами."
+        },
+        "nav": {
+          "about": "О нас",
+          "projects": "Проекты",
+          "dealers": "Дилеры",
+          "partners": "Партнеры",
+          "contact": "Контакт"
+        },
+        "mobileNav": {
+          "home": "Главная",
+          "about": "О нас",
+          "projects": "Проекты",
+          "dealers": "Дилеры",
+          "partners": "Партнеры",
+          "contact": "Контакт"
+        },
+        "lang": {
+          "selectLang": "Выберите язык",
+          "turkish": "Türkçe",
+          "english": "English",
+          "russian": "Русский",
+          "update": "Обновить"
+        },
+        "forms": {
+          "contact": {
+            "title": "Форма обратной связи",
+            "subtitle": "Пожалуйста, заполните форму с информацией о проекте и вашими контактными данными.",
+            "description": "Наш менеджер проекта свяжется с вами в ближайшее время через выбранный вами способ связи.",
+            "firstName": "Имя*",
+            "lastName": "Фамилия*",
+            "email": "Электронная почта*",
+            "phone": "Телефон",
+            "project": "Название проекта*",
+            "message": "Ваше сообщение*",
+            "kvkk": "Я прочитал и согласен с политикой конфиденциальности.",
+            "send": "Отправить"
+          },
+          "appointment": {
+            "title": "Мы здесь для вас",
+            "subtitle": "У вас есть вопросы, запросы или отзывы о нашей компании?",
+            "description": "Пожалуйста, заполните форму обратной связи и отправьте нам. Мы с нетерпением ждем вашего ответа как можно скорее.",
+            "firstName": "Имя*",
+            "lastName": "Фамилия*",
+            "email": "Электронная почта*",
+            "phone": "Телефон",
+            "project": "Название проекта*",
+            "appointmentTime": "Время встречи*",
+            "appointmentDate": "Дата встречи*",
+            "kvkk": "Я прочитал и согласен с политикой конфиденциальности.",
+            "send": "Отправить",
+            "times": [
+              "09:00 - 10:00",
+              "10:00 - 11:00",
+              "11:00 - 12:00",
+              "12:00 - 13:00",
+              "13:00 - 14:00",
+              "14:00 - 15:00",
+              "15:00 - 16:00",
+              "16:00 - 17:00"
+            ]
+          }
+        },
+        "contactBar": {
+          "phone": "228 4 509",
+          "contactForm": "Форма обратной связи",
+          "onlineCall": "Онлайн встреча",
+          "whatsapp": "Whatsapp"
+        },
+        "banner": {
+          "dreamsTrust": "Ваши мечты",
+          "trustUs": "доверены нам.",
+          "description": "Sobutay — хорошо зарекомендовавшаяся компания, известная инновационными проектами в области строительства и архитектуры. Имея многолетний опыт и команду экспертов, она обслуживает своих клиентов высочайшим качеством, творческим дизайном и совершенством.<br><br>Как Sobutay, мы реализуем проекты, которые обогащают жизнь профессионалов в области недвижимости. Демонстрируя компетентность в архитектурном проектировании, производстве стали, системах подвесных потолков и внутреннем оформлении, мы завершаем наши проекты в соответствии с самыми высокими стандартами. Используя мощь финансовых ресурсов, полученных благодаря нашей международной работе, мы представляем вам удивительные проекты. Благодаря нашему экологичному подходу и устойчивому дизайну мы готовы поднять ваш уровень жизни еще выше.",
+          "moreLink": "Подробнее"
+        },
+        "slider": {
+          "slide1": {
+            "subtitle": "Sun Hotel",
+            "title1": "Подвесной потолок",
+            "title2": "дизайн отелей",
+            "details": "Подробности"
+          },
+          "slide2": {
+            "subtitle": "Xo Cape",
+            "title1": "Индивидуальный дизайн",
+            "title2": "статические конструкции.",
+            "details": "Подробности"
+          },
+          "slide3": {
+            "subtitle": "Liberty Hotel",
+            "title1": "Внутренняя отделка,",
+            "title2": "производство стали.",
+            "details": "Подробности"
+          }
+        },
+        "projectsSection": {
+          "label": "Откройте для себя проекты Sobutay",
+          "title": "Завершенные и<br>текущие проекты!",
+          "description": "<span class='bold'>Современная</span> и инновационная коллекция проектов Sobutay вас поразит. Мы предлагаем высочайшие стандарты качества в архитектурном проектировании, производстве стали и внутренней отделке.",
+          "moreLink": "Подробнее"
+        },
+        "featuredProjects": {
+          "liberty": {
+            "title": "Отель Кушадасы",
+            "description": "Дизайн интерьера и производство стали."
+          },
+          "xocape": {
+            "title": "Отель Анталия",
+            "description": "Индивидуальные дизайны и статические проекты."
+          },
+          "camlica": {
+            "title": "Строительный рынок",
+            "description": "Проектирование и производство коммерческих помещений."
+          },
+          "hesapcioglu": {
+            "title": "Автосалон Opel",
+            "description": "Дизайн автомобильной зоны продаж."
+          },
+          "libertyMobile": {
+            "title": "Liberty Hotel",
+            "description": "Дизайн интерьера, производство стали."
+          },
+          "xocapeMobile": {
+            "title": "XO Cape",
+            "description": "Индивидуальный дизайн, статический проект."
+          },
+          "camlicaMobile": {
+            "title": "Чамлыджа Япы",
+            "description": "Дизайн офиса магазина."
+          },
+          "hesapcogluMobile": {
+            "title": "Автосалон Opel",
+            "description": "Зона продаж автомобилей."
+          }
+        },
+        "libertySection": {
+          "subtitle": "Liberty Hotel Кушадасы",
+          "title": "Совершенство дизайна<br>и производства.",
+          "description": "Этот роскошный отельный проект в Кушадасах преобразует впечатления гостей с помощью обновления дизайна интерьера, производства стали и современного дизайна. Эстетика и функциональность объединены в общественных зонах отеля, создавая незабываемое жилое пространство.",
+          "moreLink": "Подробнее"
+        },
+        "services": {
+          "architecturalWonders": {
+            "title": "Архитектурные чудеса!",
+            "description": "Мы создаем впечатляющие и функциональные открытые пространства для ваших строительных проектов. Сочетая архитектурную эстетику с функциональностью, мы формируем ваши здания экологически чистым и привлекательным способом."
+          },
+          "professionalApproach": {
+            "title": "Профессиональный подход.",
+            "description": "Вместе с нашей профессиональной инженерной командой мы поддерживаем вас на каждом этапе вашего проекта. Мы тщательно управляем каждой деталью в процессе строительства и реализуем ваш проект с использованием качественных материалов и надежного мастерства."
+          },
+          "modernInteriors": {
+            "title": "Современные и стильные интерьеры.",
+            "description": "Мы обставляем ваши жилые помещения современным дизайном и обеспечиваем наиболее эффективное использование внутренних пространств. Тщательно рассматривая каждую деталь, мы объединяем функциональность и эстетику."
+          },
+          "greenProjects": {
+            "title": "Экологически чистые зеленые проекты.",
+            "description": "Мы разрабатываем экологически чистые проекты с жилыми пространствами в гармонии с природой и зелеными ландшафтами. С нашими устойчивыми материалами и энергоэффективными проектами мы стремимся защитить природные ресурсы и предложить более здоровое жилое пространство."
+          }
+        },
+        "footer": {
+          "heading1": "Уникальный,<br>спокойный.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "Политика конфиденциальности",
+          "terms": "Правила и условия"
+        }
+      },
+      "about": {
+        "title": "О нас",
+        "url": "ru/about.html",
+        "meta": {
+          "title": "О нас | Sobutay",
+          "description": "Узнайте больше о компании Sobutay. Международные стандарты, устойчивые практики."
+        },
+        "nav": {
+          "about": "О нас",
+          "projects": "Проекты",
+          "dealers": "Дилеры",
+          "partners": "Партнеры",
+          "contact": "Контакт"
+        },
+        "banner": {
+          "heading1": "Международные стандарты,",
+          "heading2": "Устойчивые практики",
+          "description": "Как компания Sobutay, мы реализуем проекты, которые обогащают жизнь профессионалов в области недвижимости. Используя мощь финансовых ресурсов, полученных благодаря нашей международной работе, мы представляем вам удивительные проекты. Благодаря нашему экологичному подходу и устойчивому дизайну мы готовы поднять ваш уровень жизни еще выше."
+        },
+        "services": {
+          "architecturalWonders": {
+            "title": "Архитектурные чудеса!",
+            "description": "Мы проектируем поразительные и функциональные открытые пространства для наших строительных проектов. Сочетая архитектурную эстетику с функциональностью, мы формируем ваши здания в гармонии с окружающей средой и визуально впечатляющим образом."
+          },
+          "professionalApproach": {
+            "title": "Профессиональный подход.",
+            "description": "С нашей профессиональной командой инженеров мы поддерживаем вас на каждом этапе вашего проекта. Мы тщательно управляем каждой деталью строительного процесса и воплощаем ваш проект в жизнь с качественными материалами и надежной работой."
+          },
+          "modernInteriors": {
+            "title": "Современные и элегантные интерьеры.",
+            "description": "Мы оснащаем ваши жилые пространства современным дизайном и позволяем вам наиболее эффективно использовать ваши внутренние пространства. Тщательно учитывая каждую деталь, мы объединяем функциональность и эстетику."
+          },
+          "greenProjects": {
+            "title": "Экологичные зеленые проекты.",
+            "description": "Мы разрабатываем экологичные проекты с жилыми пространствами в гармонии с природой и зелеными ландшафтами. С помощью наших устойчивых материалов и энергоэффективного дизайна мы стремимся сохранить природные ресурсы и предоставить здоровую жилую среду."
+          }
+        },
+        "projectsSection": {
+          "heading": "Опыт во всех типах проектов!",
+          "description": "От Liberty Hotel до XO Cape, от Hesapçıoğlu Opel Showroom до Sun Hotel, каждый из наших проектов выполнен в соответствии с самыми высокими стандартами качества. Благодаря нашим услугам в области архитектурного проектирования, производства стали и внутреннего оформления мы играем ведущую роль в отрасли.",
+          "link": "Наши проекты"
+        },
+        "founder": {
+          "title": "Наш основатель",
+          "name": "Ugur Sobutay",
+          "quote": "Sobutay подходит к каждому проекту с инновационным мышлением и стремлением к совершенству. Благодаря нашим услугам в области строительства, архитектуры и внутреннего оформления мы воплощаем мечты наших клиентов в реальность. Мы строим проекты, которые соответствуют самым высоким стандартам по качеству, эстетике и функциональности.",
+          "moreLink": "Подробнее →"
+        },
+        "experience": {
+          "heading": "Опыт и эксpertise!",
+          "description": "Sobutay, накопив опыт в течение многих лет в секторе строительства и архитектуры, предлагает инновационные решения в каждом своем проекте. Благодаря уникальным дизайнам и безупречному исполнению он занял прочную позицию в отрасли."
+        }
+      },
+      "projects": {
+        "title": "Проекты",
+        "url": "ru/projects.html",
+        "meta": {
+          "title": "Наши проекты | Sobutay",
+          "description": "Изучите все проекты компании Sobutay. Архитектура, дизайн интерьера, производство стали."
+        },
+        "nav": {
+          "about": "О нас",
+          "projects": "Проекты",
+          "dealers": "Дилеры",
+          "partners": "Партнеры",
+          "contact": "Контакт"
+        }
+      },
+      "dealers": {
+        "title": "Дилеры",
+        "url": "ru/dealers.html",
+        "meta": {
+          "title": "Наши дилеры | Sobutay",
+          "description": "Познакомьтесь с нашими дилерами."
+        },
+        "nav": {
+          "about": "О нас",
+          "projects": "Проекты",
+          "dealers": "Дилеры",
+          "partners": "Партнеры",
+          "contact": "Контакт"
+        }
+      },
+      "partners": {
+        "title": "Партнеры",
+        "url": "ru/partners.html",
+        "meta": {
+          "title": "Партнеры | Sobutay",
+          "description": "Познакомьтесь с нашими партнерами."
+        },
+        "nav": {
+          "about": "О нас",
+          "projects": "Проекты",
+          "dealers": "Дилеры",
+          "partners": "Партнеры",
+          "contact": "Контакт"
+        }
+      },
+      "contact": {
+        "title": "Контакт",
+        "url": "ru/contact.html",
+        "meta": {
+          "title": "Контакт | Sobutay",
+          "description": "Свяжитесь с компанией Sobutay."
+        },
+        "nav": {
+          "about": "О нас",
+          "projects": "Проекты",
+          "dealers": "Дилеры",
+          "partners": "Партнеры",
+          "contact": "Контакт"
+        }
+      }
+    }
+  }
+}

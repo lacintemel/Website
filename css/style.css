@@ -285,7 +285,7 @@ h6 {
     right: 0;
     left: 0;
     position: fixed;
-    z-index: 12;
+    z-index: 9999;
     backdrop-filter: blur(12px);
     overflow: hidden;
     display: flex;
@@ -293,8 +293,12 @@ h6 {
     align-items: center;
     top: -130%;
     transition: top 500ms ease;
+    pointer-events: none;
 }
-.lang-menu-wrap.active3{top: 0;}
+.lang-menu-wrap.active3{
+    top: 0;
+    pointer-events: auto;
+}
 .lang-menu-bg{
     background: rgba(24, 70, 92, 0.85);
     position: absolute;
@@ -335,10 +339,13 @@ h6 {
     font-size: 14px;
     border-radius: 8px;
     text-align: left;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-.lang-btn b{color: #8D8D8D;font-size: 16px;}
+.lang-btn b{color: #8D8D8D;font-size: 16px;transition: color 0.3s ease;}
 .lang-btn.active{
     border: 1px solid #467D96;
+    background: rgba(70, 125, 150, 0.05);
 }
 .lang-btn.active b , .lang-btn:hover b{color: #18465C;}
 #currencyBtnContainer{

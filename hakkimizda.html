@@ -5,8 +5,8 @@
     <link rel="icon" type="image/png" href="images/gold_logo.png">
 
     <meta charset="UTF-8">
-    <title>Hakkımızda | Sobutay</title>
-    <meta name="description" content="" />
+    <title data-i18n="pages.about.meta.title">Hakkımızda | Sobutay</title>
+    <meta name="description" data-i18n="pages.about.meta.description" content="" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />	
 
 		<meta property="og:title" content="Hakkımızda | Sobutay" />
@@ -28,26 +28,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-932KQY7P78"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-932KQY7P78');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TMCVWLG');</script>
-<!-- End Google Tag Manager -->
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMCVWLG"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 </head>
 
 <body>
@@ -62,12 +43,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </a>
             <div class="header-right">
                 <ul class="header-nav">
-                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                    <li><a href="projeler.html">Projelerimiz</a></li>
+                    <li><a href="hakkimizda.html" data-i18n="pages.about.nav.about">Hakkımızda</a></li>
+                    <li><a href="projeler.html" data-i18n="pages.about.nav.projects">Projelerimiz</a></li>
                     <!--<li><a href="sosyal.html">Sosyal Fayda</a></li> -->
-                    <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
-                    <li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li> 
-                    <li><a href="iletisim.html">İletişim</a></li>
+                    <li><a href="bayiliklerimiz.html" data-i18n="pages.about.nav.dealers">Bayiliklerimiz</a></li>
+                    <li><a href="cozum_ortaklari.html" data-i18n="pages.about.nav.partners">Çözüm Ortaklarımız</a></li> 
+                    <li><a href="iletisim.html" data-i18n="pages.about.nav.contact">İletişim</a></li>
                     <li class="lang-sel"><a>Tr <img src="images/svg/globe.svg" alt=""></a></li>
                     <li class="line"></li>
                     <li class="burger-menu-icon burger-scroll"><img src="images/svg/burger-icon.svg" alt=""></li>
@@ -81,13 +62,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="close"><img src="images/svg/close.svg" alt=""></div>
                 </div>
                     <ul class="menu-nav">
-                        <li><a href="index.html">Anasayfa</a></li>
-                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="index.html" data-i18n="common.homeLink">Anasayfa</a></li>
+                        <li><a href="hakkimizda.html" data-i18n="common.aboutLink">Hakkımızda</a></li>
                         <!--<li><a href="sosyal.html">Sosyal Fayda</a></li> -->
-                        <li><a href="projeler.html">Projeler</a></li>
-                        <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
-                        <li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li>
-                        <li><a href="iletisim.html">İletişim</a></li>
+                        <li><a href="projeler.html" data-i18n="common.projectsLinkShort">Projeler</a></li>
+                        <li><a href="bayiliklerimiz.html" data-i18n="common.dealersLink">Bayiliklerimiz</a></li>
+                        <li><a href="cozum_ortaklari.html" data-i18n="common.partnersLink">Çözüm Ortaklarımız</a></li>
+                        <li><a href="iletisim.html" data-i18n="common.contactLink">İletişim</a></li>
                     </ul>
                 <div class="menu-bar bottom-bar">
                     <a href="tel:4448407">228 4 509</a>
@@ -100,22 +81,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="lang-menu-bg"></div>
             <div class="lang-menu">
                 <div class="close"><img onclick="closeLanguage()" src="images/svg/close-2.svg" alt=""></div>
-                <h4 class="color-l-green kalnia">Dil Seçin</h4>
+                <h4 class="color-l-green kalnia" data-i18n="pages.home.lang.selectLang">Dil Seçin</h4>
                 <div id="langBtnContainer">
-                    <button class="lang-btn active" onclick="changeLanguage('tr')">
+                    <button class="lang-btn active" data-lang="tr">
                         <b>Türkçe</b><br>Turkish
                     </button>
-                    <button class="lang-btn" onclick="window.location.href='https://bySobutay.com/en';">
-    <b>English</b><br>English
-</button>
+                    <button class="lang-btn" data-lang="en">
+                        <b>English</b><br>English
+                    </button>
                     
-                    <button class="lang-btn" onclick="changeLanguage('ru')">
+                    <button class="lang-btn" data-lang="ru">
                         <b>Русский</b><br>Russian
                     </button>
                 </div>
                 
                 
-                <button class="guncel-btn">Güncelle</button>
+                <button class="guncel-btn" data-i18n="pages.home.lang.update">Güncelle</button>
             </div>
         </div>
     </header>
@@ -248,16 +229,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <section class="banner hakk-banner">
         <div class="banner-social">
-            <a href="https://www.facebook.com/Sobutayinsaat" target="_blank"><img src="images/svg/facebook.svg" alt=""></a>
-            <a href="https://www.instagram.com/Sobutayinsaat/" target="_blank"><img src="images/svg/insta.svg" alt=""></a>
-            <a href="https://www.linkedin.com/company/groupSobutay/mycompany/" target="_blank"><img src="images/svg/linkedin.svg" alt=""></a><a href="https://t.me/Sobutayinsaat" target="_blank"><img src="images/svg/telegram.svg" alt=""></a>
-            <a href="https://www.youtube.com/@Sobutayinsaat" target="_blank"><img src="images/svg/youtube.svg" alt=""></a>
+            <a href="https://www.instagram.com/sobutayticaret/" target="_blank"><img src="images/svg/insta.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/ugur-sobutay-417026115/" target="_blank"><img src="images/svg/linkedin.svg" alt=""></a>
+                        <a href="https://wa.me/+905325889088"><img src="images/svg/whatsapp-w.svg" alt=""></a>
+
         </div>
         <div class="container">
             <div class="hakk-banner-text">
-                <h1 class="text-white kalnia yenifont">Uluslararası standartlar, </h1>
-                <h1 class="text-white kalnia text-end yenifont">Sürdürülebilir uygulamalar</h1>
-                <p class="text-white d-block padding-x mt-5">
+                <h1 class="text-white kalnia yenifont" data-i18n="pages.about.banner.heading1">Uluslararası standartlar, </h1>
+                <h1 class="text-white kalnia text-end yenifont" data-i18n="pages.about.banner.heading2">Sürdürülebilir uygulamalar</h1>
+                <p class="text-white d-block padding-x mt-5" data-i18n="pages.about.banner.description">
                    Sobutay olarak gayrimenkul alanındaki uzmanlığımızla hayata zenginlik katan projeleri hayata geçiriyoruz. 
                     <br><br>
                    Uluslararası çalışmalarımızdan edindiğimiz finansal kaynakların gücüyle sizi hayranlık uyandıran projelerle buluşturuyoruz. Çevreci yaklaşımımız ve sürdürülebilir tasarımlarımızla hayat standartlarınızı daha da yükseltmeye hazırız. 
@@ -271,24 +252,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row">
             <div class="col-lg-3 col-md-6 p-xl-5">
                 <img src="images/svg/icon-1.svg" alt="">
-                <h3 class="color-l-green kalnia my-3">Mimari <br> harikalar!</h3>
-                <p>İnşaat projelerimizi için çarpıcı ve işlevsel dış mekanlar tasarlıyoruz. Mimari estetikle işlevselliği birleştirerek, binalarınızı çevreye uyumlu ve göz alıcı bir şekilde şekillendiriyoruz.</p>
+                <h3 class="color-l-green kalnia my-3" data-i18n="pages.about.services.architecturalWonders.title">Mimari <br> harikalar!</h3>
+                <p data-i18n="pages.about.services.architecturalWonders.description">İnşaat projelerimizi için çarpıcı ve işlevsel dış mekanlar tasarlıyoruz. Mimari estetikle işlevselliği birleştirerek, binalarınızı çevreye uyumlu ve göz alıcı bir şekilde şekillendiriyoruz.</p>
             </div>
             <div class="col-lg-3 col-md-6 p-xl-5">
                 <img src="images/svg/icon-2.svg" alt="">
-                <h3 class="color-l-green kalnia my-3">Profesyonel <br> yaklaşım.</h3>
-                <p>Profesyonel mühendislik ekibimizle birlikte projenizin her aşamasında size destek oluyoruz. İnşaat sürecindeki her detayı titizlikle yönetiyor, kaliteli malzemeler ve güvenilir işçilikle projenizi hayata geçiriyoruz.</p>
+                <h3 class="color-l-green kalnia my-3" data-i18n="pages.about.services.professionalApproach.title">Profesyonel <br> yaklaşım.</h3>
+                <p data-i18n="pages.about.services.professionalApproach.description">Profesyonel mühendislik ekibimizle birlikte projenizin her aşamasında size destek oluyoruz. İnşaat sürecindeki her detayı titizlikle yönetiyor, kaliteli malzemeler ve güvenilir işçilikle projenizi hayata geçiriyoruz.</p>
             </div>
             <div class="col-lg-3 col-md-6 p-xl-5">
                 <img src="images/svg/icon-3.svg" alt="">
-                <h3 class="color-l-green kalnia my-3">Modern ve şık <br>
+                <h3 class="color-l-green kalnia my-3" data-i18n="pages.about.services.modernInteriors.title">Modern ve şık <br>
                     iç mekanlar.</h3>
-                <p>Yaşam alanlarınızı modern tasarımlarla donatıyor ve iç mekanları en verimli şekilde kullanmanızı sağlıyoruz. Her detayı özenle düşünerek, fonksiyonellik ve estetiği bir araya getiriyoruz.</p>
+                <p data-i18n="pages.about.services.modernInteriors.description">Yaşam alanlarınızı modern tasarımlarla donatıyor ve iç mekanları en verimli şekilde kullanmanızı sağlıyoruz. Her detayı özenle düşünerek, fonksiyonellik ve estetiği bir araya getiriyoruz.</p>
             </div>
             <div class="col-lg-3 col-md-6 p-xl-5">
                 <img src="images/svg/icon-4.svg" alt="">
-                <h3 class="color-l-green kalnia my-3">Çevre dostu, <br> yeşil projeler.</h3>
-                <p>Doğayla uyumlu yaşam alanları ve yeşil peyzajlarla çevre dostu projeler geliştiriyoruz. Sürdürülebilir malzemeler ve enerji verimliliği odaklı tasarımlarımızla, doğal kaynakları korumayı ve daha sağlıklı bir yaşam alanı sunmayı hedefliyoruz.</p>
+                <h3 class="color-l-green kalnia my-3" data-i18n="pages.about.services.greenProjects.title">Çevre dostu, <br> yeşil projeler.</h3>
+                <p data-i18n="pages.about.services.greenProjects.description">Doğayla uyumlu yaşam alanları ve yeşil peyzajlarla çevre dostu projeler geliştiriyoruz. Sürdürülebilir malzemeler ve enerji verimliliği odaklı tasarımlarımızla, doğal kaynakları korumayı ve daha sağlıklı bir yaşam alanı sunmayı hedefliyoruz.</p>
             </div>
         </div>
     </section>
@@ -315,10 +296,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-lg-7 col-md-12 padding-x">
                 <div style="padding-left: 0; padding-right: 0;">
-                    <span style="color: #e8c895; font-size: 0.95rem; letter-spacing: 2px; text-transform: uppercase; font-weight: 600;">Kurucumuz</span>
-                    <h2 class="color-l-gold kalnia" style="font-size: 2.5rem; margin: 15px 0 30px 0;">Ugur Sobutay</h2>
-                    <p class="text-white" style="font-size: 1rem; line-height: 1.8; margin-bottom: 25px; font-weight: 300;">"Sobutay, yenilikçilik ve mükemmeliyet anlayışıyla her projeyi gereksiz noktalarıyla ele alıyoruz. Inşaat, mimarlık ve iç dekorasyon alanlarında sunduğumuz hizmetlerle müşterilerimizin hayallerini gerçeğe dönüştürüyoruz. Kalite, estetik ve işlvsellik bakımından en yüksek standartları sağlayan projeler yapıyorız."</p>
-                    <a href="" class="normal-link-2">Daha Fazlası →</a>
+                    <span style="color: #e8c895; font-size: 0.95rem; letter-spacing: 2px; text-transform: uppercase; font-weight: 600;" data-i18n="pages.about.founder.title">Kurucumuz</span>
+                    <h2 class="color-l-gold kalnia" style="font-size: 2.5rem; margin: 15px 0 30px 0;" data-i18n="pages.about.founder.name">Ugur Sobutay</h2>
+                    <p class="text-white" style="font-size: 1rem; line-height: 1.8; margin-bottom: 25px; font-weight: 300;" data-i18n="pages.about.founder.quote">"Sobutay, yenilikçilik ve mükemmeliyet anlayışıyla her projeyi gereksiz noktalarıyla ele alıyoruz. Inşaat, mimarlık ve iç dekorasyon alanlarında sunduğumuz hizmetlerle müşterilerimizin hayallerini gerçeğe dönüştürüyoruz. Kalite, estetik ve işlvsellik bakımından en yüksek standartları sağlayan projeler yapıyoruz."</p>
+                    <a href="" class="normal-link-2" data-i18n="pages.about.founder.moreLink">Daha Fazlası →</a>
                 </div>
             </div>
         </div>
@@ -327,9 +308,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row">
             <div class="col-md-7 padding-x d-flex flex-column justify-content-center py-md-0 py-3">
                 
-                <h2 class="kalnia color-gold my-4">Deneyim ve <br>
+                <h2 class="kalnia color-gold my-4" data-i18n="pages.about.experience.heading">Deneyim ve <br>
                     Uzmanlık!</h2>
-                <h5>Yıllar boyunca inşaat ve mimarlık sektöründe birikimini yapan Sobutay, her projesinde yenilikçi çözümler sunar. Özözgü tasarımlar ve mükemmel uygulamalarıyla, sektörde kendisine güçlü bir konum kazanmıştır.</h5>
+                <h5 data-i18n="pages.about.experience.description">Yıllar boyunca inşaat ve mimarlık sektöründe birikimini yapan Sobutay, her projesinde yenilikçi çözümler sunar. Özözgü tasarımlar ve mükemmel uygulamalarıyla, sektörde kendisine güçlü bir konum kazanmıştır.</h5>
             </div>
             <div class="col-md-5 pe-0 overflow-hidden mobile-p-0">
                 <img class="home-alt-img" src="images/odul.jpg" alt="">
@@ -391,10 +372,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li><a href="iletisim.html">İletişim</a></li>
                             </ul>
                             <div class="footer-social mt-lg-0 mt-4">
-                                <a href="https://www.facebook.com/Sobutayinsaat" target="_blank"><img src="images/svg/facebook.svg" alt=""></a>
-                                <a href="https://www.instagram.com/Sobutayinsaat/" target="_blank"><img src="images/svg/insta.svg" alt=""></a>
-                                <a href="https://www.youtube.com/@Sobutayinsaat" target="_blank"><img src="images/svg/youtube.svg" alt=""></a>
-                                <a href="https://www.linkedin.com/company/groupSobutay/mycompany/" target="_blank"><img src="images/svg/linkedin.svg" alt=""></a><a href="https://t.me/Sobutayinsaat" target="_blank"><img src="images/svg/telegram.svg" alt=""></a>
+                                <a href="https://www.instagram.com/sobutayticaret/" target="_blank"><img src="images/svg/insta.svg" alt=""></a>
+                                <a href="https://www.linkedin.com/in/ugur-sobutay-417026115/" target="_blank"><img src="images/svg/linkedin.svg" alt=""></a>
                                 <a href="https://wa.me/+905325889088"><img src="images/svg/whatsapp-w.svg" alt=""></a>
                             </div>
                         </div>
@@ -429,54 +408,10 @@ function closeLanguage() {
     <script src="js/main.js"></script>
     <script src="js/slick.min.js"></script>
     
+    <!-- Multi-Language Management System -->
+    <script src="js/language-manager.js"></script>
     
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const form = document.getElementById('ebultenForm');
-        const button = document.getElementById('ebultenSendForm');
-        const emailInput = form.querySelector('input[name="email"]');
     
-        button.addEventListener('click', function(e) {
-            e.preventDefault();
-    
-            const email = emailInput.value.trim();
-            if (!email) {
-                alert("Lütfen geçerli bir e-posta adresi giriniz.");
-                return;
-            }
-    
-            // Gönder butonunu devre dışı bırak (spam koruması)
-            button.disabled = true;
-    
-            fetch('https://admin.bySobutay.com/api/v1/subscribe', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: JSON.stringify({
-                    email: email
-                })
-            })
-            .then(response => response.json())
-            .then(data => {
-                button.disabled = false;
-    
-                if (data.success) {
-                    alert("✅ " + data.message);
-                    emailInput.value = "";
-                } else {
-                    alert("⚠️ " + (data.message || "Bir hata oluştu."));
-                }
-            })
-            .catch(error => {
-                button.disabled = false;
-                alert("🚫 Sunucuya bağlanırken bir hata oluştu.");
-                console.error(error);
-            });
-        });
-    });
-    </script>
 
 
     <script>

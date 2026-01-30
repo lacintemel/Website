@@ -23,13 +23,13 @@ $(document).ready(function () {
         $(".me-nav").removeClass("active");
     });
 
-    // Dil seçimi aç/kapat
-    $(".lang-sel").click(function () {
+    // Dil seçimi aç/kapat - language-manager.js tarafından yönetiliyor
+    /* $(".lang-sel").click(function () {
         $(".lang-menu-wrap").addClass("active3");
     });
     $(".lang-menu-bg, .lang-menu-wrap .close").click(function () {
         $(".lang-menu-wrap").removeClass("active3");
-    });
+    }); */
 
     // Form toggle
     $(".ilet-btn").click(function () {

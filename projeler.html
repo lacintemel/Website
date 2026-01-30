@@ -5,18 +5,18 @@
     <link rel="icon" type="image/png" href="images/gold_logo.png">
 
     <meta charset="UTF-8">
-    <title>Projeler | Sobutay</title>
-    <meta name="description" content="" />
+    <title data-i18n="pages.projects.meta.title">Projeler | Sobutay</title>
+    <meta name="description" data-i18n="pages.projects.meta.description" content="" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
 
     <meta property="og:title" content="Projeler | Sobutay" />
     <meta property="og:description" content="Projeler | Sobutay" />
-    <meta property="og:url" content="https://bysobutay.com/" />
+    <meta property="og:url" content="https://ugursobutay.com/" />
     <meta property="og:site_name" content="Projeler | Sobutay" />
-    <meta property="og:image" content="https://bysobutay.com/images/anasayfa-cover.jpg" />
+    <meta property="og:image" content="https://ugursobutay.com/images/anasayfa-cover.jpg" />
     <meta name="twitter:card" content="Projeler | Sobutay" />
     <meta name="twitter:title" content="Projeler | Sobutay" />
-    <meta name="twitter:image" content="https://bysobutay.com/images/anasayfa-cover.jpg" />
+    <meta name="twitter:image" content="https://ugursobutay.com/images/anasayfa-cover.jpg" />
 
     <link rel="icon" type="image/png" href="images/svg/logo-ani.svg" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -30,36 +30,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-932KQY7P78"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
 
-        gtag('config', 'G-932KQY7P78');
-    </script>
-
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TMCVWLG');
-    </script>
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMCVWLG"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <style>
         /* --- YENİ KART TASARIMI CSS --- */
         .proje-card {
@@ -204,14 +176,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="close"><img onclick="closeLanguage()" src="images/svg/close-2.svg" alt=""></div>
                 <h4 class="color-l-green kalnia">Dil Seçin</h4>
                 <div id="langBtnContainer">
-                    <button class="lang-btn active" onclick="#">
+                    <button class="lang-btn active" data-lang="tr">
                         <b>Türkçe</b><br>Turkish
                     </button>
-                    <button class="lang-btn" onclick="window.location.href='https://bySobutay.com/en';">
+                    <button class="lang-btn" data-lang="en">
                         <b>English</b><br>English
                     </button>
 
-                    <button class="lang-btn" onclick="window.location.href='ru/projeler.html'">
+                    <button class="lang-btn" data-lang="ru">
                         <b>Русский</b><br>Russian
                     </button>
                 </div>
@@ -483,7 +455,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <div class="col-md-4 filterDiv tamam biten">
                     <a href="projeler/aosb_kres.html" class="proje-card">
-                        <img class="proje-card-img" src="images/liberty/photo.jpg" alt="AOSB Kreş">
+                        <img class="proje-card-img" src="images/kres/9.jpg" alt="AOSB Kreş">
                         <div class="proje-overlay">
                             <span class="status-badge-overlay">Tamamlandı</span>
                             <h4 class="fw-norm kalnia">Antalya Organize Sanayi Kreş</h4>
@@ -568,10 +540,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li><a href="iletisim.html">İletişim</a></li>
                             </ul>
                             <div class="footer-social mt-lg-0 mt-4">
-                                <a href="https://www.facebook.com/sobutayinsaat" target="_blank"><img src="images/svg/facebook.svg" alt=""></a>
-                                <a href="https://www.instagram.com/sobutayinsaat/" target="_blank"><img src="images/svg/insta.svg" alt=""></a>
-                                <a href="https://www.youtube.com/@sobutayinsaat" target="_blank"><img src="images/svg/youtube.svg" alt=""></a>
-                                <a href="https://www.linkedin.com/company/groupsobutay/mycompany/" target="_blank"><img src="images/svg/linkedin.svg" alt=""></a><a href="https://t.me/sobutayinsaat" target="_blank"><img src="images/svg/telegram.svg" alt=""></a>
+                                <a href="https://www.instagram.com/sobutayticaret/" target="_blank"><img src="images/svg/insta.svg" alt=""></a>
+                                <a href="https://www.linkedin.com/in/ugur-sobutay-417026115/" target="_blank"><img src="images/svg/linkedin.svg" alt=""></a>
                                 <a href="https://wa.me/+905325889088"><img src="images/svg/whatsapp-w.svg" alt=""></a>
                             </div>
                         </div>
@@ -604,214 +574,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="ppcontact-functions.js"></script>
     <script src="js/main.js"></script>
     <script src="js/slick.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const form = document.getElementById('ebultenForm');
-            const button = document.getElementById('ebultenSendForm');
-            const emailInput = form.querySelector('input[name="email"]');
 
-            button.addEventListener('click', function(e) {
-                e.preventDefault();
-
-                const email = emailInput.value.trim();
-                if (!email) {
-                    alert("Lütfen geçerli bir e-posta adresi giriniz.");
-                    return;
-                }
-
-                // Gönder butonunu devre dışı bırak (spam koruması)
-                button.disabled = true;
-
-                fetch('https://admin.bysobutay.com/api/v1/subscribe', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                            'Accept': 'application/json'
-                        },
-                        body: JSON.stringify({
-                            email: email
-                        })
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        button.disabled = false;
-
-                        if (data.success) {
-                            alert("✅ " + data.message);
-                            emailInput.value = "";
-                        } else {
-                            alert("⚠️ " + (data.message || "Bir hata oluştu."));
-                        }
-                    })
-                    .catch(error => {
-                        button.disabled = false;
-                        alert("🚫 Sunucuya bağlanırken bir hata oluştu.");
-                        console.error(error);
-                    });
-            });
-        });
-    </script>
-
-
-    <script>
-        $(document).ready(function() {
-            // İletişim Formu Gönderme İşlemi
-            $('#iletisimSendForm').on('click', function() {
-                $('.response-alert').remove();
-
-                var firstname = $('#iletisimForm .firstname').val();
-                if (!firstname) {
-                    $('#iletisimForm .firstname').css('border-color', 'red');
-                    return false;
-                }
-
-                var telephone = $('#iletisimForm .telephone').val();
-                if (!telephone) {
-                    $('#iletisimForm .telephone').css('border-color', 'red');
-                    return false;
-                }
-
-                var email = $('#iletisimForm .email').val();
-                if (!email) {
-                    $('#iletisimForm .email').css('border-color', 'red');
-                    return false;
-                }
-
-                var project = $('#iletisimForm .project').val();
-                if (!project) {
-                    $('#iletisimForm .project').css('border-color', 'red');
-                    return false;
-                }
-
-                var message = $('#iletisimForm .message').val();
-                if (!message) {
-                    $('#iletisimForm .message').css('border-color', 'red');
-                    return false;
-                }
-
-                $.ajax({
-                    type: "POST",
-                    url: 'mail/sendmail.php',
-                    data: $('#iletisimForm').serialize(),
-                    dataType: 'json',
-                    success: function(response) {
-                        if (response.return) {
-                            $('#iletisimForm').prepend('<span id="response-alert" class="alert alert-success response-alert" style="display: block;width: 100%">Mailiniz başarıyla gönderilmiştir.</span>');
-
-                            // GTM için event tetikle
-                            window.dataLayer = window.dataLayer || [];
-                            window.dataLayer.push({
-                                event: 'gtm.formSubmit',
-                                formID: 'iletisimForm',
-                                formTipi: 'iletisim'
-                            });
-
-                            setTimeout(function() {
-                                $('.response-alert').remove();
-                                $('#iletisimForm')[0].reset();
-                            }, 4000);
-                        }
-                    }
-                });
-            });
-
-            // Randevu Formu Gönderme İşlemi
-            $('#randevuSendForm').on('click', function() {
-                $('.response-alert').remove();
-
-                var firstname = $('#randevuForm .firstname').val();
-                if (!firstname) {
-                    $('#randevuForm .firstname').css('border-color', 'red');
-                    return false;
-                }
-
-                var telephone = $('#randevuForm .telephone').val();
-                if (!telephone) {
-                    $('#randevuForm .telephone').css('border-color', 'red');
-                    return false;
-                }
-
-                var email = $('#randevuForm .email').val();
-                if (!email) {
-                    $('#randevuForm .email').css('border-color', 'red');
-                    return false;
-                }
-
-                var randevu = $('#randevuForm .randevu').val();
-                if (!randevu) {
-                    $('#randevuForm .randevu').css('border-color', 'red');
-                    return false;
-                }
-
-                var randevuTarihi = $('#randevuForm .randevu-tarihi').val();
-                if (!randevuTarihi) {
-                    $('#randevuForm .randevu-tarihi').css('border-color', 'red');
-                    return false;
-                }
-
-                $.ajax({
-                    type: "POST",
-                    url: 'mail/sendmail.php',
-                    data: $('#randevuForm').serialize(),
-                    dataType: 'json',
-                    success: function(response) {
-                        if (response.return) {
-                            $('#randevuForm').prepend('<span id="response-alert" class="alert alert-success response-alert" style="display: block;width: 100%">Mailiniz başarıyla gönderilmiştir.</span>');
-
-                            // GTM için event tetikle
-                            window.dataLayer = window.dataLayer || [];
-                            window.dataLayer.push({
-                                event: 'gtm.formSubmit',
-                                formID: 'randevuForm',
-                                formTipi: 'randevu'
-                            });
-
-                            setTimeout(function() {
-                                $('.response-alert').remove();
-                                $('#randevuForm')[0].reset();
-                            }, 4000);
-                        }
-                    }
-                });
-            });
-
-            // E-Bülten Formu Gönderme İşlemi
-            $('#ebultenSendForm').on('click', function() {
-                $('.response-alert').remove();
-
-                var email = $('#ebultenForm .email').val();
-                if (!email) {
-                    $('#ebultenForm .email').css('border-color', 'red');
-                    return false;
-                }
-
-                $.ajax({
-                    type: "POST",
-                    url: 'mail/sendmail.php',
-                    data: $('#ebultenForm').serialize(),
-                    dataType: 'json',
-                    success: function(response) {
-                        if (response.return) {
-                            $('#ebultenForm').prepend('<span id="response-alert" class="alert alert-success response-alert" style="display: block;width: 100%">Mailiniz başarıyla gönderilmiştir.</span>');
-
-                            // GTM için event tetikle
-                            window.dataLayer = window.dataLayer || [];
-                            window.dataLayer.push({
-                                event: 'gtm.formSubmit',
-                                formID: 'ebultenForm',
-                                formTipi: 'ebulten'
-                            });
-
-                            setTimeout(function() {
-                                $('.response-alert').remove();
-                                $('#ebultenForm')[0].reset();
-                            }, 4000);
-                        }
-                    }
-                });
-            });
-        });
-    </script>
 
 
 
@@ -887,6 +650,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             }
         });
     </script>
+    <script src="js/language-manager.js"></script>
 </body>
 
 </html>
