@@ -120,7 +120,7 @@
           "label": "Sobutay Projelerimizi Keşfedin",
           "title1": "Tamamlanmış ve",
           "title2": "devam eden projeler!",
-          "description": "<span class='bold'>Sobutay'nun</span> modern ve yenilikçi proje koleksiyonu sizi hayranlık uyandıracak. Mimari tasarım, çelik imalat ve iç dekorasyon alanlarında en yüksek kalite standartlarını sunuyoruz.",
+          "description": "<span class=\"bold\">Sobutay'nun</span> modern ve yenilikçi proje koleksiyonu sizi hayranlık uyandıracak. Mimari tasarım, çelik imalat ve iç dekorasyon alanlarında en yüksek kalite standartlarını sunuyoruz.",
           "moreLink": "Daha Fazlası"
         }
       },
@@ -709,7 +709,7 @@
         "projectsSection": {
           "label": "Discover Sobutay Projects",
           "title": "Completed and ongoing projects!",
-          "description": "<span class='bold'>Sobutay's</span> modern and innovative project collection will amaze you. We offer the highest quality standards in architectural design, steel manufacturing and interior decoration.",
+          "description": "<span class=\"bold\">Sobutay's</span> modern and innovative project collection will amaze you. We offer the highest quality standards in architectural design, steel manufacturing and interior decoration.",
           "moreLink": "Learn More"
         },
         "featuredProjects": {
@@ -1512,7 +1512,7 @@
         "projectsSection": {
           "label": "Откройте для себя проекты Sobutay",
           "title": "Завершенные и текущие проекты!",
-          "description": "<span class='bold'>Современная</span> и инновационная коллекция проектов Sobutay вас поразит. Мы предлагаем высочайшие стандарты качества в архитектурном проектировании, производстве стали и внутренней отделке.",
+          "description": "<span class=\"bold\">Современная</span> и инновационная коллекция проектов Sobutay вас поразит. Мы предлагаем высочайшие стандарты качества в архитектурном проектировании, производстве стали и внутренней отделке.",
           "moreLink": "Подробнее"
         },
         "featuredProjects": {

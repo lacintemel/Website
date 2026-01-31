@@ -75,7 +75,7 @@ function updateI18nElements() {
         } else if (element.tagName === 'META') {
             element.content = text;
         } else {
-            element.textContent = text;
+            element.innerHTML = text;
         }
     });
 }
