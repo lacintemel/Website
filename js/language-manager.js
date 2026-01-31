@@ -22,7 +22,9 @@ async function loadTranslations() {
     
     try {
         isLoading = true;
-        const filePath = 'data/translations.json';
+        // Dinamik yol belirleme - projeler klasöründe mi değil mi kontrol et
+        const isInProjectsFolder = window.location.pathname.includes('/projeler/');
+        const filePath = isInProjectsFolder ? '../data/translations.json' : 'data/translations.json';
         
         const response = await fetch(filePath);
         if (!response.ok) throw new Error('Çeviri dosyası bulunamadı');

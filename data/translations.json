@@ -268,6 +268,56 @@
           "terms": "Terms & Conditions"
         }
       },
+      "projectDetails": {
+        "libertyHotel": {
+          "meta": {
+            "title": "Liberty Hotel Kuşadası | Sobutay"
+          },
+          "number": "01.",
+          "title": "LIBERTY HOTEL KUŞADASI",
+          "location": {
+            "label": "YER /",
+            "value": "KUŞADASI"
+          },
+          "client": {
+            "label": "İŞVEREN /",
+            "value": "ÖZYER GRUP"
+          },
+          "date": {
+            "label": "TARİH /",
+            "value": "2024"
+          },
+          "type": {
+            "label": "TÜR /",
+            "value": "İÇ DEKORASYON VE ÇELİK İMALAT"
+          },
+          "descriptionTitle": "TANIM",
+          "description": "ÖZYER GRUP HOTEL inden biri olan LİBERTY HOTEL iç mekan tasarımı ile değişime 2024 yılında başlamıştır. Ana restoran ve çeşitli ülke lezzetlerini barındıran restoranların değişimi ile göz doldurup, loby mahalindeki çeşitli peyzaj dekorasyonlarının ve mahallerinin yapıldığı, projeleri peyzaj mimarı TÜLAY TOSUN imzalı imalatların çalışmaları ile muhteşem bir değişim tarafımızca yapmış olup yine 2024 Ekim ayında sahil kısmına İnşaat Mühendisi ENGİN ERDOĞAN tarafından çelik statik projesi çizilen sahne imalatı eklemesi tarafımızca yapılmıştır.",
+          "footerCopyright": "© 2024 Sobutay. Tüm hakları saklıdır."
+        },
+        "xoCape": {
+          "meta": {
+            "title": "XO Cape Antalya Hotel | Sobutay"
+          },
+          "number": "02.",
+          "title": "XO CAPE ANTALYA HOTEL",
+          "location": {
+            "label": "YER /",
+            "value": "FETHİYE"
+          },
+          "type": {
+            "label": "TÜR /",
+            "value": "ÇELİK İMALAT VE HOTEL TASARIMI"
+          },
+          "services": {
+            "label": "HİZMETLER /",
+            "value": "Hotel Giriş Markiz Çelik İmalat\nPool Bar Çelik İmalat"
+          },
+          "descriptionTitle": "TANIM",
+          "description": "ÖZYER GRUP HOTEL inden biri olan XO CARPE ARNA ÖZYER GRUP un en yeni hotellerinden biri olup 2025 yılında faaliyete girmiştir. Hotel giriş saçağının komple ağır çelikten imal edilip farklı biri tasarıma sahip olan Mimar YEŞİM KOZANLI imzalı olup İnşaat Mühendisi ENGİN ERDOĞAN tarafından ortalama 65 Ton çelik statik projesi çizilen bu eserin tarafımızca yapılması bizlere ayrı gurur veriyor.",
+          "footerCopyright": "© 2024 Sobutay. Tüm hakları saklıdır."
+        }
+      },
       "dealers": {
         "title": "Bayiliklerimiz",
         "url": "bayiliklerimiz.html",
@@ -647,6 +697,56 @@
           "terms": "Terms & Conditions"
         }
       },
+      "projectDetails": {
+        "libertyHotel": {
+          "meta": {
+            "title": "Liberty Hotel Kusadasi | Sobutay"
+          },
+          "number": "01.",
+          "title": "LIBERTY HOTEL KUSADASI",
+          "location": {
+            "label": "LOCATION /",
+            "value": "KUSADASI"
+          },
+          "client": {
+            "label": "CLIENT /",
+            "value": "ÖZYER GRUP"
+          },
+          "date": {
+            "label": "DATE /",
+            "value": "2024"
+          },
+          "type": {
+            "label": "TYPE /",
+            "value": "INTERIOR DECORATION AND STEEL MANUFACTURING"
+          },
+          "descriptionTitle": "DESCRIPTION",
+          "description": "LIBERTY HOTEL, one of the ÖZYER GRUP HOTELS, began its interior design transformation in 2024. With the renovation of the main restaurant and restaurants featuring cuisines from various countries, as well as various landscape decorations and areas in the lobby area, we completed a magnificent transformation with the work of landscape architect TÜLAY TOSUN's projects. Additionally, in October 2024, we added a stage structure to the beachfront area, designed with a steel static project by Civil Engineer ENGİN ERDOĞAN.",
+          "footerCopyright": "© 2024 Sobutay. All rights reserved."
+        },
+        "xoCape": {
+          "meta": {
+            "title": "XO Cape Antalya Hotel | Sobutay"
+          },
+          "number": "02.",
+          "title": "XO CAPE ANTALYA HOTEL",
+          "location": {
+            "label": "LOCATION /",
+            "value": "FETHIYE"
+          },
+          "type": {
+            "label": "TYPE /",
+            "value": "STEEL MANUFACTURING AND HOTEL DESIGN"
+          },
+          "services": {
+            "label": "SERVICES /",
+            "value": "Hotel Entrance Canopy Steel Manufacturing\nPool Bar Steel Manufacturing"
+          },
+          "descriptionTitle": "DESCRIPTION",
+          "description": "XO CARPE ARNA, one of the ÖZYER GRUP HOTELS, is one of the newest hotels of ÖZYER GRUP and began operations in 2025. The hotel entrance canopy, completely manufactured from heavy steel with a unique design signed by Architect YEŞİM KOZANLI, was created based on a steel static project of approximately 65 tons designed by Civil Engineer ENGİN ERDOĞAN. We are particularly proud to have manufactured this work.",
+          "footerCopyright": "© 2024 Sobutay. All rights reserved."
+        }
+      },
       "dealers": {
         "title": "Dealers",
         "url": "en/dealers.html",
@@ -1024,6 +1124,56 @@
           "copyright": "2024 © Sobutay",
           "kvkk": "Политика конфиденциальности",
           "terms": "Условия и положения"
+        }
+      },
+      "projectDetails": {
+        "libertyHotel": {
+          "meta": {
+            "title": "Liberty Hotel Кушадасы | Sobutay"
+          },
+          "number": "01.",
+          "title": "LIBERTY HOTEL КУШАДАСЫ",
+          "location": {
+            "label": "МЕСТОПОЛОЖЕНИЕ /",
+            "value": "КУШАДАСЫ"
+          },
+          "client": {
+            "label": "КЛИЕНТ /",
+            "value": "ÖZYER GRUP"
+          },
+          "date": {
+            "label": "ДАТА /",
+            "value": "2024"
+          },
+          "type": {
+            "label": "ТИП /",
+            "value": "ДИЗАЙН ИНТЕРЬЕРА И ПРОИЗВОДСТВО СТАЛИ"
+          },
+          "descriptionTitle": "ОПИСАНИЕ",
+          "description": "LIBERTY HOTEL, один из отелей ÖZYER GRUP, начал преобразование дизайна интерьера в 2024 году. С обновлением главного ресторана и ресторанов с кухнями разных стран, а также различными ландшафтными украшениями и зонами в зоне лобби, мы завершили великолепную трансформацию с работой ландшафтного архитектора TÜLAY TOSUN. Кроме того, в октябре 2024 года мы добавили сценическую конструкцию в прибрежной зоне, разработанную с помощью стального статического проекта инженером-строителем ENGİN ERDOĞAN.",
+          "footerCopyright": "© 2024 Sobutay. Все права защищены."
+        },
+        "xoCape": {
+          "meta": {
+            "title": "XO Cape Antalya Hotel | Sobutay"
+          },
+          "number": "02.",
+          "title": "XO CAPE ANTALYA HOTEL",
+          "location": {
+            "label": "МЕСТОПОЛОЖЕНИЕ /",
+            "value": "ФЕТХИЕ"
+          },
+          "type": {
+            "label": "ТИП /",
+            "value": "ПРОИЗВОДСТВО СТАЛИ И ДИЗАЙН ОТЕЛЯ"
+          },
+          "services": {
+            "label": "УСЛУГИ /",
+            "value": "Производство стального навеса у входа в отель\nПроизводство стальной конструкции Pool Bar"
+          },
+          "descriptionTitle": "ОПИСАНИЕ",
+          "description": "XO CARPE ARNA, один из отелей ÖZYER GRUP, является одним из новейших отелей ÖZYER GRUP и начал работу в 2025 году. Навес у входа в отель, полностью изготовленный из тяжелой стали с уникальным дизайном, подписанным архитектором YEŞİM KOZANLI, был создан на основе стального статического проекта весом примерно 65 тонн, разработанного инженером-строителем ENGİN ERDOĞAN. Мы особенно гордимся тем, что изготовили эту работу.",
+          "footerCopyright": "© 2024 Sobutay. Все права защищены."
         }
       },
       "dealers": {
