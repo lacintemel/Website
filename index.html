@@ -547,16 +547,11 @@ function closeLanguage() {
                 $slider.css("transform", "translate3d(" + -curSlide * 100 + "%,0,0)");
                 $slideBGs.css("transform", "translate3d(" + curSlide * 50 + "%,0,0)");
 
-                // Pause all banner videos and reset playback
-                document.querySelectorAll('.proje-banner-video').forEach(function(v){
-                    try { v.pause(); v.currentTime = 0; } catch(e){}
-                });
-
-                // Play the video inside the active slide (prefer PC, then mobile)
+                // Play the video inside the active slide if paused (prefer PC, then mobile)
                 var activeSlide = document.querySelector('.slide-' + curSlide);
                 if (activeSlide) {
                     var video = activeSlide.querySelector('.proje-banner-video.pc, .proje-banner-video.mobile');
-                    if (video && video.play) { video.muted = true; video.play().catch(function(){}); }
+                    if (video && video.paused) { video.muted = true; video.play().catch(function(){}); }
                 }
 
                 diff = 0;
@@ -621,16 +616,6 @@ function closeLanguage() {
             $(document).on("click", ".slider-pagi__elem", function () {
                 curSlide = $(this).data("page");
                 changeSlides();
-            });
-
-            // Fallback: kullanıcı etkileşimiyle ilk oynatma izni sağlama
-            $(document).on("click touchstart", function () {
-                var activeVideo = document.querySelector('.slide-' + curSlide + ' .proje-banner-video.pc, .slide-' + curSlide + ' .proje-banner-video.mobile');
-                if (activeVideo && activeVideo.paused) {
-                    activeVideo.play().catch(function(error) {
-                        console.log("Etkileşim sonrası oynatma başarısız:", error);
-                    });
-                }
             });
 
         });
