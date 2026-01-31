@@ -93,7 +93,7 @@
         "banner": {
           "dreamsTrust": "Hayalleriniz",
           "trustUs": "bize emanet.",
-          "description": "Sobutay, yenilikçi inşaat ve mimarlık projeleriyle tanınan köklü bir firmadır. Yılların deneyimi ve uzman ekibiyle birlikte, müşterilerine üstün kalite, yaratıcı tasarım ve mükemmeliyetçilik anlayışıyla hizmet vermektedir.<br><br>Sobutay olarak gayrimenkul alanındaki uzmanlığımızla hayata zenginlik katan projeleri hayata geçiriyoruz. Mimari tasarım, çelik imalat, asma tavan sistemleri ve iç dekorasyon alanlarında yetkinlik göstererek, projelerimizi en yüksek standartlarda tamamlıyoruz. Uluslararası çalışmalarımızdan edindiğimiz finansal kaynakların gücüyle sizi hayranlık uyandıran projelerle buluşturuyoruz. Çevreci yaklaşımımız ve sürdürülebilir tasarımlarımızla hayat standartlarınızı daha da yükseltmeye hazırız.",
+          "description": "Sobutay, yenilikçi inşaat ve mimarlık projeleriyle tanınan köklü bir firmadır. Yılların deneyimi ve uzman ekibiyle birlikte, müşterilerine üstün kalite, yaratıcı tasarım ve mükemmeliyetçilik anlayışıyla hizmet vermektedir. Sobutay olarak gayrimenkul alanındaki uzmanlığımızla hayata zenginlik katan projeleri hayata geçiriyoruz. Mimari tasarım, çelik imalat, asma tavan sistemleri ve iç dekorasyon alanlarında yetkinlik göstererek, projelerimizi en yüksek standartlarda tamamlıyoruz. Uluslararası çalışmalarımızdan edindiğimiz finansal kaynakların gücüyle sizi hayranlık uyandıran projelerle buluşturuyoruz. Çevreci yaklaşımımız ve sürdürülebilir tasarımlarımızla hayat standartlarınızı daha da yükseltmeye hazırız.",
           "moreLink": "Daha Fazlası"
         },
         "slider": {
@@ -141,7 +141,7 @@
         "banner": {
           "heading1": "Uluslararası standartlar,",
           "heading2": "Sürdürülebilir uygulamalar",
-          "description": "Sobutay olarak gayrimenkul alanındaki uzmanlığımızla hayata zenginlik katan projeleri hayata geçiriyoruz.<br><br>Uluslararası çalışmalarımızdan edindiğimiz finansal kaynakların gücüyle sizi hayranlık uyandıran projelerle buluşturuyoruz. Çevreci yaklaşımımız ve sürdürülebilir tasarımlarımızla hayat standartlarınızı daha da yükseltmeye hazırız."
+          "description": "Sobutay olarak gayrimenkul alanındaki uzmanlığımızla hayata zenginlik katan projeleri hayata geçiriyoruz. Uluslararası çalışmalarımızdan edindiğimiz finansal kaynakların gücüyle sizi hayranlık uyandıran projelerle buluşturuyoruz. Çevreci yaklaşımımız ve sürdürülebilir tasarımlarımızla hayat standartlarınızı daha da yükseltmeye hazırız."
         },
         "services": {
           "architecturalWonders": {
@@ -162,6 +162,7 @@
           }
         },
         "projectsSection": {
+          "label": "PROJELERİMİZ",
           "heading": "Tüm Proje Türlerinde Uzmanlık!",
           "description": "Liberty Hotel'den XO Cape'ye, Hesapçıoğlu Opel Showroom'dan Sun Hotel'e kadar, her projemiz en yüksek kalite standartlarında tamamlanmaktadır. Mimari tasarım, çelik imalat ve iç dekorasyon alanlarında sunduğumuz hizmetlerle sektörde öncü rol oynuyoruz.",
           "link": "Projelerimiz"
@@ -175,6 +176,12 @@
         "experience": {
           "heading": "Deneyim ve Uzmanlık!",
           "description": "Yıllar boyunca inşaat ve mimarlık sektöründe birikimini yapan Sobutay, her projesinde yenilikçi çözümler sunar. Özgün tasarımlar ve mükemmel uygulamalarıyla, sektörde kendisine güçlü bir konum kazanmıştır."
+        },
+        "footer": {
+          "heading": "Kendine özgü, huzur dolu.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "K.V.K.K",
+          "terms": "Terms & Conditions"
         }
       },
       "projects": {
@@ -190,6 +197,69 @@
           "dealers": "Bayiliklerimiz",
           "partners": "Çözüm Ortaklarımız",
           "contact": "İletişim"
+        },
+        "banner": {
+          "heading": "Kendine özgü, huzur dolu.",
+          "description": "Sobutay olarak, her biri benzersiz bir hikayeye ve özel bir vizyona sahip olan projelerimizi başarıyla tamamlamaktan gurur duyuyoruz. Müşterilerimize ve topluma değer katan, estetik ve işlevsellik açısından üstün niteliklere sahip projeler geliştirmeye devam ediyoruz."
+        },
+        "filters": {
+          "all": "Tüm Projeler",
+          "ongoing": "Devam Eden Projeler",
+          "completed": "Tamamlanan Projeler"
+        },
+        "status": {
+          "completed": "Tamamlandı",
+          "ongoing": "Devam Ediyor"
+        },
+        "projectsList": {
+          "libertyHotel": {
+            "title": "Liberty Hotel Kuşadası",
+            "location": "Kuşadası"
+          },
+          "xoCape": {
+            "title": "XO Cape Antalya Hotel",
+            "location": "Fethiye"
+          },
+          "hesapciogluOpel": {
+            "title": "Hesapçıoğlu Opel Showroom",
+            "location": "Antalya"
+          },
+          "altintarTarim": {
+            "title": "Altıntar Tarım Yönetim Ofisi",
+            "location": "Antalya"
+          },
+          "gultepeSpor": {
+            "title": "Gültepe Spor Kompleksi",
+            "location": "İzmir"
+          },
+          "camlicaYapi": {
+            "title": "Çamlıca Yapı Market Ofisi",
+            "location": "Antalya"
+          },
+          "kareOtomotiv": {
+            "title": "Kare Otomotiv VW Ofisi",
+            "location": "Antalya"
+          },
+          "musliksShowroom": {
+            "title": "Musliks Showroom Binası",
+            "location": "Antalya"
+          },
+          "aosbKres": {
+            "title": "Antalya Organize Sanayi Kreş",
+            "location": "Antalya"
+          },
+          "otomolOfis": {
+            "title": "Otomol Ofis Projesi",
+            "location": "Fethiye"
+          },
+          "sunHotel": {
+            "title": "Sun Hotel Alanya",
+            "location": "Alanya"
+          },
+          "jwMaltepe": {
+            "title": "JW Maltepe Konferans Salonu",
+            "location": "İstanbul"
+          }
         }
       },
       "dealers": {
@@ -333,7 +403,7 @@
         "banner": {
           "dreamsTrust": "Your dreams",
           "trustUs": "trusted to us.",
-          "description": "Sobutay is a well-established company known for its innovative construction and architecture projects. With years of experience and an expert team, it serves its customers with superior quality, creative design and a perfectionist approach.<br><br>As Sobutay, we realize projects that add richness to life with our expertise in real estate. We complete our projects at the highest standards by demonstrating competence in architectural design, steel manufacturing, suspended ceiling systems and interior decoration. With the power of financial resources we have acquired from our international work, we bring you together with projects that inspire admiration. With our environmentally friendly approach and sustainable designs, we are ready to raise your living standards even further.",
+          "description": "Sobutay is a well-established company known for its innovative construction and architecture projects. With years of experience and an expert team, it serves its customers with superior quality, creative design and a perfectionist approach. As Sobutay, we realize projects that add richness to life with our expertise in real estate. We complete our projects at the highest standards by demonstrating competence in architectural design, steel manufacturing, suspended ceiling systems and interior decoration. With the power of financial resources we have acquired from our international work, we bring you together with projects that inspire admiration. With our environmentally friendly approach and sustainable designs, we are ready to raise your living standards even further.",
           "moreLink": "Learn More"
         },
         "slider": {
@@ -358,7 +428,7 @@
         },
         "projectsSection": {
           "label": "Discover Sobutay Projects",
-          "title": "Completed and<br>ongoing projects!",
+          "title": "Completed and ongoing projects!",
           "description": "<span class='bold'>Sobutay's</span> modern and innovative project collection will amaze you. We offer the highest quality standards in architectural design, steel manufacturing and interior decoration.",
           "moreLink": "Learn More"
         },
@@ -398,7 +468,7 @@
         },
         "libertySection": {
           "subtitle": "Liberty Hotel Kusadasi",
-          "title": "Design and Manufacturing<br>Excellence.",
+          "title": "Design and Manufacturing Excellence.",
           "description": "This luxury hotel project in Kusadasi transforms the guest experience with interior design renovation, steel manufacturing and modern designs. Aesthetics and functionality are combined in the hotel's public areas, creating an unforgettable living space.",
           "moreLink": "Learn More"
         },
@@ -421,7 +491,7 @@
           }
         },
         "footer": {
-          "heading1": "Unique,<br>peaceful.",
+          "heading1": "Unique, peaceful.",
           "copyright": "2024 © Sobutay",
           "kvkk": "Privacy Policy",
           "terms": "Terms & Conditions"
@@ -465,6 +535,7 @@
           }
         },
         "projectsSection": {
+          "label": "OUR PROJECTS",
           "heading": "Expertise in All Project Types!",
           "description": "From Liberty Hotel to XO Cape, from Hesapçıoğlu Opel Showroom to Sun Hotel, each of our projects is completed to the highest quality standards. With our services in architectural design, steel fabrication and interior decoration, we play a leading role in the industry.",
           "link": "Our Projects"
@@ -478,6 +549,12 @@
         "experience": {
           "heading": "Experience and Expertise!",
           "description": "Sobutay, building experience over years in the construction and architecture sector, offers innovative solutions in each of its projects. With unique designs and perfect execution, it has earned a strong position in the industry."
+        },
+        "footer": {
+          "heading": "Unique, peaceful.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "Privacy Policy",
+          "terms": "Terms & Conditions"
         }
       },
       "projects": {
@@ -493,6 +570,69 @@
           "dealers": "Dealers",
           "partners": "Solution Partners",
           "contact": "Contact"
+        },
+        "banner": {
+          "heading": "Unique, peaceful.",
+          "description": "As Sobutay, we are proud to successfully complete our projects, each with a unique story and special vision. We continue to develop projects with superior aesthetics and functionality that add value to our customers and society."
+        },
+        "filters": {
+          "all": "All Projects",
+          "ongoing": "Ongoing Projects",
+          "completed": "Completed Projects"
+        },
+        "status": {
+          "completed": "Completed",
+          "ongoing": "Ongoing"
+        },
+        "projectsList": {
+          "libertyHotel": {
+            "title": "Liberty Hotel Kusadasi",
+            "location": "Kusadasi"
+          },
+          "xoCape": {
+            "title": "XO Cape Antalya Hotel",
+            "location": "Fethiye"
+          },
+          "hesapciogluOpel": {
+            "title": "Hesapcioglu Opel Showroom",
+            "location": "Antalya"
+          },
+          "altintarTarim": {
+            "title": "Altintar Agricultural Management Office",
+            "location": "Antalya"
+          },
+          "gultepeSpor": {
+            "title": "Gultepe Sports Complex",
+            "location": "Izmir"
+          },
+          "camlicaYapi": {
+            "title": "Camlica Construction Market Office",
+            "location": "Antalya"
+          },
+          "kareOtomotiv": {
+            "title": "Kare Automotive VW Office",
+            "location": "Antalya"
+          },
+          "musliksShowroom": {
+            "title": "Musliks Showroom Building",
+            "location": "Antalya"
+          },
+          "aosbKres": {
+            "title": "Antalya Organized Industrial Zone Nursery",
+            "location": "Antalya"
+          },
+          "otomolOfis": {
+            "title": "Otomol Office Project",
+            "location": "Fethiye"
+          },
+          "sunHotel": {
+            "title": "Sun Hotel Alanya",
+            "location": "Alanya"
+          },
+          "jwMaltepe": {
+            "title": "JW Maltepe Conference Hall",
+            "location": "Istanbul"
+          }
         }
       },
       "dealers": {
@@ -636,7 +776,7 @@
         "banner": {
           "dreamsTrust": "Ваши мечты",
           "trustUs": "доверены нам.",
-          "description": "Sobutay — хорошо зарекомендовавшаяся компания, известная инновационными проектами в области строительства и архитектуры. Имея многолетний опыт и команду экспертов, она обслуживает своих клиентов высочайшим качеством, творческим дизайном и совершенством.<br><br>Как Sobutay, мы реализуем проекты, которые обогащают жизнь профессионалов в области недвижимости. Демонстрируя компетентность в архитектурном проектировании, производстве стали, системах подвесных потолков и внутреннем оформлении, мы завершаем наши проекты в соответствии с самыми высокими стандартами. Используя мощь финансовых ресурсов, полученных благодаря нашей международной работе, мы представляем вам удивительные проекты. Благодаря нашему экологичному подходу и устойчивому дизайну мы готовы поднять ваш уровень жизни еще выше.",
+          "description": "Sobutay — хорошо зарекомендовавшаяся компания, известная инновационными проектами в области строительства и архитектуры. Имея многолетний опыт и команду экспертов, она обслуживает своих клиентов высочайшим качеством, творческим дизайном и совершенством. Как Sobutay, мы реализуем проекты, которые обогащают жизнь профессионалов в области недвижимости. Демонстрируя компетентность в архитектурном проектировании, производстве стали, системах подвесных потолков и внутреннем оформлении, мы завершаем наши проекты в соответствии с самыми высокими стандартами. Используя мощь финансовых ресурсов, полученных благодаря нашей международной работе, мы представляем вам удивительные проекты. Благодаря нашему экологичному подходу и устойчивому дизайну мы готовы поднять ваш уровень жизни еще выше.",
           "moreLink": "Подробнее"
         },
         "slider": {
@@ -661,7 +801,7 @@
         },
         "projectsSection": {
           "label": "Откройте для себя проекты Sobutay",
-          "title": "Завершенные и<br>текущие проекты!",
+          "title": "Завершенные и текущие проекты!",
           "description": "<span class='bold'>Современная</span> и инновационная коллекция проектов Sobutay вас поразит. Мы предлагаем высочайшие стандарты качества в архитектурном проектировании, производстве стали и внутренней отделке.",
           "moreLink": "Подробнее"
         },
@@ -701,7 +841,7 @@
         },
         "libertySection": {
           "subtitle": "Liberty Hotel Кушадасы",
-          "title": "Совершенство дизайна<br>и производства.",
+          "title": "Совершенство дизайна и производства.",
           "description": "Этот роскошный отельный проект в Кушадасах преобразует впечатления гостей с помощью обновления дизайна интерьера, производства стали и современного дизайна. Эстетика и функциональность объединены в общественных зонах отеля, создавая незабываемое жилое пространство.",
           "moreLink": "Подробнее"
         },
@@ -724,7 +864,7 @@
           }
         },
         "footer": {
-          "heading1": "Уникальный,<br>спокойный.",
+          "heading1": "Уникальный, спокойный.",
           "copyright": "2024 © Sobutay",
           "kvkk": "Политика конфиденциальности",
           "terms": "Правила и условия"
@@ -768,6 +908,7 @@
           }
         },
         "projectsSection": {
+          "label": "НАШИ ПРОЕКТЫ",
           "heading": "Опыт во всех типах проектов!",
           "description": "От Liberty Hotel до XO Cape, от Hesapçıoğlu Opel Showroom до Sun Hotel, каждый из наших проектов выполнен в соответствии с самыми высокими стандартами качества. Благодаря нашим услугам в области архитектурного проектирования, производства стали и внутреннего оформления мы играем ведущую роль в отрасли.",
           "link": "Наши проекты"
@@ -781,6 +922,12 @@
         "experience": {
           "heading": "Опыт и эксpertise!",
           "description": "Sobutay, накопив опыт в течение многих лет в секторе строительства и архитектуры, предлагает инновационные решения в каждом своем проекте. Благодаря уникальным дизайнам и безупречному исполнению он занял прочную позицию в отрасли."
+        },
+        "footer": {
+          "heading": "Уникальный, спокойный.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "Политика конфиденциальности",
+          "terms": "Правила и условия"
         }
       },
       "projects": {
@@ -796,6 +943,69 @@
           "dealers": "Дилеры",
           "partners": "Партнеры",
           "contact": "Контакт"
+        },
+        "banner": {
+          "heading": "Уникальный, спокойный.",
+          "description": "Как компания Sobutay, мы гордимся успешным завершением наших проектов, каждый из которых обладает уникальной историей и особым видением. Мы продолжаем разрабатывать проекты с превосходной эстетикой и функциональностью, которые приносят пользу нашим клиентам и обществу."
+        },
+        "filters": {
+          "all": "Все проекты",
+          "ongoing": "Текущие проекты",
+          "completed": "Завершенные проекты"
+        },
+        "status": {
+          "completed": "Завершен",
+          "ongoing": "В процессе"
+        },
+        "projectsList": {
+          "libertyHotel": {
+            "title": "Liberty Hotel Кушадасы",
+            "location": "Кушадасы"
+          },
+          "xoCape": {
+            "title": "XO Cape Antalya Hotel",
+            "location": "Фетхие"
+          },
+          "hesapciogluOpel": {
+            "title": "Hesapcioglu Opel Showroom",
+            "location": "Анталия"
+          },
+          "altintarTarim": {
+            "title": "Офис управления сельским хозяйством Алтынтар",
+            "location": "Анталия"
+          },
+          "gultepeSpor": {
+            "title": "Спортивный комплекс Гюльтепе",
+            "location": "Измир"
+          },
+          "camlicaYapi": {
+            "title": "Офис строительного рынка Чамлыджа",
+            "location": "Анталия"
+          },
+          "kareOtomotiv": {
+            "title": "Офис Kare Automotive VW",
+            "location": "Анталия"
+          },
+          "musliksShowroom": {
+            "title": "Здание выставочного зала Musliks",
+            "location": "Анталия"
+          },
+          "aosbKres": {
+            "title": "Детский сад Анталийской организованной промышленной зоны",
+            "location": "Анталия"
+          },
+          "otomolOfis": {
+            "title": "Офисный проект Отомол",
+            "location": "Фетхие"
+          },
+          "sunHotel": {
+            "title": "Sun Hotel Алания",
+            "location": "Алания"
+          },
+          "jwMaltepe": {
+            "title": "Конференц-зал JW Maltepe",
+            "location": "Стамбул"
+          }
         }
       },
       "dealers": {
