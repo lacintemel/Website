@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Altıntar Tarım Yönetim Ofisi | Sobutay</title>
+    <title data-i18n="pages.projectDetails.altintarTarim.meta.title">Altıntar Tarım Yönetim Ofisi | Sobutay</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
 
     <link rel="icon" type="image/png" href="../images/svg/logo-ani.svg" />
@@ -126,6 +126,18 @@
                 <img class="logo-text" src="../images/svg/sobu_text_last.svg" alt="">
             </a>
             <div class="header-right">
+                <button class="lang-sel" id="lang-sel">
+                    <img src="../images/svg/logo-ani.svg" alt="Dil" style="width: 20px; height: 20px; margin-right: 5px;">
+                </button>
+
+                <div class="lang-menu-wrap" id="lang-menu-wrap">
+                    <div class="lang-menu" id="lang-menu">
+                        <div class="lang-option" data-lang="tr">Türkçe</div>
+                        <div class="lang-option" data-lang="en">English</div>
+                        <div class="lang-option" data-lang="ru">Русский</div>
+                        <button class="lang-update-btn" id="lang-update-btn" data-i18n="pages.home.header.updateButton">Güncelle</button>
+                    </div>
+                </div>
                 <ul class="header-nav">
                     <li><a href="../hakkimizda.html">Hakkımızda</a></li>
                     <li><a href="../projeler.html">Projelerimiz</a></li>
@@ -156,8 +168,8 @@
             
             <div class="row align-items-end mb-2">
                 <div class="col-12 text-end">
-                    <span class="project-title-number">04.</span>
-                    <span class="project-title-text">ALTINTAR TARIM YÖNETIM OFİSİ</span>
+                    <span class="project-title-number" data-i18n="pages.projectDetails.altintarTarim.number">04.</span>
+                    <span class="project-title-text" data-i18n="pages.projectDetails.altintarTarim.title">ALTINTAR TARIM YÖNETİM OFİSİ</span>
                 </div>
             </div>
             
@@ -165,19 +177,19 @@
 
             <div class="row mb-5">
                 <div class="col-md-3">
-                    <span class="meta-label">YER /</span>
-                    <p class="meta-value">ANTALYA</p>
+                    <span class="meta-label" data-i18n="pages.projectDetails.altintarTarim.location.label">YER /</span>
+                    <p class="meta-value" data-i18n="pages.projectDetails.altintarTarim.location.value">ANTALYA</p>
 
-                    <span class="meta-label">TÜR /</span>
-                    <p class="meta-value">TICARI ALAN TASARIMI</p>
+                    <span class="meta-label" data-i18n="pages.projectDetails.altintarTarim.type.label">TÜR /</span>
+                    <p class="meta-value" data-i18n="pages.projectDetails.altintarTarim.type.value">TICARI ALAN TASARIMI</p>
 
-                    <span class="meta-label">HİZMETLER /</span>
-                    <p class="meta-value">Modüler Bölme Duvar İmalat<br>Asma Tavan İmalat<br>Zemin Modüler Hali Döşeme İmalat</p>
+                    <span class="meta-label" data-i18n="pages.projectDetails.altintarTarim.services.label">HİZMETLER /</span>
+                    <p class="meta-value" data-i18n="pages.projectDetails.altintarTarim.services.value">Modüler Bölme Duvar İmalat<br>Asma Tavan İmalat<br>Zemin Modüler Hali Döşeme İmalat</p>
                 </div>
 
                 <div class="col-md-9">
-                    <h5 class="desc-title">TANIM</h5>
-                    <p class="desc-text">
+                    <h5 class="desc-title" data-i18n="pages.projectDetails.altintarTarim.descriptionTitle">TANIM</h5>
+                    <p class="desc-text" data-i18n="pages.projectDetails.altintarTarim.description">
                         ALTINTAR TARIM A.Ş yönetim ofis projesi yenilemesinde iç
 dekorasyon yenileme projesi KST MİMARLIK tasarımına
 sahip olduğu projede imalatları tarafımızca uygulanıp anahtar teslim
@@ -251,7 +263,7 @@ kullanımları daha ön planda kullandık.
             <div class="row">
                 <div class="col-1"><img class="footer-logo" src="../images/svg/logo-ani.svg" alt=""></div>
                 <div class="col-11">
-                     <p style="color:white; margin-top:20px;">© 2024 Sobutay. Tüm hakları saklıdır.</p>
+                     <p style="color:white; margin-top:20px;" data-i18n="pages.projectDetails.altintarTarim.footerCopyright">© 2024 Sobutay. Tüm hakları saklıdır.</p>
                 </div>
             </div>
         </div>
@@ -259,6 +271,7 @@ kullanımları daha ön planda kullandık.
 
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/language-manager.js"></script>
     <script src="../js/main.js"></script>
 
 </body>
