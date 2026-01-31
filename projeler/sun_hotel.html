@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sun Hotel Alanya | Sobutay</title>
+    <title data-i18n="pages.projectDetails.sunHotel.meta.title">Sun Hotel Alanya | Sobutay</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
 
     <link rel="icon" type="image/png" href="../images/svg/logo-ani.svg" />
@@ -17,8 +17,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <style>
+        /* --- PROJE DETAY SAYFASI ÖZEL CSS --- */
+        
         .project-header-line {
-            border-top: 5px solid #888;
+            border-top: 5px solid #888; /* Başlık altındaki kalın gri çizgi */
             margin-top: 10px;
             margin-bottom: 40px;
         }
@@ -32,16 +34,17 @@
         }
 
         .project-title-text {
-            font-family: 'Kalnia', serif;
+            font-family: 'Kalnia', serif; /* Tırnaklı font */
             font-weight: 400;
             text-transform: uppercase;
             font-size: 2rem;
             color: #000;
         }
 
+        /* Bilgi Alanı (Sol Taraf) */
         .meta-label {
             font-family: 'Urbanist', sans-serif;
-            font-weight: 700;
+            font-weight: 700; /* Kalın */
             font-size: 0.9rem;
             color: #333;
             text-transform: uppercase;
@@ -58,6 +61,7 @@
             text-transform: uppercase;
         }
 
+        /* Açıklama Alanı (Sağ Taraf) */
         .desc-title {
             font-family: 'Urbanist', sans-serif;
             font-weight: 700;
@@ -127,11 +131,13 @@
             </a>
             <div class="header-right">
                 <ul class="header-nav">
-                    <li><a href="../hakkimizda.html">Hakkımızda</a></li>
-                    <li><a href="../projeler.html">Projelerimiz</a></li>
-                    <li><a href="../bayiliklerimiz.html">Bayiliklerimiz</a></li>
-                    <li><a href="../cozum_ortaklari.html">Çözüm Ortaklarımız</a></li>
-                    <li><a href="../iletisim.html">İletişim</a></li>
+                    <li><a href="../hakkimizda.html" data-i18n="common.aboutLink">Hakkımızda</a></li>
+                    <li><a href="../projeler.html" data-i18n="common.projectsLink">Projelerimiz</a></li>
+                    <li><a href="../bayiliklerimiz.html" data-i18n="common.dealersLink">Bayiliklerimiz</a></li>
+                    <li><a href="../cozum_ortaklari.html" data-i18n="common.partnersLink">Çözüm Ortaklarımız</a></li>
+                    <li><a href="../iletisim.html" data-i18n="common.contactLink">İletişim</a></li>
+                    <li class="lang-sel"><a>Tr <img src="../images/svg/globe.svg" alt=""></a></li>
+                    <li class="line"></li>
                     <li class="burger-menu-icon burger-scroll"><img src="../images/svg/burger-icon.svg" alt=""></li>
                 </ul>
             </div>
@@ -143,10 +149,29 @@
                     <div class="close"><img src="../images/svg/close.svg" alt=""></div>
                 </div>
                     <ul class="menu-nav">
-                        <li><a href="../index.html">Anasayfa</a></li>
-                        <li><a href="../projeler.html">Projeler</a></li>
-                        <li><a href="../iletisim.html">İletişim</a></li>
+                        <li><a href="../index.html" data-i18n="common.homeLink">Anasayfa</a></li>
+                        <li><a href="../projeler.html" data-i18n="common.projectsLinkShort">Projeler</a></li>
+                        <li><a href="../iletisim.html" data-i18n="common.contactLink">İletişim</a></li>
                     </ul>
+            </div>
+        </div>
+        <div class="lang-menu-wrap">
+            <div class="lang-menu-bg"></div>
+            <div class="lang-menu">
+                <div class="close"><img onclick="closeLanguage()" src="../images/svg/close-2.svg" alt=""></div>
+                <h4 class="color-l-green kalnia" data-i18n="pages.home.lang.selectLang">Dil Seçin</h4>
+                <div id="langBtnContainer">
+                    <button class="lang-btn active" data-lang="tr">
+                        <b data-i18n="pages.home.lang.turkish">Türkçe</b><br>Turkish
+                    </button>
+                    <button class="lang-btn" data-lang="en">
+                        <b data-i18n="pages.home.lang.english">English</b><br>English
+                    </button>
+                    <button class="lang-btn" data-lang="ru">
+                        <b data-i18n="pages.home.lang.russian">Русский</b><br>Russian
+                    </button>
+                </div>
+                <button class="guncel-btn" data-i18n="pages.home.lang.update">Güncelle</button>
             </div>
         </div>
     </header>
@@ -156,8 +181,8 @@
             
             <div class="row align-items-end mb-2">
                 <div class="col-12 text-end">
-                    <span class="project-title-number">11.</span>
-                    <span class="project-title-text">SUN HOTEL ALANYA</span>
+                    <span class="project-title-number" data-i18n="pages.projectDetails.sunHotel.number">11.</span>
+                    <span class="project-title-text" data-i18n="pages.projectDetails.sunHotel.title">SUN HOTEL ALANYA</span>
                 </div>
             </div>
             
@@ -165,19 +190,19 @@
 
             <div class="row mb-5">
                 <div class="col-md-3">
-                    <span class="meta-label">YER /</span>
-                    <p class="meta-value">ALANYA</p>
+                    <span class="meta-label" data-i18n="pages.projectDetails.sunHotel.location.label">YER /</span>
+                    <p class="meta-value" data-i18n="pages.projectDetails.sunHotel.location.value">ALANYA</p>
 
-                    <span class="meta-label">TÜR /</span>
-                    <p class="meta-value">OTEL TASARIMI</p>
+                    <span class="meta-label" data-i18n="pages.projectDetails.sunHotel.type.label">TÜR /</span>
+                    <p class="meta-value" data-i18n="pages.projectDetails.sunHotel.type.value">OTEL TASARIMI</p>
 
-                    <span class="meta-label">HİZMETLER /</span>
-                    <p class="meta-value">Asma Tavan İmalat<br>Hotel Tasarımı</p>
+                    <span class="meta-label" data-i18n="pages.projectDetails.sunHotel.services.label">HİZMETLER /</span>
+                    <p class="meta-value" data-i18n="pages.projectDetails.sunHotel.services.value">Asma Tavan İmalat<br>Hotel Tasarımı</p>
                 </div>
 
                 <div class="col-md-9">
-                    <h5 class="desc-title">TANIM</h5>
-                    <p class="desc-text">
+                    <h5 class="desc-title" data-i18n="pages.projectDetails.sunHotel.descriptionTitle">TANIM</h5>
+                    <p class="desc-text" data-i18n="pages.projectDetails.sunHotel.description">
                     GÜÇLÜ TURİZM yönetim ofis projesi yenilemesinde iç dekorasyon
 yenileme projesi MİMAR YEŞİM KOZANLI tarafında tasarlanan
 otel genel alan projesinde 2810 m2 Baffle Asma Tavan ve 5200 m2 Petek
@@ -210,7 +235,7 @@ kısa bir sürede teslim edilmiştir
             <div class="row">
                 <div class="col-1"><img class="footer-logo" src="../images/svg/logo-ani.svg" alt=""></div>
                 <div class="col-11">
-                     <p style="color:white; margin-top:20px;">© 2024 Sobutay. Tüm hakları saklıdır.</p>
+                     <p style="color:white; margin-top:20px;" data-i18n="pages.projectDetails.sunHotel.footerCopyright">© 2024 Sobutay. Tüm hakları saklıdır.</p>
                 </div>
             </div>
         </div>
@@ -218,6 +243,7 @@ kısa bir sürede teslim edilmiştir
 
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/language-manager.js"></script>
     <script src="../js/main.js"></script>
 
 </body>

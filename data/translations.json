@@ -1185,6 +1185,160 @@
           "descriptionTitle": "DESCRIPTION",
           "description": "In our JW management office turnkey project, the architectural project was received by JW MANAGEMENT BOARD and in the manufacturing part we have completed our manufacturing with many acoustic and fire-resistant high-performance materials. In our conference hall project, 1520 m2 of AMF THERMATE DB ACOUSTIC, 1200 m2 of motorized louvered modular partition wall, 900 m2 of Tarkett Carpet Tiles, fire-resistant acoustic doors and 3750 m2 of Knauf Diamant series are installed on the walls. Our JW conference hall project that became operational in 2023 was delivered and opened for use in as short a period as 3 months.",
           "footerCopyright": "© 2024 Sobutay. All rights reserved."
+        },
+        "camlicaYapi": {
+          "meta": {
+            "title": "Camlica Yapi Market Office | Sobutay"
+          },
+          "number": "06.",
+          "title": "CAMLICA YAPI MARKET OFFICE",
+          "location": {
+            "label": "LOCATION /",
+            "value": "ANTALYA"
+          },
+          "type": {
+            "label": "TYPE /",
+            "value": "COMMERCIAL SPACE DESIGN"
+          },
+          "services": {
+            "label": "SERVICES /",
+            "value": "Modular Partition Wall Manufacturing\nModular Carpet Flooring Installation"
+          },
+          "descriptionTitle": "DESCRIPTION",
+          "description": "In the renovation of CAMLICA YAPI MARKET management office project, designed by DNA ARCHITECTURE, 1180 m2 of modular partition walls and 200 m2 of carpet tiles were manufactured. In the Camlica Yapi Market management office that became operational in 2021, we designed 2 meeting rooms and 1 completely acoustic rest room.",
+          "footerCopyright": "© 2024 Sobutay. All rights reserved."
+        },
+        "kareOtomotiv": {
+          "meta": {
+            "title": "Kare Otomotiv VW Office | Sobutay"
+          },
+          "number": "07.",
+          "title": "KARE OTOMOTIV VW OFFICE",
+          "location": {
+            "label": "LOCATION /",
+            "value": "ANTALYA"
+          },
+          "type": {
+            "label": "TYPE /",
+            "value": "COMMERCIAL SPACE DESIGN"
+          },
+          "services": {
+            "label": "SERVICES /",
+            "value": "Modular Partition Wall Manufacturing\nModular Carpet Flooring Installation"
+          },
+          "descriptionTitle": "DESCRIPTION",
+          "description": "In the renovation of KARE OTOMOTIV management office project, designed by DNA ARCHITECTURE, 1080 m2 of modular partition walls and 1020 m2 of carpet tiles were manufactured. In the management office that became operational in 2021, we designed 2 meeting rooms and 1 completely acoustic rest room.",
+          "footerCopyright": "© 2024 Sobutay. All rights reserved."
+        },
+        "musliksShowroom": {
+          "meta": {
+            "title": "Musliks Showroom Building | Sobutay"
+          },
+          "number": "08.",
+          "title": "MUSLIKS SHOWROOM BUILDING",
+          "location": {
+            "label": "LOCATION /",
+            "value": "ANTALYA"
+          },
+          "type": {
+            "label": "TYPE /",
+            "value": "COMMERCIAL SPACE DESIGN"
+          },
+          "services": {
+            "label": "SERVICES /",
+            "value": "Suspended Ceiling Manufacturing\nInterior Design"
+          },
+          "descriptionTitle": "DESCRIPTION",
+          "description": "In the renovation of MULTIKS management office project, designed by ARCHITECT ORCUN CELIK, 4210 m2 of baffle suspended ceiling was manufactured. In the Multiks management office that became operational in 2023, we designed 4 meeting rooms and 1 4400m2 showroom.",
+          "footerCopyright": "© 2024 Sobutay. All rights reserved."
+        },
+        "aosbKres": {
+          "meta": {
+            "title": "AOSB Nursery | Sobutay"
+          },
+          "number": "09.",
+          "title": "ANTALYA ORGANIZED INDUSTRIAL ZONE NURSERY",
+          "location": {
+            "label": "LOCATION /",
+            "value": "ANTALYA"
+          },
+          "type": {
+            "label": "TYPE /",
+            "value": "SOCIAL FACILITY"
+          },
+          "services": {
+            "label": "SERVICES /",
+            "value": "Static Drawing\nProject Management"
+          },
+          "descriptionTitle": "DESCRIPTION",
+          "description": "In the nursery project construction started in 2024 in ANTALYA ORGANIZED INDUSTRIAL ZONE, the static project was drawn by Civil Engineer Engin ERDOGAN and the project consultation was carried out by him. The project, which was completed in AUTODESK REVIT program, was finished as of 2025 and opened for use by AOSB.",
+          "footerCopyright": "© 2024 Sobutay. All rights reserved."
+        },
+        "otomolOfis": {
+          "meta": {
+            "title": "Otomol Office Project | Sobutay"
+          },
+          "number": "10.",
+          "title": "OTOMOL OFFICE PROJECT",
+          "location": {
+            "label": "LOCATION /",
+            "value": "FETHIYE"
+          },
+          "type": {
+            "label": "TYPE /",
+            "value": "COMMERCIAL SPACE DESIGN"
+          },
+          "services": {
+            "label": "SERVICES /",
+            "value": "Suspended Ceiling Manufacturing\nFloor Carpet Installation"
+          },
+          "descriptionTitle": "DESCRIPTION",
+          "description": "BAYKAN AUTOMOBILE management office interior decoration project is a project we started in 2017 with the design belonging to us. Our management office project uses various suspended ceiling systems and has Green Building System Certification. The suspended ceiling types used in our project include Trapeze System and Honeycomb Suspended Ceiling System obtained from recycling. Additionally, the office floors are covered with 1.200 m2 of natural wood laminate parquet and 2.500m2 of breathable carpet tiles.",
+          "footerCopyright": "© 2024 Sobutay. All rights reserved."
+        },
+        "sunHotel": {
+          "meta": {
+            "title": "Sun Hotel Alanya | Sobutay"
+          },
+          "number": "11.",
+          "title": "SUN HOTEL ALANYA",
+          "location": {
+            "label": "LOCATION /",
+            "value": "ALANYA"
+          },
+          "type": {
+            "label": "TYPE /",
+            "value": "HOTEL DESIGN"
+          },
+          "services": {
+            "label": "SERVICES /",
+            "value": "Suspended Ceiling Manufacturing\nHotel Design"
+          },
+          "descriptionTitle": "DESCRIPTION",
+          "description": "In the renovation of GUCLU TOURISM management office project, designed by ARCHITECT YESIM KOZANLI, 2810 m2 of baffle suspended ceiling and 5200 m2 of honeycomb suspended ceiling were manufactured. The renovation project of Sun Hotel, belonging to GUCLU TOURISM which became operational in 2020, in the common areas was delivered in as short a time as 60 days.",
+          "footerCopyright": "© 2024 Sobutay. All rights reserved."
+        },
+        "jwMaltepe": {
+          "meta": {
+            "title": "JW Maltepe Conference Hall | Sobutay"
+          },
+          "number": "12.",
+          "title": "JW MALTEPE CONFERENCE HALL",
+          "location": {
+            "label": "LOCATION /",
+            "value": "ISTANBUL"
+          },
+          "type": {
+            "label": "TYPE /",
+            "value": "CONFERENCE AREA DESIGN"
+          },
+          "services": {
+            "label": "SERVICES /",
+            "value": "Drywall Partition Manufacturing\nModular Partition Manufacturing\nFloor Carpet Installation"
+          },
+          "descriptionTitle": "DESCRIPTION",
+          "description": "In our JW management office project turnkey, the architectural project came from the JW MANAGEMENT BOARD and in the manufacturing section we have completed our manufacturing with many acoustic and fire-resistant materials. In our conference hall project, 1520 m2 of AMF THERMATE DB ACOUSTIC, 1200 m2 of automatic louvered modular partition walls, 900 m2 of Tarkett carpet tiles, fire-resistant acoustic doors and 3750 m2 of Knauf Diamond series walls were installed. The JW conference hall project, which became operational in 2023, was delivered and opened for use in 3 months.",
+          "footerCopyright": "© 2024 Sobutay. All rights reserved."
         }
       },
       "dealers": {
@@ -1833,6 +1987,182 @@
           },
           "descriptionTitle": "ОПИСАНИЕ",
           "description": "В нашем проекте управленческого офиса JW под ключ, архитектурный проект был получен от УПРАВЛЕНИЯ СОВЕТОМ JW и в части производства мы завершили наше производство со многими акустическими и огнестойкими высокопроизводительными материалами. В нашем проекте конференц-зала установлены 1520 м2 AMF THERMATE DB ACOUSTIC, 1200 м2 модульной перегородки с моторизованными жалюзи, 900 м2 ковровой плитки Tarkett, огнестойкие акустические двери и 3750 м2 серии Knauf Diamant на стенах. Наш проект конференц-зала JW, введенный в эксплуатацию в 2023 году, был доставлен и открыт для использования в столь короткий период, как 3 месяца.",
+          "footerCopyright": "© 2024 Sobutay. Все права защищены."
+        },
+        "gultepeSport": {
+          "meta": {
+            "title": "Спортивный комплекс Gültepe | Sobutay"
+          },
+          "number": "05.",
+          "title": "СПОРТИВНЫЙ КОМПЛЕКС GÜLTEPE",
+          "location": {
+            "label": "МЕСТОПОЛОЖЕНИЕ /",
+            "value": "ИЗМИР"
+          },
+          "type": {
+            "label": "ТИП /",
+            "value": "СПОРТИВНОЕ СООРУЖЕНИЕ"
+          },
+          "services": {
+            "label": "УСЛУГИ /",
+            "value": "Установка напольного покрытия\nПроизводство искусственного газона\nПроизводство подвесных потолков"
+          },
+          "descriptionTitle": "ОПИСАНИЕ",
+          "description": "В проекте СПОРТИВНОГО КОМПЛЕКСА Gültepe, построенном муниципалитетом KONAK, мы создали площади, пригодные для использования. В нашем многоцелевом спортивном комплексе искусственное травяное поле, волейбольные и баскетбольные сооружения, спроектированные для проведения международных турниров, были доставлены нами. В многоцелевом спортивном комплексе, который начал работу в 2021 году, мы обеспечили, чтобы используемые продукты производились и доставлялись, пригодные для реального использования.",
+          "footerCopyright": "© 2024 Sobutay. Все права защищены."
+        },
+        "camlicaYapi": {
+          "meta": {
+            "title": "Офис Çamlica Yapi Market | Sobutay"
+          },
+          "number": "06.",
+          "title": "ОФИС ÇAMLICA YAPI MARKET",
+          "location": {
+            "label": "МЕСТОПОЛОЖЕНИЕ /",
+            "value": "АНТАЛЬЯ"
+          },
+          "type": {
+            "label": "ТИП /",
+            "value": "ДИЗАЙН КОММЕРЧЕСКОГО ПРОСТРАНСТВА"
+          },
+          "services": {
+            "label": "УСЛУГИ /",
+            "value": "Производство модульных перегородок\nУстановка модульного коврового покрытия"
+          },
+          "descriptionTitle": "ОПИСАНИЕ",
+          "description": "При реновации проекта управленческого офиса ÇAMLICA YAPI MARKET, разработанного DNA ARCHITECTURE, было изготовлено 1180 м2 модульных перегородок и 200 м2 ковровой плитки. В управленческом офисе Çamlica Yapi Market, который начал работу в 2021 году, мы спроектировали 2 конференц-зала и 1 полностью звукоизолированную комнату отдыха.",
+          "footerCopyright": "© 2024 Sobutay. Все права защищены."
+        },
+        "kareOtomotiv": {
+          "meta": {
+            "title": "Офис Kare Otomotiv VW | Sobutay"
+          },
+          "number": "07.",
+          "title": "ОФИС KARE OTOMOTIV VW",
+          "location": {
+            "label": "МЕСТОПОЛОЖЕНИЕ /",
+            "value": "АНТАЛЬЯ"
+          },
+          "type": {
+            "label": "ТИП /",
+            "value": "ДИЗАЙН КОММЕРЧЕСКОГО ПРОСТРАНСТВА"
+          },
+          "services": {
+            "label": "УСЛУГИ /",
+            "value": "Производство модульных перегородок\nУстановка модульного коврового покрытия"
+          },
+          "descriptionTitle": "ОПИСАНИЕ",
+          "description": "При реновации проекта управленческого офиса KARE OTOMOTIV, разработанного DNA ARCHITECTURE, было изготовлено 1080 м2 модульных перегородок и 1020 м2 ковровой плитки. В управленческом офисе, который начал работу в 2021 году, мы спроектировали 2 конференц-зала и 1 полностью звукоизолированную комнату отдыха.",
+          "footerCopyright": "© 2024 Sobutay. Все права защищены."
+        },
+        "musliksShowroom": {
+          "meta": {
+            "title": "Здание Musliks Showroom | Sobutay"
+          },
+          "number": "08.",
+          "title": "ЗДАНИЕ MUSLIKS SHOWROOM",
+          "location": {
+            "label": "МЕСТОПОЛОЖЕНИЕ /",
+            "value": "АНТАЛЬЯ"
+          },
+          "type": {
+            "label": "ТИП /",
+            "value": "ДИЗАЙН КОММЕРЧЕСКОГО ПРОСТРАНСТВА"
+          },
+          "services": {
+            "label": "УСЛУГИ /",
+            "value": "Производство подвесных потолков\nДизайн интерьера"
+          },
+          "descriptionTitle": "ОПИСАНИЕ",
+          "description": "При реновации проекта управленческого офиса MULTIKS, разработанного архитектором ORCUN CELIK, было изготовлено 4210 м2 баффельных подвесных потолков. В управленческом офисе Multiks, который начал работу в 2023 году, мы спроектировали 4 конференц-зала и 1 шоурум площадью 4400м2.",
+          "footerCopyright": "© 2024 Sobutay. Все права защищены."
+        },
+        "aosbKres": {
+          "meta": {
+            "title": "Детский сад AOSB | Sobutay"
+          },
+          "number": "09.",
+          "title": "ДЕТСКИЙ САД AOSB",
+          "location": {
+            "label": "МЕСТОПОЛОЖЕНИЕ /",
+            "value": "АНТАЛЬЯ"
+          },
+          "type": {
+            "label": "ТИП /",
+            "value": "СОЦИАЛЬНОЕ УЧРЕЖДЕНИЕ"
+          },
+          "services": {
+            "label": "УСЛУГИ /",
+            "value": "Статический чертеж\nУправление проектом"
+          },
+          "descriptionTitle": "ОПИСАНИЕ",
+          "description": "В проекте детского сада, начатом в 2024 году в ПРОМЫШЛЕННОЙ ЗОНЕ АНТАЛЬЯ, статический проект был разработан инженером-строителем Engin ERDOGAN и управление проектом осуществлялось им. Проект, завершенный в программе AUTODESK REVIT, был завершен по состоянию на 2025 год и открыт для использования AOSB.",
+          "footerCopyright": "© 2024 Sobutay. Все права защищены."
+        },
+        "otomolOfis": {
+          "meta": {
+            "title": "Проект офиса Otomol | Sobutay"
+          },
+          "number": "10.",
+          "title": "ПРОЕКТ ОФИСА OTOMOL",
+          "location": {
+            "label": "МЕСТОПОЛОЖЕНИЕ /",
+            "value": "ФЕТХИЕ"
+          },
+          "type": {
+            "label": "ТИП /",
+            "value": "ДИЗАЙН КОММЕРЧЕСКОГО ПРОСТРАНСТВА"
+          },
+          "services": {
+            "label": "УСЛУГИ /",
+            "value": "Производство подвесных потолков\nУстановка напольного ковра"
+          },
+          "descriptionTitle": "ОПИСАНИЕ",
+          "description": "Проект декорирования внутреннего офиса управления BAYKAN AUTOMOBILE - это проект, который мы начали в 2017 году с дизайном, принадлежащим нам. Наш проект офиса управления использует различные системы подвесных потолков и имеет сертификацию Green Building System. Типы подвесных потолков, используемые в нашем проекте, включают систему Trapeze и систему подвесных потолков Honeycomb, полученные из переработки. Кроме того, полы офиса покрыты 1.200 м2 натурального ламинированного паркета и 2.500м2 дышащей ковровой плитки.",
+          "footerCopyright": "© 2024 Sobutay. Все права защищены."
+        },
+        "sunHotel": {
+          "meta": {
+            "title": "Sun Hotel Alanya | Sobutay"
+          },
+          "number": "11.",
+          "title": "SUN HOTEL ALANYA",
+          "location": {
+            "label": "МЕСТОПОЛОЖЕНИЕ /",
+            "value": "АЛАНИЯ"
+          },
+          "type": {
+            "label": "ТИП /",
+            "value": "ДИЗАЙН ОТЕЛЯ"
+          },
+          "services": {
+            "label": "УСЛУГИ /",
+            "value": "Производство подвесных потолков\nДизайн отеля"
+          },
+          "descriptionTitle": "ОПИСАНИЕ",
+          "description": "При реновации проекта управленческого офиса GUCLU TOURISM, разработанного архитектором YESIM KOZANLI, было изготовлено 2810 м2 баффельных подвесных потолков и 5200 м2 сотовых подвесных потолков. Проект реновации Sun Hotel, принадлежащего GUCLU TOURISM, которая начала работу в 2020 году, в общих зонах был доставлен в течение всего 60 дней.",
+          "footerCopyright": "© 2024 Sobutay. Все права защищены."
+        },
+        "jwMaltepe": {
+          "meta": {
+            "title": "Конференц-зал JW Maltepe | Sobutay"
+          },
+          "number": "12.",
+          "title": "КОНФЕРЕНЦ-ЗАЛ JW MALTEPE",
+          "location": {
+            "label": "МЕСТОПОЛОЖЕНИЕ /",
+            "value": "СТАМБУЛ"
+          },
+          "type": {
+            "label": "ТИП /",
+            "value": "ДИЗАЙН КОНФЕРЕНЦ-ЗОНЫ"
+          },
+          "services": {
+            "label": "УСЛУГИ /",
+            "value": "Производство гипсокартонных перегородок\nПроизводство модульных перегородок\nУстановка напольного ковра"
+          },
+          "descriptionTitle": "ОПИСАНИЕ",
+          "description": "В нашем проекте управленческого офиса JW под ключ архитектурный проект поступил от совета управления JW и в производстве мы завершили нашу работу со многими акустическими и огнестойкими материалами. В нашем проекте конференц-зала было установлено 1520 м2 AMF THERMATE DB ACOUSTIC, 1200 м2 модульных перегородок с автоматическими жалюзи, 900 м2 ковровой плитки Tarkett, огнестойкие акустические двери и 3750 м2 серии Knauf Diamond. Проект конференц-зала JW, который начал работу в 2023 году, был доставлен и открыт для использования в течение 3 месяцев.",
           "footerCopyright": "© 2024 Sobutay. Все права защищены."
         }
       },
