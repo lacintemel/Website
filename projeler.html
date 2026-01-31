@@ -138,11 +138,11 @@
             </a>
             <div class="header-right">
                 <ul class="header-nav">
-                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                    <li><a href="projeler.html">Projelerimiz</a></li>
-                    <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
-                    <li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li>
-                    <li><a href="iletisim.html">İletişim</a></li>
+                    <li><a href="hakkimizda.html" data-i18n="pages.projects.nav.about">Hakkımızda</a></li>
+                    <li><a href="projeler.html" data-i18n="pages.projects.nav.projects">Projelerimiz</a></li>
+                    <li><a href="bayiliklerimiz.html" data-i18n="pages.projects.nav.dealers">Bayiliklerimiz</a></li>
+                    <li><a href="cozum_ortaklari.html" data-i18n="pages.projects.nav.partners">Çözüm Ortaklarımız</a></li>
+                    <li><a href="iletisim.html" data-i18n="pages.projects.nav.contact">İletişim</a></li>
                     <li class="lang-sel"><a>Tr <img src="images/svg/globe.svg" alt=""></a></li>
                     <li class="line"></li>
                     <li class="burger-menu-icon burger-scroll"><img src="images/svg/burger-icon.svg" alt=""></li>
@@ -156,12 +156,12 @@
                     <div class="close"><img src="images/svg/close.svg" alt=""></div>
                 </div>
                 <ul class="menu-nav">
-                    <li><a href="index.html">Anasayfa</a></li>
-                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                    <li><a href="projeler.html">Projeler</a></li>
-                    <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
-                    <li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li>
-                    <li><a href="iletisim.html">İletişim</a></li>
+                    <li><a href="index.html" data-i18n="common.homeLink">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html" data-i18n="common.aboutLink">Hakkımızda</a></li>
+                    <li><a href="projeler.html" data-i18n="common.projectsLinkShort">Projeler</a></li>
+                    <li><a href="bayiliklerimiz.html" data-i18n="common.dealersLink">Bayiliklerimiz</a></li>
+                    <li><a href="cozum_ortaklari.html" data-i18n="common.partnersLink">Çözüm Ortaklarımız</a></li>
+                    <li><a href="iletisim.html" data-i18n="common.contactLink">İletişim</a></li>
                 </ul>
                 <div class="menu-bar bottom-bar">
                     <a href="tel:2284509">228 4 509</a>
@@ -174,22 +174,22 @@
             <div class="lang-menu-bg"></div>
             <div class="lang-menu">
                 <div class="close"><img onclick="closeLanguage()" src="images/svg/close-2.svg" alt=""></div>
-                <h4 class="color-l-green kalnia">Dil Seçin</h4>
+                <h4 class="color-l-green kalnia" data-i18n="pages.home.lang.selectLang">Dil Seçin</h4>
                 <div id="langBtnContainer">
                     <button class="lang-btn active" data-lang="tr">
-                        <b>Türkçe</b><br>Turkish
+                        <b data-i18n="pages.home.lang.turkish">Türkçe</b><br>Turkish
                     </button>
                     <button class="lang-btn" data-lang="en">
-                        <b>English</b><br>English
+                        <b data-i18n="pages.home.lang.english">English</b><br>English
                     </button>
 
                     <button class="lang-btn" data-lang="ru">
-                        <b>Русский</b><br>Russian
+                        <b data-i18n="pages.home.lang.russian">Русский</b><br>Russian
                     </button>
                 </div>
 
 
-                <button class="guncel-btn">Güncelle</button>
+                <button class="guncel-btn" data-i18n="pages.home.lang.update">Güncelle</button>
             </div>
         </div>
     </header>
@@ -200,31 +200,31 @@
                 <div class="row form-row">
                     <div class="col-md-6 form-left">
                         <img src="images/svg/sun.svg" alt=""><br><br>
-                        <h5 class="kalnia color-l-gold">İletişim Formu</h5>
-                        <p class="my-3"><b>Lütfen, bilgi almak istediğiniz projeyi ve iletişim bilgilerinizi yandaki formu doldurarak bize gönderin.</b></p>
-                        <p>İlgili proje yöneticimiz belirlediğiniz iletişim yöntemi doğrultusunda sizinle en kısa sürede iletişime geçecek.</p>
+                        <h5 class="kalnia color-l-gold" data-i18n="pages.home.forms.contact.title">İletişim Formu</h5>
+                        <p class="my-3"><b data-i18n="pages.home.forms.contact.subtitle">Lütfen, bilgi almak istediğiniz projeyi ve iletişim bilgilerinizi yandaki formu doldurarak bize gönderin.</b></p>
+                        <p data-i18n="pages.home.forms.contact.description">İlgili proje yöneticimiz belirlediğiniz iletişim yöntemi doğrultusunda sizinle en kısa sürede iletişime geçecek.</p>
                     </div>
                     <div class="col-md-6 px-0">
                         <form class="ara-form ilet-form inner-form" id="iletisimForm">
                             <div class="mx-0 row">
                                 <div class="col-6">
                                     <input type="hidden" name="form-source" value="iletisim-formu">
-                                    <input type="text" class="firstname" name="firstname" placeholder="İsim*" required>
+                                    <input type="text" class="firstname" name="firstname" data-i18n="[placeholder]pages.home.forms.contact.firstName" placeholder="İsim*" required>
                                 </div>
                                 <div class="col-6">
-                                    <input type="text" class="lastname" name="lastname" placeholder="Soyisim*" required>
+                                    <input type="text" class="lastname" name="lastname" data-i18n="[placeholder]pages.home.forms.contact.lastName" placeholder="Soyisim*" required>
                                 </div>
                                 <div class="col-6">
-                                    <input type="email" class="email" name="email" placeholder="E-posta*" required>
+                                    <input type="email" class="email" name="email" data-i18n="[placeholder]pages.home.forms.contact.email" placeholder="E-posta*" required>
                                 </div>
                                 <div class="col-6">
-                                    <input type="tel" class="telephone" name="telephone" placeholder="Telefon" required>
+                                    <input type="tel" class="telephone" name="telephone" data-i18n="[placeholder]pages.home.forms.contact.phone" placeholder="Telefon" required>
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" class="project" name="project" placeholder="Proje Adı*" required>
+                                    <input type="text" class="project" name="project" data-i18n="[placeholder]pages.home.forms.contact.project" placeholder="Proje Adı*" required>
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" class="message" name="message" placeholder="Notunuz*" required>
+                                    <input type="text" class="message" name="message" data-i18n="[placeholder]pages.home.forms.contact.message" placeholder="Notunuz*" required>
                                 </div>
                                 <div class="col-12">
                                     <div class="check-row">
@@ -232,8 +232,8 @@
                                             <input type="checkbox" name="kvkk-check" value="kvkk-onayliyor" checked>
                                             <span class="check-slider round"></span>
                                         </label>
-                                        <p class="text-white">KVKK metnini okudum, onaylıyorum.</p>
-                                        <button class="sendForm" id="iletisimSendForm" type="button">Gönder</button>
+                                        <p class="text-white" data-i18n="pages.home.forms.contact.kvkk">KVKK metnini okudum, onaylıyorum.</p>
+                                        <button class="sendForm" id="iletisimSendForm" type="button" data-i18n="pages.home.forms.contact.send">Gönder</button>
                                     </div>
                                 </div>
                             </div>
@@ -245,32 +245,32 @@
                 <div class="row form-row">
                     <div class="col-md-6 form-left">
                         <img src="images/svg/sun.svg" alt=""><br><br>
-                        <h5 class="kalnia color-l-gold">Sizin için buradayız</h5>
-                        <p class="my-3"><b>Firmamıza dair herhangi bir sorunuz, talebiniz veya geri bildiriminiz mi var?</b></p>
-                        <p>Lütfen iletişim formunu doldurun ve bize gönderin. En kısa sürede size geri dönüş yapmak için sabırsızlanıyoruz.</p>
+                        <h5 class="kalnia color-l-gold" data-i18n="pages.home.forms.appointment.title">Sizin için buradayız</h5>
+                        <p class="my-3"><b data-i18n="pages.home.forms.appointment.subtitle">Firmamıza dair herhangi bir sorunuz, talebiniz veya geri bildiriminiz mi var?</b></p>
+                        <p data-i18n="pages.home.forms.appointment.description">Lütfen iletişim formunu doldurun ve bize gönderin. En kısa sürede size geri dönüş yapmak için sabırsızlanıyoruz.</p>
                     </div>
                     <div class="col-md-6 px-0">
                         <form class="randevu-form inner-form" id="randevuForm">
                             <div class="mx-0 row">
                                 <div class="col-6">
                                     <input type="hidden" name="form-source" value="randevu-formu">
-                                    <input type="text" class="firstname" name="firstname" placeholder="İsim*" required>
+                                    <input type="text" class="firstname" name="firstname" data-i18n="[placeholder]pages.home.forms.appointment.firstName" placeholder="İsim*" required>
                                 </div>
                                 <div class="col-6">
-                                    <input type="text" class="lastname" name="lastname" placeholder="Soyisim*" required>
+                                    <input type="text" class="lastname" name="lastname" data-i18n="[placeholder]pages.home.forms.appointment.lastName" placeholder="Soyisim*" required>
                                 </div>
                                 <div class="col-6">
-                                    <input type="email" class="email" name="email" placeholder="E-posta*" required>
+                                    <input type="email" class="email" name="email" data-i18n="[placeholder]pages.home.forms.appointment.email" placeholder="E-posta*" required>
                                 </div>
                                 <div class="col-6">
-                                    <input type="tel" class="telephone" name="telephone" placeholder="Telefon" required>
+                                    <input type="tel" class="telephone" name="telephone" data-i18n="[placeholder]pages.home.forms.appointment.phone" placeholder="Telefon" required>
                                 </div>
                                 <div class="col-6">
-                                    <input type="text" class="project" name="project" placeholder="Proje Adı*" required>
+                                    <input type="text" class="project" name="project" data-i18n="[placeholder]pages.home.forms.appointment.project" placeholder="Proje Adı*" required>
                                 </div>
                                 <div class="col-6">
                                     <select class="randevu" name="randevu" required>
-                                        <option value="" disabled selected>Randevu Saati*</option>
+                                        <option value="" disabled selected data-i18n="pages.home.forms.appointment.appointmentTime">Randevu Saati*</option>
                                         <option value="09:00-10:00">09:00 - 10:00</option>
                                         <option value="10:00-11:00">10:00 - 11:00</option>
                                         <option value="11:00-12:00">11:00 - 12:00</option>
@@ -282,7 +282,7 @@
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <label for="randevu-tarihi">Randevu Tarihi*</label>
+                                    <label for="randevu-tarihi" data-i18n="pages.home.forms.appointment.appointmentDate">Randevu Tarihi*</label>
                                     <input type="date" class="randevu-tarihi" name="randevu-tarihi" placeholder="Randevu Tarihi*" required>
                                 </div>
                                 <div class="col-12">
@@ -291,8 +291,8 @@
                                             <input type="checkbox" name="kvkk-check" value="kvkk-onayliyor" checked>
                                             <span class="check-slider round"></span>
                                         </label>
-                                        <p class="text-white">KVKK metnini okudum, onaylıyorum.</p>
-                                        <button class="sendForm" id="randevuSendForm" type="button">Gönder</button>
+                                        <p class="text-white" data-i18n="pages.home.forms.appointment.kvkk">KVKK metnini okudum, onaylıyorum.</p>
+                                        <button class="sendForm" id="randevuSendForm" type="button" data-i18n="pages.home.forms.appointment.send">Gönder</button>
                                     </div>
                                 </div>
                             </div>
@@ -304,36 +304,36 @@
         </div>
         <div class="contact-btn-bar">
             <div class="contact-btn">
-                <a href="tel:2284509" target="_blank"><img src="images/svg/phone-call-01.svg" alt=""> <span>228 4 509</span></a>
+                <a href="tel:2284509" target="_blank"><img src="images/svg/phone-call-01.svg" alt=""> <span data-i18n="pages.home.contactBar.phone">228 4 509</span></a>
             </div>
             <div class="line"></div>
             <div class="contact-btn ilet-btn">
-                İletişim Formu <img class="chev" src="images/svg/chevron-up.svg" alt="">
+                <span data-i18n="pages.home.contactBar.contactForm">İletişim Formu</span> <img class="chev" src="images/svg/chevron-up.svg" alt="">
             </div>
             <div class="line"></div>
             <div class="contact-btn randevu-btn">
-                Online Görüşme<img class="chev" src="images/svg/chevron-up.svg" alt="">
+                <span data-i18n="pages.home.contactBar.onlineCall">Online Görüşme</span><img class="chev" src="images/svg/chevron-up.svg" alt="">
             </div>
             <div class="line"></div>
             <div class="contact-btn">
-                <a href="https://wa.me/+905325889088" target="_blank"><span>Whatsapp </span><img src="images/svg/whatsapp.svg" alt=""></a>
+                <a href="https://wa.me/+905325889088" target="_blank"><span data-i18n="pages.home.contactBar.whatsapp">Whatsapp </span><img src="images/svg/whatsapp.svg" alt=""></a>
             </div>
         </div>
     </div>
 
     <section class="alt-banner">
         <div class="container">
-            <h1 class="kalnia color-green">Kendine özgü, <br> huzur dolu.</h1>
-            <h5 class="fw-normal">Sobutay olarak, her biri benzersiz bir hikayeye ve özel bir vizyona sahip olan
+            <h1 class="kalnia color-green" data-i18n="pages.projects.banner.heading">Kendine özgü, huzur dolu.</h1>
+            <h5 class="fw-normal" data-i18n="pages.projects.banner.description">Sobutay olarak, her biri benzersiz bir hikayeye ve özel bir vizyona sahip olan
                 projelerimizi başarıyla tamamlamaktan gurur duyuyoruz. Müşterilerimize ve topluma değer katan, estetik
                 ve işlevsellik açısından üstün niteliklere sahip projeler geliştirmeye devam ediyoruz.</h5>
         </div>
     </section>
 
     <div id="myBtnContainer" class="category-btn-wrap">
-        <button class="category-btn active" onclick="filterSelection('tamam')"> Tüm Projeler</button>
-        <button class="category-btn" onclick="filterSelection('devam')"> Devam Eden Projeler</button>
-        <button class="category-btn" onclick="filterSelection('biten')"> Tamamlanan Projeler</button>
+        <button class="category-btn active" onclick="filterSelection('tamam')" data-i18n="pages.projects.filters.all"> Tüm Projeler</button>
+        <button class="category-btn" onclick="filterSelection('devam')" data-i18n="pages.projects.filters.ongoing"> Devam Eden Projeler</button>
+        <button class="category-btn" onclick="filterSelection('biten')" data-i18n="pages.projects.filters.completed"> Tamamlanan Projeler</button>
     </div>
 
 
@@ -345,11 +345,11 @@
                     <a href="projeler/liberty_hotel.html" class="proje-card">
                         <img class="proje-card-img" src="images/liberty/img_4495.jpg" alt="Liberty Hotel">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay">Tamamlandı</span>
-                            <h4 class="fw-norm kalnia">Liberty Hotel Kuşadası</h4>
+                            <span class="status-badge-overlay" data-i18n="pages.projects.status.completed">Tamamlandı</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.libertyHotel.title">Liberty Hotel Kuşadası</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>Kuşadası</p>
+                                <p data-i18n="pages.projects.projectsList.libertyHotel.location">Kuşadası</p>
                             </div>
                         </div>
                     </a>
@@ -359,11 +359,11 @@
                     <a href="projeler/xo_cape_antalya.html" class="proje-card">
                         <img class="proje-card-img" src="images/xocarpe/yka_xo-cape-arnna_web_80.jpg" alt="XO Cape">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay">Tamamlandı</span>
-                            <h4 class="fw-norm kalnia">XO Cape Antalya Hotel</h4>
+                            <span class="status-badge-overlay" data-i18n="pages.projects.status.completed">Tamamlandı</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.xoCape.title">XO Cape Antalya Hotel</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>Fethiye</p>
+                                <p data-i18n="pages.projects.projectsList.xoCape.location">Fethiye</p>
                             </div>
                         </div>
                     </a>
@@ -373,11 +373,11 @@
                     <a href="projeler/hesapcoglu_opel.html" class="proje-card">
                         <img class="proje-card-img" src="images/hesapcioglu/img_3963.jpg" alt="Opel Showroom">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay">Tamamlandı</span>
-                            <h4 class="fw-norm kalnia">Hesapçıoğlu Opel Showroom</h4>
+                            <span class="status-badge-overlay" data-i18n="pages.projects.status.completed">Tamamlandı</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.hesapciogluOpel.title">Hesapçıoğlu Opel Showroom</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>Antalya</p>
+                                <p data-i18n="pages.projects.projectsList.hesapciogluOpel.location">Antalya</p>
                             </div>
                         </div>
                     </a>
@@ -387,11 +387,11 @@
                     <a href="projeler/altintar_tarim.html" class="proje-card">
                         <img class="proje-card-img" src="images/altinar/pic.1.jpg" alt="Altıntar Ofis">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay">Tamamlandı</span>
-                            <h4 class="fw-norm kalnia">Altıntar Tarım Yönetim Ofisi</h4>
+                            <span class="status-badge-overlay" data-i18n="pages.projects.status.completed">Tamamlandı</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.altintarTarim.title">Altıntar Tarım Yönetim Ofisi</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>Antalya</p>
+                                <p data-i18n="pages.projects.projectsList.altintarTarim.location">Antalya</p>
                             </div>
                         </div>
                     </a>
@@ -401,11 +401,11 @@
                     <a href="projeler/gultepe_spor.html" class="proje-card">
                         <img class="proje-card-img" src="images/gultepe/img_2981.jpg" alt="Gültepe Spor">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay">Tamamlandı</span>
-                            <h4 class="fw-norm kalnia">Gültepe Spor Kompleksi</h4>
+                            <span class="status-badge-overlay" data-i18n="pages.projects.status.completed">Tamamlandı</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.gultepeSpor.title">Gültepe Spor Kompleksi</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>İzmir</p>
+                                <p data-i18n="pages.projects.projectsList.gultepeSpor.location">İzmir</p>
                             </div>
                         </div>
                     </a>
@@ -415,11 +415,11 @@
                     <a href="projeler/camlica_yapi.html" class="proje-card">
                         <img class="proje-card-img" src="images/camlica/img_6578.jpg" alt="Çamlıca Yapı">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay">Tamamlandı</span>
-                            <h4 class="fw-norm kalnia">Çamlıca Yapı Market Ofisi</h4>
+                            <span class="status-badge-overlay" data-i18n="pages.projects.status.completed">Tamamlandı</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.camlicaYapi.title">Çamlıca Yapı Market Ofisi</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>Antalya</p>
+                                <p data-i18n="pages.projects.projectsList.camlicaYapi.location">Antalya</p>
                             </div>
                         </div>
                     </a>
@@ -429,11 +429,11 @@
                     <a href="projeler/kare_otomotiv.html" class="proje-card">
                         <img class="proje-card-img" src="images/kareoto/kare_4.jpg" alt="Kare Otomotiv">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay">Tamamlandı</span>
-                            <h4 class="fw-norm kalnia">Kare Otomotiv VW Ofisi</h4>
+                            <span class="status-badge-overlay" data-i18n="pages.projects.status.completed">Tamamlandı</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.kareOtomotiv.title">Kare Otomotiv VW Ofisi</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>Antalya</p>
+                                <p data-i18n="pages.projects.projectsList.kareOtomotiv.location">Antalya</p>
                             </div>
                         </div>
                     </a>
@@ -443,11 +443,11 @@
                     <a href="projeler/musliks_showroom.html" class="proje-card">
                         <img class="proje-card-img" src="images/muslitks/img_7687.jpg" alt="Musliks">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay">Tamamlandı</span>
-                            <h4 class="fw-norm kalnia">Musliks Showroom Binası</h4>
+                            <span class="status-badge-overlay" data-i18n="pages.projects.status.completed">Tamamlandı</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.musliksShowroom.title">Musliks Showroom Binası</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>Antalya</p>
+                                <p data-i18n="pages.projects.projectsList.musliksShowroom.location">Antalya</p>
                             </div>
                         </div>
                     </a>
@@ -457,11 +457,11 @@
                     <a href="projeler/aosb_kres.html" class="proje-card">
                         <img class="proje-card-img" src="images/kres/9.jpg" alt="AOSB Kreş">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay">Tamamlandı</span>
-                            <h4 class="fw-norm kalnia">Antalya Organize Sanayi Kreş</h4>
+                            <span class="status-badge-overlay" data-i18n="pages.projects.status.completed">Tamamlandı</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.aosbKres.title">Antalya Organize Sanayi Kreş</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>Antalya</p>
+                                <p data-i18n="pages.projects.projectsList.aosbKres.location">Antalya</p>
                             </div>
                         </div>
                     </a>
@@ -471,11 +471,11 @@
                     <a href="projeler/otomol_ofis.html" class="proje-card">
                         <img class="proje-card-img" src="images/baykan/60x120_hook_on.jpg" alt="Otomol">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay" style="color: #ffd700;">Devam Ediyor</span>
-                            <h4 class="fw-norm kalnia">Otomol Ofis Projesi</h4>
+                            <span class="status-badge-overlay" style="color: #ffd700;" data-i18n="pages.projects.status.ongoing">Devam Ediyor</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.otomolOfis.title">Otomol Ofis Projesi</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>Fethiye</p>
+                                <p data-i18n="pages.projects.projectsList.otomolOfis.location">Fethiye</p>
                             </div>
                         </div>
                     </a>
@@ -485,11 +485,11 @@
                     <a href="projeler/sun_hotel.html" class="proje-card">
                         <img class="proje-card-img" src="images/sunhotel/img_0186.jpg" alt="Sun Hotel">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay" style="color: #ffd700;">Devam Ediyor</span>
-                            <h4 class="fw-norm kalnia">Sun Hotel Alanya</h4>
+                            <span class="status-badge-overlay" style="color: #ffd700;" data-i18n="pages.projects.status.ongoing">Devam Ediyor</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.sunHotel.title">Sun Hotel Alanya</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>Alanya</p>
+                                <p data-i18n="pages.projects.projectsList.sunHotel.location">Alanya</p>
                             </div>
                         </div>
                     </a>
@@ -499,11 +499,11 @@
                     <a href="projeler/jw_maltepe.html" class="proje-card">
                         <img class="proje-card-img" src="images/jwkonferans/img_2962.jpg" alt="JW Maltepe">
                         <div class="proje-overlay">
-                            <span class="status-badge-overlay">Tamamlandı</span>
-                            <h4 class="fw-norm kalnia">JW Maltepe Konferans Salonu</h4>
+                            <span class="status-badge-overlay" data-i18n="pages.projects.status.completed">Tamamlandı</span>
+                            <h4 class="fw-norm kalnia" data-i18n="pages.projects.projectsList.jwMaltepe.title">JW Maltepe Konferans Salonu</h4>
                             <div class="location-wrap">
                                 <img src="images/svg/marker.svg" alt="Konum">
-                                <p>İstanbul</p>
+                                <p data-i18n="pages.projects.projectsList.jwMaltepe.location">İstanbul</p>
                             </div>
                         </div>
                     </a>
@@ -524,20 +524,19 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-10">
-                                    <h2 class="text-white kalnia">Kendine özgü, <br>
-                                        huzur dolu.</h2>
+                                    <h2 class="text-white kalnia" data-i18n="pages.projects.footer.heading">Kendine özgü, huzur dolu.</h2>
                                 </div>
                             </div>
                         </div>
                         
                         <div class="col-md-12 d-flex flex-lg-row flex-column justify-content-between align-items-center">
                             <ul class="footer-nav">
-                                <li><a href="index.html">Anasayfa</a></li>
-                                <li><a href="projeler.html">Projeler</a></li>
-                                <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                                <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
-                                <li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li>
-                                <li><a href="iletisim.html">İletişim</a></li>
+                                <li><a href="index.html" data-i18n="common.homeLink">Anasayfa</a></li>
+                                <li><a href="projeler.html" data-i18n="common.projectsLinkShort">Projeler</a></li>
+                                <li><a href="hakkimizda.html" data-i18n="common.aboutLink">Hakkımızda</a></li>
+                                <li><a href="bayiliklerimiz.html" data-i18n="common.dealersLink">Bayiliklerimiz</a></li>
+                                <li><a href="cozum_ortaklari.html" data-i18n="common.partnersLink">Çözüm Ortaklarımız</a></li>
+                                <li><a href="iletisim.html" data-i18n="common.contactLink">İletişim</a></li>
                             </ul>
                             <div class="footer-social mt-lg-0 mt-4">
                                 <a href="https://www.instagram.com/sobutayticaret/" target="_blank"><img src="images/svg/insta.svg" alt=""></a>
@@ -551,9 +550,9 @@
         </div>
         <div class="copyright">
             <ul>
-                <li>2024 © Sobutay</li>
-                <li><a href="kvkk.html">K.V.K.K</a></li>
-                <li><a href="">Terms & Conditions</a></li>
+                <li data-i18n="pages.projects.footer.copyright">2024 © Sobutay</li>
+                <li><a href="kvkk.html" data-i18n="pages.projects.footer.kvkk">K.V.K.K</a></li>
+                <li><a href="" data-i18n="pages.projects.footer.terms">Terms & Conditions</a></li>
             </ul>
         </div>
     </footer>

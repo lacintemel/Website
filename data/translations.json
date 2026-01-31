@@ -260,6 +260,12 @@
             "title": "JW Maltepe Konferans Salonu",
             "location": "İstanbul"
           }
+        },
+        "footer": {
+          "heading": "Kendine özgü, huzur dolu.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "K.V.K.K",
+          "terms": "Terms & Conditions"
         }
       },
       "dealers": {
@@ -633,6 +639,12 @@
             "title": "JW Maltepe Conference Hall",
             "location": "Istanbul"
           }
+        },
+        "footer": {
+          "heading": "Unique, peaceful.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "Privacy Policy",
+          "terms": "Terms & Conditions"
         }
       },
       "dealers": {
@@ -1006,6 +1018,12 @@
             "title": "Конференц-зал JW Maltepe",
             "location": "Стамбул"
           }
+        },
+        "footer": {
+          "heading": "Уникальный, спокойный.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "Политика конфиденциальности",
+          "terms": "Условия и положения"
         }
       },
       "dealers": {
