@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     <title data-i18n="pages.dealers.meta.title">Bayiliklerimiz | Sobutay</title>
-    <meta name="description" content="" />
+    <meta name="description" data-i18n="pages.dealers.meta.description" content="Sobutay bayilerini tanıyın." />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />	
 
 		<meta property="og:title" content="Bayiliklerimiz | Sobutay" />
@@ -224,12 +224,12 @@
             </a>
             <div class="header-right">
                 <ul class="header-nav">
-                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                    <li><a href="projeler.html">Projelerimiz</a></li>
+                    <li><a href="hakkimizda.html" data-i18n="common.aboutLink">Hakkımızda</a></li>
+                    <li><a href="projeler.html" data-i18n="common.projectsLink">Projelerimiz</a></li>
                     <!--<li><a href="sosyal.html">Sosyal Fayda</a></li> -->
-                    <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
-                    <li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li> 
-                    <li><a href="iletisim.html">İletişim</a></li>
+                    <li><a href="bayiliklerimiz.html" data-i18n="common.dealersLink">Bayiliklerimiz</a></li>
+                    <li><a href="cozum_ortaklari.html" data-i18n="common.partnersLink">Çözüm Ortaklarımız</a></li> 
+                    <li><a href="iletisim.html" data-i18n="common.contactLink">İletişim</a></li>
                     <li class="lang-sel"><a><span class="current-lang">Tr</span> <img src="images/svg/globe.svg" alt=""></a></li>
                     <li class="line"></li>
                     <li class="burger-menu-icon burger-scroll"><img src="images/svg/burger-icon.svg" alt=""></li>
@@ -243,13 +243,13 @@
                     <div class="close"><img src="images/svg/close.svg" alt=""></div>
                 </div>
                     <ul class="menu-nav">
-                        <li><a href="index.html">Anasayfa</a></li>
-                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="index.html" data-i18n="common.homeLink">Anasayfa</a></li>
+                        <li><a href="hakkimizda.html" data-i18n="common.aboutLink">Hakkımızda</a></li>
                         <!--<li><a href="sosyal.html">Sosyal Fayda</a></li> -->
-                        <li><a href="projeler.html">Projeler</a></li>
-                        <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
-                        <li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li>
-                        <li><a href="iletisim.html">İletişim</a></li>
+                        <li><a href="projeler.html" data-i18n="common.projectsLinkShort">Projeler</a></li>
+                        <li><a href="bayiliklerimiz.html" data-i18n="common.dealersLink">Bayiliklerimiz</a></li>
+                        <li><a href="cozum_ortaklari.html" data-i18n="common.partnersLink">Çözüm Ortaklarımız</a></li>
+                        <li><a href="iletisim.html" data-i18n="common.contactLink">İletişim</a></li>
                     </ul>
                 <div class="menu-bar bottom-bar">
                     <a href="tel:2284509">228 4 509</a>
@@ -262,22 +262,22 @@
             <div class="lang-menu-bg"></div>
             <div class="lang-menu">
                 <div class="close"><img onclick="closeLanguage()" src="images/svg/close-2.svg" alt=""></div>
-                <h4 class="color-l-green kalnia">Dil Seçin</h4>
+                <h4 class="color-l-green kalnia" data-i18n="pages.home.lang.selectLang">Dil Seçin</h4>
                 <div id="langBtnContainer">
                     <button class="lang-btn active" data-lang="tr">
-                        <b>Türkçe</b><br>Turkish
+                        <b data-i18n="pages.home.lang.turkish">Türkçe</b><br>Turkish
                     </button>
                     <button class="lang-btn" data-lang="en">
-    <b>English</b><br>English
+    <b data-i18n="pages.home.lang.english">English</b><br>English
 </button>
                     
                     <button class="lang-btn" data-lang="ru">
-                        <b>Русский</b><br>Russian
+                        <b data-i18n="pages.home.lang.russian">Русский</b><br>Russian
                     </button>
                 </div>
                 
                 
-                <button class="guncel-btn">Güncelle</button>
+                <button class="guncel-btn" data-i18n="pages.home.lang.update">Güncelle</button>
             </div>
         </div>
     </header>
@@ -396,11 +396,11 @@
             </div>
             <div class="line"></div>
             <div class="contact-btn ilet-btn">
-                İletişim Formu <img class="chev" src="images/svg/chevron-up.svg" alt="">
+                <span data-i18n="pages.contact.contactBar.form">İletişim Formu</span> <img class="chev" src="images/svg/chevron-up.svg" alt="">
             </div>
             <div class="line"></div>
             <div class="contact-btn randevu-btn">
-                Online Görüşme<img class="chev" src="images/svg/chevron-up.svg" alt="">
+                <span data-i18n="pages.contact.contactBar.onlineMeeting">Online Görüşme</span><img class="chev" src="images/svg/chevron-up.svg" alt="">
             </div>
             <div class="line"></div>
             <div class="contact-btn">
@@ -411,16 +411,16 @@
     
     <section class="alt-banner">
         <div class="container">
-            <h1 class="kalnia color-green" style="font-size: 4.6rem; line-height: 1.05; margin-bottom: 18px; letter-spacing: -0.5px;">Bayiliklerimiz</h1>
-            <h5 class="fw-normal" style="max-width: 760px; line-height: 1.8; font-size: 1.05rem; opacity: 0.9;">Sobutay ailesi olarak, ülke genelinde ve uluslararası pazarlarda güçlü bir bayilik ağına sahip bulunmaktayız. Değerli iş ortaklarımız ve bayilerimizle birlikte, yüksek kaliteli ürün ve hizmetleri müşterilerimize ulaştırmakta kararlıyız.</h5>
+            <h1 class="kalnia color-green" style="font-size: 4.6rem; line-height: 1.05; margin-bottom: 18px; letter-spacing: -0.5px;" data-i18n="pages.dealers.hero.heading">Bayiliklerimiz</h1>
+            <h5 class="fw-normal" style="max-width: 760px; line-height: 1.8; font-size: 1.05rem; opacity: 0.9;" data-i18n="pages.dealers.hero.description">Sobutay ailesi olarak, ülke genelinde ve uluslararası pazarlarda güçlü bir bayilik ağına sahip bulunmaktayız. Değerli iş ortaklarımız ve bayilerimizle birlikte, yüksek kaliteli ürün ve hizmetleri müşterilerimize ulaştırmakta kararlıyız.</h5>
         </div>        
     </section>
 
     
     <section class="catalog-section">
         <div class="container">
-            <h2 class="catalog-section-title kalnia">Değerli Bayiliklerimiz</h2>
-            <p class="catalog-section-subtitle">Sobutay ailesi olarak, ülke genelinde ve uluslararası pazarlarda güçlü bir bayilik ağına sahip bulunmaktayız. Değerli iş ortaklarımız ve bayilerimizle birlikte çalışmakta onurlu bulunuyoruz.</p>
+            <h2 class="catalog-section-title kalnia" data-i18n="pages.dealers.banner.heading">Değerli Bayiliklerimiz</h2>
+            <p class="catalog-section-subtitle" data-i18n="pages.dealers.banner.description">Sobutay ailesi olarak, ülke genelinde ve uluslararası pazarlarda güçlü bir bayilik ağına sahip bulunmaktayız. Değerli iş ortaklarımız ve bayilerimizle birlikte çalışmakta onurlu bulunuyoruz.</p>
 
             <div class="catalog-grid">
                 <!-- Sobutay -->
@@ -430,7 +430,7 @@
                     </div>
                     <div class="catalog-content">
                         <h3 class="catalog-name">Bostik</h3>
-                        <p class="catalog-description">Yapı malzemeleri sektöründe lider konumdaki güvenilir ortağımız.</p>
+                        <p class="catalog-description" data-i18n="pages.dealers.cards.bostik">Yapı malzemeleri sektöründe lider konumdaki güvenilir ortağımız.</p>
                     </div>
                 </div>
 
@@ -441,7 +441,7 @@
                     </div>
                     <div class="catalog-content">
                         <h3 class="catalog-name">Gerflor</h3>
-                        <p class="catalog-description">Döşeme ve kaplama çözümlerinde öncü ve kaliteli ürünler sunmaktadır.</p>
+                        <p class="catalog-description" data-i18n="pages.dealers.cards.gerflor">Döşeme ve kaplama çözümlerinde öncü ve kaliteli ürünler sunmaktadır.</p>
                     </div>
                 </div>
 
@@ -452,7 +452,7 @@
                     </div>
                     <div class="catalog-content">
                         <h3 class="catalog-name">Kaya Panel</h3>
-                        <p class="catalog-description">Panel ve aksesuarlarında yenilikçi ve güvenilir çözümler sağlamaktadır.</p>
+                        <p class="catalog-description" data-i18n="pages.dealers.cards.kayaPanel">Panel ve aksesuarlarında yenilikçi ve güvenilir çözümler sağlamaktadır.</p>
                     </div>
                 </div>
 
@@ -463,7 +463,7 @@
                     </div>
                     <div class="catalog-content">
                         <h3 class="catalog-name">Tarkett</h3>
-                        <p class="catalog-description">Döşeme ve dekorasyon sektöründe global anlamda tanınmış markadır.</p>
+                        <p class="catalog-description" data-i18n="pages.dealers.cards.tarkett">Döşeme ve dekorasyon sektöründe global anlamda tanınmış markadır.</p>
                     </div>
                 </div>
 
@@ -474,7 +474,7 @@
                     </div>
                     <div class="catalog-content">
                         <h3 class="catalog-name">Aspen</h3>
-                        <p class="catalog-description">Kaliteli yapı ürünleri ve malzemelerin sağlayıcısıdır.</p>
+                        <p class="catalog-description" data-i18n="pages.dealers.cards.aspen">Kaliteli yapı ürünleri ve malzemelerin sağlayıcısıdır.</p>
                     </div>
                 </div>
 
@@ -485,7 +485,7 @@
                     </div>
                     <div class="catalog-content">
                         <h3 class="catalog-name">Dendro</h3>
-                        <p class="catalog-description">Ahşap ve dekoratif ürünlerde uzmanlaşmış güvenilir tedarikçi.</p>
+                        <p class="catalog-description" data-i18n="pages.dealers.cards.dendro">Ahşap ve dekoratif ürünlerde uzmanlaşmış güvenilir tedarikçi.</p>
                     </div>
                 </div>
 
@@ -496,7 +496,7 @@
                     </div>
                     <div class="catalog-content">
                         <h3 class="catalog-name">Splash</h3>
-                        <p class="catalog-description">Banyo ve döşeme çözümlerinde yüksek kaliteli ürünler sunmaktadır.</p>
+                        <p class="catalog-description" data-i18n="pages.dealers.cards.splash">Banyo ve döşeme çözümlerinde yüksek kaliteli ürünler sunmaktadır.</p>
                     </div>
                 </div>
 
@@ -507,7 +507,7 @@
                     </div>
                     <div class="catalog-content">
                         <h3 class="catalog-name">Verox</h3>
-                        <p class="catalog-description">Döşeme malzemeleri alanında yenilikçi ve kaliteli ürünler üretir.</p>
+                        <p class="catalog-description" data-i18n="pages.dealers.cards.verox">Döşeme malzemeleri alanında yenilikçi ve kaliteli ürünler üretir.</p>
                     </div>
                 </div>
 
@@ -517,8 +517,8 @@
                         <img src="images/katalog/images.png" alt="Bayilik Logo" class="catalog-image">
                     </div>
                     <div class="catalog-content">
-                        <h3 class="catalog-name">Bayilik</h3>
-                        <p class="catalog-description">Kaliteli ürün ve hizmetlerinin sağlayıcısı olarak Sobutay ailesi içinde yer almaktadır.</p>
+                        <h3 class="catalog-name">Trio</h3>
+                        <p class="catalog-description" data-i18n="pages.dealers.cards.trio">Kaliteli ürün ve hizmetlerinin sağlayıcısı olarak Sobutay ailesi içinde yer almaktadır.</p>
                     </div>
                 </div>
             </div>
@@ -534,7 +534,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-10">
-                                    <h2 class="text-white kalnia">Kendine özgü, <br>
+                                    <h2 class="text-white kalnia" data-i18n="pages.dealers.footer.heading1">Kendine özgü, <br>
                                         huzur dolu.</h2>
                                 </div>
                             </div>
@@ -543,13 +543,13 @@
                     
                         <div class="col-md-12 d-flex flex-lg-row flex-column justify-content-between align-items-center">
                             <ul class="footer-nav">
-                                <li><a href="index.html">Anasayfa</a></li>
-                                <li><a href="projeler.html">Projeler</a></li>
-                                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                                <li><a href="index.html" data-i18n="common.homeLink">Anasayfa</a></li>
+                                <li><a href="projeler.html" data-i18n="common.projectsLink">Projeler</a></li>
+                                <li><a href="hakkimizda.html" data-i18n="common.aboutLink">Hakkımızda</a></li>
                                 <!--<li><a href="sosyal.html">Sosyal Fayda</a></li> -->
-                                <li><a href="bayiliklerimiz.html">Bayiliklerimiz</a></li>
+                                <li><a href="bayiliklerimiz.html" data-i18n="common.dealersLink">Bayiliklerimiz</a></li>
                                 <!--<li><a href="cozum_ortaklari.html">Çözüm Ortaklarımız</a></li> -->
-                                <li><a href="iletisim.html">İletişim</a></li>
+                                <li><a href="iletisim.html" data-i18n="common.contactLink">İletişim</a></li>
                             </ul>
                             <div class="footer-social mt-lg-0 mt-4">
                                 <a href="https://www.instagram.com/sobutayticaret/" target="_blank"><img src="images/svg/insta.svg" alt=""></a>
@@ -561,11 +561,12 @@
                 </div>
             </div>
         </div>
-        <div class="copyright">
+        <div class="copyright" style="position: relative;">
             <ul>
-                <li>2024 © Sobutay</li>
-                <li><a href="kvkk.html">K.V.K.K</a></li>
-                <li><a href="">Terms & Conditions</a></li>
+                <li data-i18n="pages.dealers.footer.copyright">2024 © Sobutay</li>
+                <li><a href="kvkk.html" data-i18n="pages.dealers.footer.kvkk">K.V.K.K</a></li>
+                <li><a href="" data-i18n="pages.dealers.footer.terms">Terms & Conditions</a></li>
+                <li><a href="https://www.linkedin.com/in/lacintemel/" target="_blank">CREATED BY LT</a></li>
             </ul>
         </div>
     </footer>

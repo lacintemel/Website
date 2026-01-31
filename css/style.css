@@ -826,12 +826,25 @@ input:checked+.check-slider:before {
     justify-content: space-between;
     padding: 24px 160px;
     color: #fff;
+    position: relative;
 }
 .copyright ul{
     display: flex;
     flex-direction: row;
     gap: 32px;
     align-items: center;
+}
+.copyright a[href*="lacintemel"]{
+    position: absolute;
+    right: 16px;
+    bottom: 12px;
+    display: block;
+}
+.copyright a[href*="lacintemel"] img{
+    height: 40px !important;
+    width: auto;
+    background: transparent !important;
+    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.35));
 }
 .hakk-banner{
     display: flex;

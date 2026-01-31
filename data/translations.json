@@ -555,6 +555,31 @@
           "dealers": "Bayiliklerimiz",
           "partners": "Çözüm Ortaklarımız",
           "contact": "İletişim"
+        },
+        "hero": {
+          "heading": "Bayiliklerimiz",
+          "description": "Sobutay ailesi olarak, ülke genelinde ve uluslararası pazarlarda güçlü bir bayilik ağına sahip bulunmaktayız. Değerli iş ortaklarımız ve bayilerimizle birlikte, yüksek kaliteli ürün ve hizmetleri müşterilerimize ulaştırmakta kararlıyız."
+        },
+        "cards": {
+          "bostik": "Yapı malzemeleri sektöründe lider konumdaki güvenilir ortağımız.",
+          "gerflor": "Döşeme ve kaplama çözümlerinde öncü ve kaliteli ürünler sunmaktadır.",
+          "kayaPanel": "Panel ve aksesuarlarında yenilikçi ve güvenilir çözümler sağlamaktadır.",
+          "tarkett": "Döşeme ve dekorasyon sektöründe global anlamda tanınmış markadır.",
+          "aspen": "Kaliteli yapı ürünleri ve malzemelerin sağlayıcısıdır.",
+          "dendro": "Ahşap ve dekoratif ürünlerde uzmanlaşmış güvenilir tedarikçi.",
+          "splash": "Banyo ve döşeme çözümlerinde yüksek kaliteli ürünler sunmaktadır.",
+          "verox": "Döşeme malzemeleri alanında yenilikçi ve kaliteli ürünler üretir.",
+          "trio": "Kaliteli ürün ve hizmetlerinin sağlayıcısı olarak Sobutay ailesi içinde yer almaktadır."
+        },
+        "banner": {
+          "heading": "Değerli Bayiliklerimiz",
+          "description": "Sobutay ailesi olarak, ülke genelinde ve uluslararası pazarlarda güçlü bir bayilik ağına sahip bulunmaktayız. Değerli iş ortaklarımız ve bayilerimizle birlikte çalışmakta onurlu bulunuyoruz."
+        },
+        "footer": {
+          "heading1": "Kendine özgü, <br> huzur dolu.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "K.V.K.K",
+          "terms": "Terms & Conditions"
         }
       },
       "partners": {
@@ -570,6 +595,10 @@
           "dealers": "Bayiliklerimiz",
           "partners": "Çözüm Ortaklarımız",
           "contact": "İletişim"
+        },
+        "banner": {
+          "heading": "Çözüm Ortaklarımız",
+          "description": "Sobutay ailesi olarak, ülkemizin önde gelen mimarları ve iş ortaklarıyla birlikte çalışmaktan gurur duyuyoruz. Kaliteli projelerin başında, deneyimli ve vizyoner isimler bulunmaktadır."
         }
       },
       "contact": {
@@ -585,6 +614,28 @@
           "dealers": "Bayiliklerimiz",
           "partners": "Çözüm Ortaklarımız",
           "contact": "İletişim"
+        },
+        "hero": {
+          "heading": "Bizimle <br> iletişime geçin.",
+          "description": "Merhaba! Sobutay olarak, müşteri memnuniyetini ve etkili iletişimi önemsiyoruz. İhtiyaçlarınızı dinlemek ve size en iyi hizmeti sunmak için buradayız. İster bir sorunuz olsun, ister işbirliği teklifleriniz ya da geri bildirimleriniz olsun, bizimle iletişime geçmekten çekinmeyin."
+        },
+        "contactBar": {
+          "form": "İletişim Formu",
+          "onlineMeeting": "Online Görüşme"
+        },
+        "address": {
+          "text": "Gürsu Mahallesi, Atatürk Bulvarı, No:158C/14|Konyaalti-Antalya PK:07070"
+        },
+        "form": {
+          "heading": "İletişim Formu",
+          "description": "Lütfen, bilgi almak istediğiniz projeyi ve iletişim bilgilerinizi yandaki formu doldurarak bize gönderin.",
+          "note": "İlgili proje yöneticimiz belirlediğiniz iletişim yöntemi doğrultusunda sizinle en kısa sürede iletişime geçecek."
+        },
+        "footer": {
+          "heading1": "Kendine özgü, <br> huzur dolu.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "K.V.K.K",
+          "terms": "Terms & Conditions"
         }
       }
     }
@@ -1358,6 +1409,31 @@
           "dealers": "Dealers",
           "partners": "Solution Partners",
           "contact": "Contact"
+        },
+        "hero": {
+          "heading": "Dealers",
+          "description": "As the Sobutay family, we have a strong dealer network nationwide and in international markets. Together with our valued business partners and dealers, we are committed to delivering high-quality products and services to our customers."
+        },
+        "cards": {
+          "bostik": "Our trusted partner, a leader in the construction materials sector.",
+          "gerflor": "Provides leading, high-quality flooring and covering solutions.",
+          "kayaPanel": "Delivers innovative and reliable panel and accessory solutions.",
+          "tarkett": "A globally recognized brand in flooring and decoration.",
+          "aspen": "A supplier of quality building products and materials.",
+          "dendro": "A reliable supplier specialized in wood and decorative products.",
+          "splash": "Provides high-quality products in bathroom and flooring solutions.",
+          "verox": "Produces innovative, quality flooring materials.",
+          "trio": "Part of the Sobutay family as a provider of quality products and services."
+        },
+        "banner": {
+          "heading": "Our Valued Dealers",
+          "description": "As the Sobutay family, we have a strong dealer network nationwide and in international markets. We are honored to work with our valued business partners and dealers."
+        },
+        "footer": {
+          "heading1": "Unique, peaceful.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "Privacy Policy",
+          "terms": "Terms & Conditions"
         }
       },
       "partners": {
@@ -1373,6 +1449,10 @@
           "dealers": "Dealers",
           "partners": "Solution Partners",
           "contact": "Contact"
+        },
+        "banner": {
+          "heading": "Solution Partners",
+          "description": "As the Sobutay family, we are proud to work with our country's leading architects and business partners. Experienced and visionary names are at the helm of quality projects."
         }
       },
       "contact": {
@@ -1388,6 +1468,28 @@
           "dealers": "Dealers",
           "partners": "Solution Partners",
           "contact": "Contact"
+        },
+        "hero": {
+          "heading": "Get in touch <br> with us.",
+          "description": "Hello! At Sobutay, we value customer satisfaction and effective communication. We are here to listen to your needs and provide the best service. Whether you have a question, a collaboration proposal, or feedback, feel free to contact us."
+        },
+        "contactBar": {
+          "form": "Contact Form",
+          "onlineMeeting": "Online Meeting"
+        },
+        "address": {
+          "text": "Gürsu Neighborhood, Atatürk Boulevard, No:158C/14 | Konyaalti-Antalya 07070"
+        },
+        "form": {
+          "heading": "Contact Form",
+          "description": "Please fill out the form to send us information about the project you want to learn about and your contact details.",
+          "note": "Our relevant project manager will contact you as soon as possible according to the communication method you specify."
+        },
+        "footer": {
+          "heading1": "Unique, peaceful.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "Privacy Policy",
+          "terms": "Terms & Conditions"
         }
       }
     }
@@ -2183,6 +2285,31 @@
           "dealers": "Дилеры",
           "partners": "Партнеры",
           "contact": "Контакт"
+        },
+        "hero": {
+          "heading": "Дилеры",
+          "description": "Как семья Sobutay, мы имеем сильную дилерскую сеть по всей стране и на международных рынках. Вместе с нашими уважаемыми деловыми партнерами и дилерами мы стремимся предоставлять клиентам высококачественные продукты и услуги."
+        },
+        "cards": {
+          "bostik": "Наш надежный партнер, лидер в секторе строительных материалов.",
+          "gerflor": "Предлагает ведущие и качественные решения для напольных покрытий.",
+          "kayaPanel": "Предоставляет инновационные и надежные решения для панелей и аксессуаров.",
+          "tarkett": "Глобально известный бренд в сфере напольных покрытий и декора.",
+          "aspen": "Поставщик качественных строительных продуктов и материалов.",
+          "dendro": "Надежный поставщик, специализирующийся на деревянных и декоративных изделиях.",
+          "splash": "Предлагает высококачественные решения для ванных комнат и напольных покрытий.",
+          "verox": "Производит инновационные и качественные напольные материалы.",
+          "trio": "Часть семьи Sobutay как поставщик качественных продуктов и услуг."
+        },
+        "banner": {
+          "heading": "Наши уважаемые дилеры",
+          "description": "Как семья Sobutay, мы имеем сильную дилерскую сеть по всей стране и на международных рынках. Мы гордимся работой с нашими уважаемыми деловыми партнерами и дилерами."
+        },
+        "footer": {
+          "heading1": "Уникальный, спокойный.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "Политика конфиденциальности",
+          "terms": "Правила и условия"
         }
       },
       "partners": {
@@ -2198,6 +2325,10 @@
           "dealers": "Дилеры",
           "partners": "Партнеры",
           "contact": "Контакт"
+        },
+        "banner": {
+          "heading": "Партнеры",
+          "description": "Как семья Sobutay, мы гордимся работой с ведущими архитекторами и деловыми партнерами нашей страны. Опытные и дальновидные имена стоят во главе качественных проектов."
         }
       },
       "contact": {
@@ -2213,6 +2344,28 @@
           "dealers": "Дилеры",
           "partners": "Партнеры",
           "contact": "Контакт"
+        },
+        "hero": {
+          "heading": "Свяжитесь <br> с нами.",
+          "description": "Здравствуйте! В Sobutay мы ценим удовлетворенность клиентов и эффективную коммуникацию. Мы здесь, чтобы выслушать ваши потребности и предложить лучший сервис. Если у вас есть вопрос, предложение о сотрудничестве или отзыв — свяжитесь с нами."
+        },
+        "contactBar": {
+          "form": "Контактная форма",
+          "onlineMeeting": "Онлайн-встреча"
+        },
+        "address": {
+          "text": "Гюрсу, бульвар Ататюрка, №158C/14 | Коньяалты-Анаталия 07070"
+        },
+        "form": {
+          "heading": "Контактная форма",
+          "description": "Пожалуйста, заполните форму, чтобы отправить нам информацию о проекте, о котором вы хотите узнать, и ваши контактные данные.",
+          "note": "Наш менеджер проекта свяжется с вами в ближайшее время в соответствии с указанным вами способом связи."
+        },
+        "footer": {
+          "heading1": "Уникальный, спокойный.",
+          "copyright": "2024 © Sobutay",
+          "kvkk": "Политика конфиденциальности",
+          "terms": "Правила и условия"
         }
       }
     }
