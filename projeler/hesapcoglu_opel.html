@@ -126,24 +126,14 @@
                 <img class="logo-text" src="../images/svg/sobu_text_last.svg" alt="">
             </a>
             <div class="header-right">
-                <button class="lang-sel" id="lang-sel">
-                    <img src="../images/svg/logo-ani.svg" alt="Dil" style="width: 20px; height: 20px; margin-right: 5px;">
-                </button>
-
-                <div class="lang-menu-wrap" id="lang-menu-wrap">
-                    <div class="lang-menu" id="lang-menu">
-                        <div class="lang-option" data-lang="tr">Türkçe</div>
-                        <div class="lang-option" data-lang="en">English</div>
-                        <div class="lang-option" data-lang="ru">Русский</div>
-                        <button class="lang-update-btn" id="lang-update-btn" data-i18n="pages.home.header.updateButton">Güncelle</button>
-                    </div>
-                </div>
                 <ul class="header-nav">
-                    <li><a href="../hakkimizda.html">Hakkımızda</a></li>
-                    <li><a href="../projeler.html">Projelerimiz</a></li>
-                    <li><a href="../bayiliklerimiz.html">Bayiliklerimiz</a></li>
-                    <li><a href="../cozum_ortaklari.html">Çözüm Ortaklarımız</a></li>
-                    <li><a href="../iletisim.html">İletişim</a></li>
+                    <li><a href="../hakkimizda.html" data-i18n="common.aboutLink">Hakkımızda</a></li>
+                    <li><a href="../projeler.html" data-i18n="common.projectsLink">Projelerimiz</a></li>
+                    <li><a href="../bayiliklerimiz.html" data-i18n="common.dealersLink">Bayiliklerimiz</a></li>
+                    <li><a href="../cozum_ortaklari.html" data-i18n="common.partnersLink">Çözüm Ortaklarımız</a></li>
+                    <li><a href="../iletisim.html" data-i18n="common.contactLink">İletişim</a></li>
+                    <li class="lang-sel"><a>Tr <img src="../images/svg/globe.svg" alt=""></a></li>
+                    <li class="line"></li>
                     <li class="burger-menu-icon burger-scroll"><img src="../images/svg/burger-icon.svg" alt=""></li>
                 </ul>
             </div>
@@ -155,10 +145,32 @@
                     <div class="close"><img src="../images/svg/close.svg" alt=""></div>
                 </div>
                     <ul class="menu-nav">
-                        <li><a href="../index.html">Anasayfa</a></li>
-                        <li><a href="../projeler.html">Projeler</a></li>
-                        <li><a href="../iletisim.html">İletişim</a></li>
+                        <li><a href="../index.html" data-i18n="common.homeLink">Anasayfa</a></li>
+                        <li><a href="../projeler.html" data-i18n="common.projectsLinkShort">Projeler</a></li>
+                        <li><a href="../iletisim.html" data-i18n="common.contactLink">İletişim</a></li>
                     </ul>
+            </div>
+        </div>
+        <div class="lang-menu-wrap">
+            <div class="lang-menu-bg"></div>
+            <div class="lang-menu">
+                <div class="close"><img onclick="closeLanguage()" src="../images/svg/close-2.svg" alt=""></div>
+                <h4 class="color-l-green kalnia" data-i18n="pages.home.lang.selectLang">Dil Seçin</h4>
+                <div id="langBtnContainer">
+                    <button class="lang-btn active" data-lang="tr">
+                        <b data-i18n="pages.home.lang.turkish">Türkçe</b><br>Turkish
+                    </button>
+                    <button class="lang-btn" data-lang="en">
+                        <b data-i18n="pages.home.lang.english">English</b><br>English
+                    </button>
+
+                    <button class="lang-btn" data-lang="ru">
+                        <b data-i18n="pages.home.lang.russian">Русский</b><br>Russian
+                    </button>
+                </div>
+
+
+                <button class="guncel-btn" data-i18n="pages.home.lang.update">Güncelle</button>
             </div>
         </div>
     </header>
@@ -248,7 +260,6 @@ akustik ve konforlu bir ortam elde edilmiştir.
 
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/language-manager.js"></script>
     <script src="../js/language-manager.js"></script>
     <script src="../js/main.js"></script>
 
